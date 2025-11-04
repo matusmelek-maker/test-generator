@@ -145,9 +145,14 @@
 
   function parseOdpovede(text) {
     return text.split("\n").map(l => {
-      const [cislo, odp] = l.trim().split(/\s+/, 2);
-      return { cislo: parseInt(cislo), odpoved: odp.split("") }; // -> pole písmen
-    }).filter(o => !isNaN(o.cislo));
+      const trimmed = l.trim();
+      if (!trimmed) return null;
+      const parts = trimmed.split(/\s+/, 2);
+      if (parts.length < 2) return null;
+      const cislo = parseInt(parts[0]);
+      const odp = parts[1];
+      return { cislo, odpoved: odp.split("") };
+    }).filter(o => o && !isNaN(o.cislo));
   }
 
   function shuffle(arr) {
