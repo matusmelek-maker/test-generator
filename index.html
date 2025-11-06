@@ -31,6 +31,12 @@
 
     <div class="row" id="vstupy"></div>
 
+    <!-- ✅ Nový checkbox -->
+    <div class="row">
+      <label for="mixOdpovede">Miešať poradie odpovedí:</label>
+      <input type="checkbox" id="mixOdpovede">
+    </div>
+
     <button id="spustiTest">Spustiť test</button>
 
     <div id="legenda">
@@ -77,19 +83,16 @@
     const od = Number(document.getElementById("od")?.value) || 1;
     const do_ = Number(document.getElementById("do")?.value) || 10;
     const pocet = Number(document.getElementById("pocet")?.value) || 10;
+    const mix = document.getElementById("mixOdpovede").checked; // ✅ pridané
 
     try {
-      // fetch otazky
       const otazkyResponse = await fetch(`data/otazky${jeBio ? "bio" : "chem"}.txt`);
       if (!otazkyResponse.ok) throw new Error("Súbor otázok sa nenašiel!");
       const otazkyText = await otazkyResponse.text();
-      if (!otazkyText.trim()) throw new Error("Súbor otázok je prázdny!");
 
-      // fetch odpovede
       const odpovedeResponse = await fetch(`data/odpovede${jeBio ? "bio" : "chem"}.txt`);
       if (!odpovedeResponse.ok) throw new Error("Súbor odpovedí sa nenašiel!");
       const odpovedeText = await odpovedeResponse.text();
-      if (!odpovedeText.trim()) throw new Error("Súbor odpovedí je prázdny!");
 
       const otazky = parseOtazky(otazkyText);
       const odpovede = parseOdpovede(odpovedeText);
@@ -101,17 +104,17 @@
         vybrate = shuffle(otazky).slice(0, pocet);
       }
 
+      // ✅ Uloženie nového parametra do localStorage
+      localStorage.setItem("mix", mix);
       localStorage.setItem("otazky", JSON.stringify(vybrate));
       localStorage.setItem("odpovede", JSON.stringify(odpovede));
       localStorage.setItem("jeBio", jeBio);
-      window.location.href = "test.html";
 
+      window.location.href = "test.html";
     } catch (e) {
-      alert("Chyba pri načítaní súborov: " + e.message);
-      console.error(e);
+      alert("Chyba: " + e.message);
     }
   });
-
 
   function parseOtazky(text) {
     const lines = text.split("\n");
