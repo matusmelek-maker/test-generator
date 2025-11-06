@@ -13,6 +13,15 @@
       color: #0d47a1;
       margin-bottom: 10px;
     }
+
+    #finishText {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      color: #1565C0;
+      margin: 25px 0 10px 0;
+      animation: fadeIn 0.8s ease-in-out;
+    }
   </style>
 </head>
 <body>
@@ -32,7 +41,7 @@
       <button id="skontroluj">Skontroluj otázku</button>
       <button id="dalsia">Ďalšia otázka</button>
     </div>
-    <div id="scoreBox" style="display:none;"></div> <!-- ✅ skryté počas testu -->
+    <div id="scoreBox" style="display:none;"></div>
     <div id="vysledky"></div>
   </div>
 </main>
@@ -64,6 +73,7 @@
 
   let index = 0;
   let body = 0;
+  const vybraneOdpovede = {};
 
   nazov.textContent = jeBio ? "Biológia" : "Chémia";
 
@@ -72,11 +82,10 @@
 
     const o = otazky[index];
     otazkaText.textContent = o.cislo + ". " + o.text;
-
     progressBox.textContent = `Otázka ${index + 1} z ${otazky.length}`;
 
     odpovedeDiv.innerHTML = "";
-    for (let i = 0; i < o.odpovede.length; i++) {
+    o.odpovede.forEach((odp, i) => {
       const pism = String.fromCharCode(65 + i);
       const div = document.createElement("div");
       div.className = "odpoved";
@@ -85,80 +94,133 @@
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
       checkbox.name = "odp";
-      checkbox.value = o.odpovede[i].povodnePismeno;
+      checkbox.value = odp.povodnePismeno;
+
+      // klik na celý blok
+      div.addEventListener("click", () => {
+        checkbox.checked = !checkbox.checked;
+      });
+
       label.appendChild(checkbox);
-      label.appendChild(document.createTextNode(" " + pism + ". " + o.odpovede[i].text));
+      label.appendChild(document.createTextNode(" " + pism + ". " + odp.text));
       div.appendChild(label);
       odpovedeDiv.appendChild(div);
-    }
+    });
 
     btnSkontroluj.disabled = false;
   }
 
-  function skontroluj() {
+  function skontroluj(auto = false) {
     const currentOt = otazky[index];
     const cisloOtazky = currentOt.cislo;
 
-    const spravne = odpovede
-      .filter(x => x.cislo === cisloOtazky)
-      .flatMap(x => x.odpoved);
+    const spravne = odpovede.filter(x => x.cislo === cisloOtazky).flatMap(x => x.odpoved);
+    const oznacene = Array.from(document.querySelectorAll('input[name="odp"]:checked')).map(el => el.value);
 
-    const oznacene = Array.from(document.querySelectorAll('input[name="odp"]:checked'))
-      .map(el => el.value);
+    vybraneOdpovede[cisloOtazky] = oznacene;
 
     const moznosti = document.querySelectorAll(".odpoved");
     moznosti.forEach(div => {
       const checkbox = div.querySelector('input[name="odp"]');
       const pism = checkbox.value;
+
       if (spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("correct");
       else if (spravne.includes(pism) && !oznacene.includes(pism)) div.classList.add("partial-correct");
       else if (!spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("incorrect");
+      else div.classList.remove("correct", "partial-correct", "incorrect");
     });
 
     const vseSpravne = spravne.every(s => oznacene.includes(s));
     const ziadneZle = oznacene.every(o => spravne.includes(o));
     if (vseSpravne && ziadneZle) body++;
 
-    document.querySelectorAll('input[name="odp"]').forEach(i => i.disabled = true);
-    btnSkontroluj.disabled = true;
+    if (!auto) {
+      document.querySelectorAll('input[name="odp"]').forEach(i => i.disabled = true);
+      btnSkontroluj.disabled = true;
+    }
   }
 
-  function dalsia() { index++; zobrazOtazku(); }
-  function spat() { if (index > 0) { index--; zobrazOtazku(); } }
+  function dalsia() {
+    if (!btnSkontroluj.disabled) skontroluj(true);
+    index++;
+    zobrazOtazku();
+  }
+
+  function spat() {
+    if (index > 0) { index--; zobrazOtazku(); }
+  }
 
   function ukonciTest() {
-    otazkaText.textContent = "🎉 Test je dokončený!";
+    // odstráni poslednú otázku
+    otazkaText.textContent = "";
     odpovedeDiv.innerHTML = "";
-    buttons.style.display = "none";
     progressBox.textContent = "";
+    buttons.style.display = "none";
 
-    // ✅ teraz zobrazíme skóre až na konci
-    scoreBox.style.display = "block";
-    scoreBox.textContent = "✅ Výsledok: " + body + " z " + otazky.length;
+    // skryje názov testu (Biológia / Chémia)
+    nazov.style.display = "none";
 
-    const btnOpakovat = document.createElement("button");
-    btnOpakovat.textContent = "🔁 Opakovať test";
-    btnOpakovat.className = "button-restart";
-    btnOpakovat.addEventListener("click", () => {
-      index = 0;
-      body = 0;
-      vysledkyDiv.innerHTML = "";
-      buttons.style.display = "flex";
-      scoreBox.style.display = "none";
-      zobrazOtazku();
+    // nový úvodný text do stredu
+    const finishText = document.createElement("div");
+    finishText.id = "finishText";
+    finishText.textContent = `🎉 Test z ${jeBio ? "Biológie" : "Chémie"} je dokončený!`;
+    document.getElementById("testContainer").prepend(finishText);
+
+    const percento = Math.round((body / otazky.length) * 100);
+    const sprava = percento >= 70
+      ? "🎉 Skvelá práca! Si READY na prijímačky!"
+      : "👍 Dobrý výsledok! Ešte trochu potrénuj.";
+
+    vysledkyDiv.innerHTML = `
+    <div class="final-box">
+      <h2>${sprava}</h2>
+      <p>Získal si <strong>${body}</strong> z ${otazky.length} otázok (${percento}%).</p>
+    </div>
+    <div id="scrollPanel" class="scroll-panel"></div>
+  `;
+
+    const scrollPanel = document.getElementById("scrollPanel");
+
+    otazky.forEach(o => {
+      const otDiv = document.createElement("div");
+      otDiv.className = "vysledokOtazka";
+      otDiv.innerHTML = `<h3>${o.cislo}. ${o.text}</h3>`;
+
+      const spravne = odpovede.filter(x => x.cislo === o.cislo).flatMap(x => x.odpoved);
+      const oznacene = vybraneOdpovede[o.cislo] || [];
+
+      o.odpovede.forEach((odp, j) => {
+        const pism = odp.povodnePismeno;
+        const div = document.createElement("div");
+        div.className = "vysledokOdpoved";
+        div.textContent = `${pism}. ${odp.text}`;
+
+        if (spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("correct");
+        else if (spravne.includes(pism) && !oznacene.includes(pism)) div.classList.add("partial-correct");
+        else if (!spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("incorrect");
+
+        otDiv.appendChild(div);
+      });
+
+      scrollPanel.appendChild(otDiv);
     });
 
+    const btnRestart = document.createElement("button");
+    btnRestart.textContent = "🔁 Opakuj test";
+    btnRestart.className = "button-restart";
+    btnRestart.addEventListener("click", () => window.location.reload());
+
     const btnDomov = document.createElement("button");
-    btnDomov.textContent = "➡️ Ďalší test";
+    btnDomov.textContent = "🏠 Späť na úvod";
     btnDomov.className = "button-domov";
     btnDomov.addEventListener("click", () => window.location.href = "index.html");
 
-    vysledkyDiv.innerHTML = "";
-    vysledkyDiv.appendChild(btnOpakovat);
+    vysledkyDiv.appendChild(btnRestart);
     vysledkyDiv.appendChild(btnDomov);
   }
 
-  btnSkontroluj.addEventListener("click", skontroluj);
+
+  btnSkontroluj.addEventListener("click", () => skontroluj(false));
   btnDalsia.addEventListener("click", dalsia);
   btnSpat.addEventListener("click", spat);
 
