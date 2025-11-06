@@ -1,84 +1,189 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
-  color: #0d47a1;
+  font-family: "Nunito", "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(160deg, #e8f0ff, #fdfdfd);
+  color: #0d1b2a;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
 header {
-  background: linear-gradient(to right, #2b5876, #4e4376);
+  background: linear-gradient(to right, #1565C0, #1E88E5);
   color: white;
   text-align: center;
   padding: 20px 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
 
-h1 { margin:0; font-size:28px; }
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
 
-main { display:flex; justify-content:center; padding:20px; }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px;
+  width: 100%;
+}
 
 .form {
-  background:#bbdefb;
-  border:2px solid #0d47a1;
-  border-radius:12px;
-  padding:30px;
-  max-width:500px;
-  width:100%;
-  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid #E0E7FF;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 550px;
+  width: 100%;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s;
 }
 
-.row { margin-bottom:20px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; }
-label { font-weight:bold; font-size:16px; flex:1 1 40%; }
-select,input { flex:1 1 55%; padding:8px 10px; border-radius:6px; border:1px solid #90caf9; font-size:15px; background:#fff; color:#0d47a1; }
-select:focus,input:focus { outline:none; border-color:#1976d2; box-shadow:0 0 4px rgba(25,118,210,0.4); }
+.form:hover {
+  transform: translateY(-2px);
+}
+
+.row {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 16px;
+  flex: 1 1 40%;
+}
+
+select, input {
+  flex: 1 1 55%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #90caf9;
+  font-size: 15px;
+  background: #fff;
+  color: #0d1b2a;
+  transition: all 0.2s ease;
+}
+
+select:focus, input:focus {
+  outline: none;
+  border-color: #1E88E5;
+  box-shadow: 0 0 6px rgba(30,136,229,0.3);
+}
 
 button {
-  background:#1976d2;
-  color:white;
-  font-weight:bold;
-  font-size:17px;
-  border:none;
-  border-radius:10px;
-  padding:10px;
-  cursor:pointer;
+  background: linear-gradient(90deg, #1E88E5, #42A5F5);
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
   transition: background 0.3s, transform 0.2s;
+  width: 100%;
+  margin-top: 10px;
 }
-button:hover { background:#0d47a1; transform:scale(1.02); }
-button:disabled { background:#90a4ae; cursor:not-allowed; }
 
-#legenda { background:#e3f2fd; border:1px solid #0d47a1; border-radius:8px; padding:15px; font-size:14px; color:#0d47a1; margin-top:25px; }
-#legenda h2 { text-align:center; font-size:20px; margin-bottom:10px; }
-#legenda p { margin:5px 0; line-height:1.4; }
-#legenda strong { color:#1565c0; }
+button:hover {
+  background: linear-gradient(90deg, #1565C0, #2196F3);
+  transform: scale(1.02);
+}
 
-#nazovTestu { text-align:center; font-size:22px; color:#0d47a1; margin-bottom:15px; }
-#otazkaText { font-size:18px; font-weight:bold; margin-bottom:15px; }
-.odpoved { padding:6px; margin:4px 0; border-radius:8px; transition: background-color 0.3s, border 0.3s; }
-.odpoved:hover { background:#e3f2fd; }
+button:disabled {
+  background: #B0BEC5;
+  cursor: not-allowed;
+}
 
-.correct { background-color:#27ae60; border:2px solid #1e8449; }
-.partial-correct { background-color:#c8f7c5; border:2px solid #2ecc71; }
-.incorrect { background-color:#e74c3c; border:2px solid #c0392b; }
-.partial-incorrect { background-color:#f7c5c5; border:2px solid #e74c3c; }
+#nazovTestu {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1E3A8A;
+  margin-bottom: 10px;
+}
 
-#scoreBox { margin-top:20px; text-align:center; font-weight:bold; font-size:18px; color:#0d47a1; }
+#otazkaText {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
 
-#vysledky { margin-top:25px; max-height:350px; overflow-y:auto; background:#e3f2fd; border:2px solid #0d47a1; border-radius:10px; padding:15px; }
-.vysledokOtazka { background:#fff; border:1px solid #bbdefb; border-radius:8px; padding:8px; margin-bottom:10px; }
+.odpoved {
+  background: #f9fbff;
+  padding: 8px 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  border: 1px solid #E0E7FF;
+  transition: all 0.25s ease;
+}
 
-.button-domov { display:block; margin:20px auto 5px; background:linear-gradient(to right, #43a047, #2e7d32); color:white; font-size:18px; font-weight:bold; border:none; border-radius:10px; padding:12px 24px; cursor:pointer; transition: transform 0.3s, background 0.3s; }
-.button-domov:hover { background:linear-gradient(to right, #2e7d32, #1b5e20); transform:scale(1.05); }
+.odpoved:hover {
+  background: #E3F2FD;
+  transform: scale(1.01);
+}
 
-#vysledky::-webkit-scrollbar { width:10px; }
-#vysledky::-webkit-scrollbar-thumb { background:#90caf9; border-radius:5px; }
-#vysledky::-webkit-scrollbar-thumb:hover { background:#64b5f6; }
+.correct { background-color: #C8E6C9; border: 2px solid #43A047; }
+.incorrect { background-color: #FFCDD2; border: 2px solid #E53935; }
 
-@media (max-width:600px) {
-  h1 { font-size:22px; }
-  .form { padding:20px; }
-  button { font-size:16px; }
-  #vysledky { max-height:300px; }
+#scoreBox {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1E3A8A;
+}
+
+#vysledky {
+  margin-top: 25px;
+  max-height: 350px;
+  overflow-y: auto;
+  background: #f9fbff;
+  border: 2px solid #E0E7FF;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.vysledokOtazka {
+  background: #fff;
+  border: 1px solid #E0E7FF;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button-domov, .button-restart {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  font-weight: 700;
+  background: linear-gradient(90deg, #43A047, #2E7D32);
+  padding: 12px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.button-domov:hover, .button-restart:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  h1 { font-size: 22px; }
+  .form { padding: 20px; }
+  button { font-size: 16px; }
+  #vysledky { max-height: 300px; }
 }
