@@ -1,166 +1,189 @@
-<!DOCTYPE html>
-<html lang="sk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test Generátor</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-  <h1>📘 Test Generátor</h1>
-</header>
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
-<main>
-  <div class="form">
-    <div class="row">
-      <label for="predmet">Predmet:</label>
-      <select id="predmet">
-        <option value="chemia">Chémia</option>
-        <option value="biologia">Biológia</option>
-      </select>
-    </div>
+body {
+  font-family: "Nunito", "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(160deg, #e8f0ff, #fdfdfd);
+  color: #0d1b2a;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
 
-    <div class="row">
-      <label for="typTestu">Typ testu:</label>
-      <select id="typTestu">
-        <option value="rozsah">Rozsah</option>
-        <option value="generator">Generátor</option>
-      </select>
-    </div>
+header {
+  background: linear-gradient(to right, #1565C0, #1E88E5);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
 
-    <div class="row" id="vstupy"></div>
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
 
-    <!-- ✅ Nový checkbox -->
-    <div class="row">
-      <label for="mixOdpovede">Miešať poradie odpovedí:</label>
-      <input type="checkbox" id="mixOdpovede">
-    </div>
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px;
+  width: 100%;
+}
 
-    <button id="spustiTest">Spustiť test</button>
+.form {
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid #E0E7FF;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 550px;
+  width: 100%;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s;
+}
 
-    <div id="legenda">
-      <h2>LEGENDA</h2>
-      <p><strong>Chémia:</strong> otázky č. 1 – 1200</p>
-      <p><strong>Zakázané otázky:</strong><br>
-        366, 411, 433, 456, 457, 463, 505, 513, 524, 548, 549, 595, 596, 597, 646, 656, 657, 658, 669, 670, 675, 676, 678,
-        679, 680, 747, 749, 910, 948
-      </p>
-      <p><strong>Biológia:</strong> otázky č. 1 – 1100</p>
-    </div>
-  </div>
-</main>
+.form:hover {
+  transform: translateY(-2px);
+}
 
-<script>
-  const typTestu = document.getElementById("typTestu");
-  const predmet = document.getElementById("predmet");
-  const vstupy = document.getElementById("vstupy");
-  const spustiButton = document.getElementById("spustiTest");
+.row {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-  function aktualizujVstup() {
-    vstupy.innerHTML = "";
-    if (typTestu.value === "rozsah") {
-      vstupy.innerHTML = `
-        <label>Od:</label>
-        <input type="number" id="od" min="1" max="1200" placeholder="od">
-        <label>Do:</label>
-        <input type="number" id="do" min="1" max="1200" placeholder="do">
-      `;
-    } else {
-      vstupy.innerHTML = `
-        <label>Počet:</label>
-        <input type="number" id="pocet" min="1" max="100" placeholder="počet otázok">
-      `;
-    }
-  }
+label {
+  font-weight: 600;
+  font-size: 16px;
+  flex: 1 1 40%;
+}
 
-  typTestu.addEventListener("change", aktualizujVstup);
-  window.onload = aktualizujVstup;
+select, input {
+  flex: 1 1 55%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #90caf9;
+  font-size: 15px;
+  background: #fff;
+  color: #0d1b2a;
+  transition: all 0.2s ease;
+}
 
-  spustiButton.addEventListener("click", async () => {
-    const jeBio = predmet.value === "biologia";
-    const typ = typTestu.value;
-    const od = Number(document.getElementById("od")?.value) || 1;
-    const do_ = Number(document.getElementById("do")?.value) || 10;
-    const pocet = Number(document.getElementById("pocet")?.value) || 10;
-    const mix = document.getElementById("mixOdpovede").checked; // ✅ pridané
+select:focus, input:focus {
+  outline: none;
+  border-color: #1E88E5;
+  box-shadow: 0 0 6px rgba(30,136,229,0.3);
+}
 
-    try {
-      const otazkyResponse = await fetch(`data/otazky${jeBio ? "bio" : "chem"}.txt`);
-      if (!otazkyResponse.ok) throw new Error("Súbor otázok sa nenašiel!");
-      const otazkyText = await otazkyResponse.text();
+button {
+  background: linear-gradient(90deg, #1E88E5, #42A5F5);
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  width: 100%;
+  margin-top: 10px;
+}
 
-      const odpovedeResponse = await fetch(`data/odpovede${jeBio ? "bio" : "chem"}.txt`);
-      if (!odpovedeResponse.ok) throw new Error("Súbor odpovedí sa nenašiel!");
-      const odpovedeText = await odpovedeResponse.text();
+button:hover {
+  background: linear-gradient(90deg, #1565C0, #2196F3);
+  transform: scale(1.02);
+}
 
-      const otazky = parseOtazky(otazkyText);
-      const odpovede = parseOdpovede(odpovedeText);
+button:disabled {
+  background: #B0BEC5;
+  cursor: not-allowed;
+}
 
-      let vybrate = [];
-      if (typ === "rozsah") {
-        vybrate = otazky.filter(o => o.cislo >= od && o.cislo <= do_);
-      } else {
-        vybrate = shuffle(otazky).slice(0, pocet);
-      }
+#nazovTestu {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1E3A8A;
+  margin-bottom: 10px;
+}
 
-      // ✅ Uloženie nového parametra do localStorage
-      localStorage.setItem("mix", mix);
-      localStorage.setItem("otazky", JSON.stringify(vybrate));
-      localStorage.setItem("odpovede", JSON.stringify(odpovede));
-      localStorage.setItem("jeBio", jeBio);
+#otazkaText {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
 
-      window.location.href = "test.html";
-    } catch (e) {
-      alert("Chyba: " + e.message);
-    }
-  });
+.odpoved {
+  background: #f9fbff;
+  padding: 8px 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  border: 1px solid #E0E7FF;
+  transition: all 0.25s ease;
+}
 
-  function parseOtazky(text) {
-    const lines = text.split("\n");
-    const otazky = [];
-    let akt = null;
-    let odpovede = [];
-    for (let line of lines) {
-      line = line.trim();
-      if (!line) continue;
-      if (/^\d+\./.test(line)) {
-        if (akt) {
-          akt.odpovede = [...odpovede];
-          otazky.push(akt);
-        }
-        const cislo = parseInt(line.split(".")[0]);
-        const textOt = line.replace(/^\d+\.\s*/, "");
-        akt = { cislo, text: textOt, odpovede: [] };
-        odpovede = [];
-      } else if (/^[A-D]\./.test(line)) {
-        odpovede.push(line.substring(3).trim());
-      } else {
-        if (akt) akt.text += " " + line;
-      }
-    }
-    if (akt) {
-      akt.odpovede = odpovede;
-      otazky.push(akt);
-    }
-    return otazky;
-  }
+.odpoved:hover {
+  background: #E3F2FD;
+  transform: scale(1.01);
+}
 
-  function parseOdpovede(text) {
-    return text.split("\n").map(l => {
-      const trimmed = l.trim();
-      if (!trimmed) return null;
-      const parts = trimmed.split(/\s+/, 2);
-      if (parts.length < 2) return null;
-      const cislo = parseInt(parts[0]);
-      const odp = parts[1];
-      return { cislo, odpoved: odp.split("") };
-    }).filter(o => o && !isNaN(o.cislo));
-  }
+.correct { background-color: #C8E6C9; border: 2px solid #43A047; }
+.incorrect { background-color: #FFCDD2; border: 2px solid #E53935; }
 
-  function shuffle(arr) {
-    return arr.sort(() => Math.random() - 0.5);
-  }
-</script>
-</body>
-</html>
+#scoreBox {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1E3A8A;
+}
+
+#vysledky {
+  margin-top: 25px;
+  max-height: 350px;
+  overflow-y: auto;
+  background: #f9fbff;
+  border: 2px solid #E0E7FF;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.vysledokOtazka {
+  background: #fff;
+  border: 1px solid #E0E7FF;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button-domov, .button-restart {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  font-weight: 700;
+  background: linear-gradient(90deg, #43A047, #2E7D32);
+  padding: 12px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.button-domov:hover, .button-restart:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  h1 { font-size: 22px; }
+  .form { padding: 20px; }
+  button { font-size: 16px; }
+  #vysledky { max-height: 300px; }
+}
