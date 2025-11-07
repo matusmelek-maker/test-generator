@@ -31,7 +31,6 @@
 
     <div class="row" id="vstupy"></div>
 
-    <!-- ✅ Nový checkbox -->
     <div class="row">
       <label for="mixOdpovede">Miešať poradie odpovedí:</label>
       <input type="checkbox" id="mixOdpovede">
@@ -83,37 +82,41 @@
     const od = Number(document.getElementById("od")?.value) || 1;
     const do_ = Number(document.getElementById("do")?.value) || 10;
     const pocet = Number(document.getElementById("pocet")?.value) || 10;
-    const mix = document.getElementById("mixOdpovede").checked; // ✅ pridané
+    const mix = document.getElementById("mixOdpovede").checked;
 
-    try {
-      const otazkyResponse = await fetch(`data/otazky${jeBio ? "bio" : "chem"}.txt`);
-      if (!otazkyResponse.ok) throw new Error("Súbor otázok sa nenašiel!");
-      const otazkyText = await otazkyResponse.text();
-
-      const odpovedeResponse = await fetch(`data/odpovede${jeBio ? "bio" : "chem"}.txt`);
-      if (!odpovedeResponse.ok) throw new Error("Súbor odpovedí sa nenašiel!");
-      const odpovedeText = await odpovedeResponse.text();
-
-      const otazky = parseOtazky(otazkyText);
-      const odpovede = parseOdpovede(odpovedeText);
-
-      let vybrate = [];
-      if (typ === "rozsah") {
-        vybrate = otazky.filter(o => o.cislo >= od && o.cislo <= do_);
-      } else {
-        vybrate = shuffle(otazky).slice(0, pocet);
-      }
-
-      // ✅ Uloženie nového parametra do localStorage
-      localStorage.setItem("mix", mix);
-      localStorage.setItem("otazky", JSON.stringify(vybrate));
-      localStorage.setItem("odpovede", JSON.stringify(odpovede));
-      localStorage.setItem("jeBio", jeBio);
-
-      window.location.href = "test.html";
-    } catch (e) {
-      alert("Chyba: " + e.message);
+    // ✅ Načítanie otázok
+    const otazkyResponse = await fetch(`data/otazky${jeBio ? "bio" : "chem"}.txt`);
+    if (!otazkyResponse.ok) {
+      alert("❌ Súbor otázok sa nenašiel!");
+      return;
     }
+    const otazkyText = await otazkyResponse.text();
+
+    // ✅ Načítanie odpovedí
+    const odpovedeResponse = await fetch(`data/odpovede${jeBio ? "bio" : "chem"}.txt`);
+    if (!odpovedeResponse.ok) {
+      alert("❌ Súbor odpovedí sa nenašiel!");
+      return;
+    }
+    const odpovedeText = await odpovedeResponse.text();
+
+    const otazky = parseOtazky(otazkyText);
+    const odpovede = parseOdpovede(odpovedeText);
+
+    let vybrate;
+    if (typ === "rozsah") {
+      vybrate = otazky.filter(o => o.cislo >= od && o.cislo <= do_);
+    } else {
+      vybrate = shuffle(otazky).slice(0, pocet);
+    }
+
+    // ✅ Uloženie do localStorage
+    localStorage.setItem("mix", mix);
+    localStorage.setItem("otazky", JSON.stringify(vybrate));
+    localStorage.setItem("odpovede", JSON.stringify(odpovede));
+    localStorage.setItem("jeBio", jeBio);
+
+    window.location.href = "test.html";
   });
 
   function parseOtazky(text) {
@@ -135,8 +138,8 @@
         odpovede = [];
       } else if (/^[A-D]\./.test(line)) {
         odpovede.push(line.substring(3).trim());
-      } else {
-        if (akt) akt.text += " " + line;
+      } else if (akt) {
+        akt.text += " " + line;
       }
     }
     if (akt) {

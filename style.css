@@ -2,280 +2,281 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
 body {
-  font-family: "Nunito", "Segoe UI", Arial, sans-serif;
-  background: linear-gradient(160deg, #e8f0ff, #fdfdfd);
-  color: #0d1b2a;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
+    font-family: "Nunito", "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(160deg, #e8f0ff, #fdfdfd);
+    color: #0d1b2a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
 
 header {
-  background: linear-gradient(to right, #1565C0, #1E88E5);
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  width: 100%;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    background: linear-gradient(to right, #1565C0, #1E88E5);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
 
 h1 {
-  margin: 0;
-  font-size: 28px;
-  font-weight: 700;
-  letter-spacing: 1px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 25px;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px;
+    width: 100%;
 }
 
 .form {
-  background: rgba(255, 255, 255, 0.8);
-  border: 2px solid #E0E7FF;
-  border-radius: 16px;
-  padding: 30px;
-  max-width: 550px;
-  width: 100%;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  backdrop-filter: blur(10px);
-  transition: transform 0.3s;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #E0E7FF;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 550px;
+    width: 100%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s;
 }
 
 .form:hover {
-  transform: translateY(-2px);
+    transform: translateY(-2px);
 }
 
 .row {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 label {
-  font-weight: 600;
-  font-size: 16px;
-  flex: 1 1 40%;
+    font-weight: 600;
+    font-size: 16px;
+    flex: 1 1 40%;
 }
 
 select, input {
-  flex: 1 1 55%;
-  padding: 10px 12px;
-  border-radius: 8px;
-  border: 1px solid #90caf9;
-  font-size: 15px;
-  background: #fff;
-  color: #0d1b2a;
-  transition: all 0.2s ease;
+    flex: 1 1 55%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #90caf9;
+    font-size: 15px;
+    background: #fff;
+    color: #0d1b2a;
+    transition: all 0.2s ease;
 }
 
 select:focus, input:focus {
-  outline: none;
-  border-color: #1E88E5;
-  box-shadow: 0 0 6px rgba(30,136,229,0.3);
+    outline: none;
+    border-color: #1E88E5;
+    box-shadow: 0 0 6px rgba(30,136,229,0.3);
 }
 
 button {
-  background: linear-gradient(90deg, #1E88E5, #42A5F5);
-  color: white;
-  font-weight: 700;
-  font-size: 17px;
-  border: none;
-  border-radius: 12px;
-  padding: 12px;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-  width: 100%;
-  margin-top: 10px;
+    background: linear-gradient(90deg, #1E88E5, #42A5F5);
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    width: 100%;
+    margin-top: 10px;
 }
 
 button:hover {
-  background: linear-gradient(90deg, #1565C0, #2196F3);
-  transform: scale(1.02);
+    background: linear-gradient(90deg, #1565C0, #2196F3);
+    transform: scale(1.02);
 }
 
 button:disabled {
-  background: #B0BEC5;
-  cursor: not-allowed;
+    background: #B0BEC5;
+    cursor: not-allowed;
 }
 
 #nazovTestu {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 700;
-  color: #1E3A8A;
-  margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E3A8A;
+    margin-bottom: 10px;
 }
 
 #otazkaText {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .odpoved {
-  background: #f9fbff;
-  padding: 12px;
-  margin: 6px 0;
-  border-radius: 10px;
-  border: 1px solid #E0E7FF;
-  transition: all 0.25s ease;
-  cursor: pointer;
+    background: #f9fbff;
+    padding: 10px 12px;
+    margin: 6px 0;
+    border-radius: 10px;
+    border: 1px solid #E0E7FF;
+    transition: all 0.25s ease;
+    cursor: pointer;
 }
 
 .odpoved:hover {
-  background: #E3F2FD;
-  transform: scale(1.01);
+    background: #E3F2FD;
+    transform: scale(1.01);
 }
 
-/* ✅ farby počas testu */
-.correct { background-color: #A7D2FF; border: 2px solid #1565C0; }         /* silno modrá správna */
-.partial-correct { background-color: #D1E9FF; border: 2px solid #64B5F6; } /* slabšia modrá správna */
-.incorrect { background-color: #FFBDBD; border: 2px solid #C62828; }        /* silno červená */
-.partial-incorrect { background-color: #FFDADA; border: 2px solid #EF5350; }/* slabšia červená */
+/* ✅ farebné vyhodnotenie počas testu */
+.correct { background-color: #81C784; border: 2px solid #2E7D32; color: #0d1b2a; }
+.partial-correct { background-color: #C8E6C9; border: 2px dashed #43A047; color: #0d1b2a; }
+.incorrect { background-color: #E57373; border: 2px solid #C62828; color: white; }
+.partial-incorrect { background-color: #ffffff; border: 1px solid #E0E0E0; color: #0d1b2a; }
+
 
 #scoreBox {
-  margin-top: 20px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-  color: #1E3A8A;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1E3A8A;
 }
 
-/* ✅ výsledky */
+/* ✅ kontajner výsledkov */
 #vysledky {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
 /* ✅ box s celkovým výsledkom */
 .final-box {
-  background: linear-gradient(145deg, #E3F2FD, #FFFFFF);
-  border: 2px solid #90CAF9;
-  border-radius: 16px;
-  padding: 25px;
-  text-align: center;
-  color: #0D47A1;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  animation: fadeIn 0.6s ease-in-out;
+    background: linear-gradient(145deg, #E3F2FD, #FFFFFF);
+    border: 2px solid #90CAF9;
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+    color: #0D47A1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    animation: fadeIn 0.6s ease-in-out;
 }
 
 .final-box h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .final-box p {
-  font-size: 18px;
-  color: #1E3A8A;
+    font-size: 18px;
+    color: #1E3A8A;
 }
 
 /* ✅ scroll panel pre otázky po ukončení testu */
 .scroll-panel {
-  max-height: 420px;
-  overflow-y: auto;
-  background: #f9fbff;
-  border: 2px solid #E0E7FF;
-  border-radius: 12px;
-  padding: 15px;
-  margin-top: 20px;
-  box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+    max-height: 420px;
+    overflow-y: auto;
+    background: #f9fbff;
+    border: 2px solid #E0E7FF;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
 }
 
 .scroll-panel::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 .scroll-panel::-webkit-scrollbar-thumb {
-  background: #90caf9;
-  border-radius: 6px;
+    background: #90caf9;
+    border-radius: 6px;
 }
 .scroll-panel::-webkit-scrollbar-thumb:hover {
-  background: #64b5f6;
+    background: #64b5f6;
 }
 
 /* ✅ jednotlivé otázky vo výsledkoch */
 .vysledokOtazka {
-  background: #fff;
-  border: 1px solid #E0E7FF;
-  border-radius: 10px;
-  padding: 12px;
-  margin-bottom: 12px;
-  font-size: 15px;
+    background: #fff;
+    border: 1px solid #E0E7FF;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
 }
 
 .vysledokOtazka h3 {
-  margin: 0 0 8px 0;
-  font-size: 16px;
-  color: #1E3A8A;
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    color: #1E3A8A;
 }
 
 /* ✅ farby odpovedí v prehľade */
 .vysledokOdpoved {
-  padding: 6px 10px;
-  margin: 4px 0;
-  border-radius: 8px;
-  border: 1px solid transparent;
-  transition: background-color 0.3s ease;
+    padding: 6px 10px;
+    margin: 4px 0;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease;
 }
 
 .vysledokOdpoved.correct {
-  background-color: #A7D2FF;
-  border-color: #1565C0;
+    background-color: #A5D6A7;
+    border-color: #2E7D32;
 }
 .vysledokOdpoved.partial-correct {
-  background-color: #D1E9FF;
-  border-color: #64B5F6;
+    background-color: #C8E6C9;
+    border-color: #66BB6A;
 }
 .vysledokOdpoved.incorrect {
-  background-color: #FFBDBD;
-  border-color: #C62828;
+    background-color: #EF9A9A;
+    border-color: #C62828;
 }
 .vysledokOdpoved.partial-incorrect {
-  background-color: #FFDADA;
-  border-color: #EF5350;
+    background-color: #FFCDD2;
+    border-color: #E57373;
 }
 
-/* ✅ tlačidlá po teste (modrá téma) */
+/* ✅ tlačidlá po teste */
 .button-domov, .button-restart {
-  display: block;
-  width: 80%;
-  margin: 20px auto;
-  font-weight: 700;
-  font-size: 17px;
-  color: white;
-  background: linear-gradient(90deg, #1E88E5, #42A5F5);
-  border: none;
-  border-radius: 12px;
-  padding: 12px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(30,136,229,0.3);
-  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    background: linear-gradient(90deg, #1E88E5, #42A5F5);
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(30,136,229,0.3);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
 }
 
 .button-domov:hover, .button-restart:hover {
-  transform: scale(1.05);
-  background: linear-gradient(90deg, #1565C0, #2196F3);
-  box-shadow: 0 6px 10px rgba(21,101,192,0.4);
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #1565C0, #2196F3);
+    box-shadow: 0 6px 10px rgba(21,101,192,0.4);
 }
 
 /* ✅ animácia */
 @keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
 }
 
 @media (max-width: 600px) {
-  h1 { font-size: 22px; }
-  .form { padding: 20px; }
-  button { font-size: 16px; }
-  .scroll-panel { max-height: 320px; }
+    h1 { font-size: 22px; }
+    .form { padding: 20px; }
+    button { font-size: 16px; }
+    .scroll-panel { max-height: 320px; }
 }
