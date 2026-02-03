@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Test – Generátor</title>
+  <!-- ✅ Opravená cesta k CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    #progressBox {
+      text-align: right;
+      font-weight: bold;
+      font-size: 16px;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+
+    #finishText {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      color: #1565C0;
+      margin: 25px 0 10px 0;
+      animation: fadeIn 0.8s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🧠 Test – Generátor otázok</h1>
+</header>
+
+<main>
+  <div id="testContainer" class="form">
+    <div id="progressBox"></div>
+    <h2 id="nazovTestu"></h2>
+    <div id="otazkaText"></div>
+    <div id="odpovede"></div>
+    <div class="button-group" id="buttons">
+      <button id="skontroluj">Skontroluj otázku</button>
+      <button id="dalsiaOtazka">➡️ Ďalšia otázka</button>
+      <button onclick="nastavInterval('medium')">🟡 Stredná (5 min)</button>
+      <button onclick="nastavInterval('hard')">🔴 Ťažká (3 min)</button>
+    </div>
+    <div id="scoreBox" style="display:none;"></div>
+    <div id="vysledky"></div>
+  </div>
+</main>
+
+<script>
+  const otazky = JSON.parse(localStorage.getItem("otazky") || "[]");
+  const odpovede = JSON.parse(localStorage.getItem("odpovede") || "[]");
+  const jeBio = localStorage.getItem("jeBio") === "true";
+  const mix = JSON.parse(localStorage.getItem("mix") || "false");
+
+  otazky.forEach(o => {
+    o.nextTime = Date.now();   // hneď dostupná
+    o.opakovania = 0;          // koľkokrát bola opakovaná
+    o.uzSpravna = false;       // ešte nebola správna
+  });
+
+  otazky.forEach(q => {
+    q.odpovede = q.odpovede.map((text, aktualnaOtazka) => ({
+      text,
+      povodnePismeno: String.fromCharCode(65 + aktualnaOtazka)
+    }));
+    if (mix) q.odpovede.sort(() => Math.random() - 0.5);
+  });
+
+  const nazov = document.getElementById("nazovTestu");
+  const otazkaText = document.getElementById("otazkaText");
+  const odpovedeDiv = document.getElementById("odpovede");
+  const btnSkontroluj = document.getElementById("skontroluj");
+  const buttons = document.getElementById("buttons");
+  const scoreBox = document.getElementById("scoreBox");
+  const vysledkyDiv = document.getElementById("vysledky");
+  const progressBox = document.getElementById("progressBox");
+
+  let hlavnyIndex = 0;        // ide len dopredu (1 → 10)
+  let aktualnaOtazka = null; // objekt otázky
+  let skontrolovane = false;
+  let body = 0;
+  const vybraneOdpovede = {};
+
+  nazov.textContent = jeBio ? "Biológia" : "Chémia";
+
+  function zobrazOtazku() {
+    // získa sa ďalšia otázka ako objekt
+    aktualnaOtazka = vyberDalsiuOtazku();
+
+    // ak už žiadna otázka nie je, končíme test
+    if (!aktualnaOtazka) {
+      ukonciTest();
+      return;
+    }
+
+    skontrolovane = false;
+    btnSkontroluj.disabled = false;
+
+    // objekt otázky priamo použijeme
+    const o = aktualnaOtazka;
+
+    // zobrazíme text otázky
+    otazkaText.innerHTML = o.cislo + ". " + chemFormat(o.text);
+
+    // zobrazíme priebeh testu
+    progressBox.textContent = `Otázka ${hlavnyIndex} z ${otazky.length}`;
+
+    // vymažeme staré odpovede
+    odpovedeDiv.innerHTML = "";
+
+    // zobrazíme odpovede
+    o.odpovede.forEach((odp, i) => {
+      const pism = String.fromCharCode(65 + i);
+      const div = document.createElement("div");
+      div.className = "odpoved";
+
+      const label = document.createElement("label");
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.name = "odp";
+      checkbox.value = odp.povodnePismeno;
+
+      div.addEventListener("click", () => {
+        checkbox.checked = !checkbox.checked;
+      });
+
+      label.appendChild(checkbox);
+      label.innerHTML += `${pism}. ${chemFormat(odp.text)}`;
+
+      div.appendChild(label);
+      odpovedeDiv.appendChild(div);
+    });
+
+    btnSkontroluj.disabled = false;
+  }
+  const btnDalsiaOtazka = document.getElementById("dalsiaOtazka");
+
+  btnDalsiaOtazka.addEventListener("click", () => {
+    if (!aktualnaOtazka) return;
+
+    const spravne = odpovede
+      .filter(x => x.cislo === aktualnaOtazka.cislo)
+      .flatMap(x => x.odpoved);
+
+    const oznacene = Array.from(
+      document.querySelectorAll('input[name="odp"]:checked')
+    ).map(el => el.value);
+
+    // ak ešte nebolo skontrolované, skontrolujeme a pripočítame body
+    if (!skontrolovane) {
+      const vseSpravne = spravne.every(s => oznacene.includes(s));
+      const ziadneZle = oznacene.every(o => spravne.includes(o));
+      if (vseSpravne && ziadneZle) {
+        body++;
+        aktualnaOtazka.uzSpravna = true;
+        aktualnaOtazka.nextTime = Infinity;
+      }
+    }
+
+    // prejdeme na ďalšiu otázku bez ďalšieho bodovania
+    zobrazOtazku();
+  });
+
+  function skontroluj(auto = false) {
+    if (!aktualnaOtazka) return;
+
+    const currentOt = aktualnaOtazka;
+    const cisloOtazky = currentOt.cislo;
+
+    const spravne = odpovede
+      .filter(x => x.cislo === cisloOtazky)
+      .flatMap(x => x.odpoved);
+
+    const oznacene = Array.from(document.querySelectorAll('input[name="odp"]:checked'))
+      .map(el => el.value);
+
+    vybraneOdpovede[cisloOtazky] = oznacene;
+
+    const moznosti = document.querySelectorAll(".odpoved");
+    moznosti.forEach(div => {
+      const checkbox = div.querySelector('input[name="odp"]');
+      const pism = checkbox.value;
+
+      div.classList.remove("correct", "partial-correct", "incorrect", "partial-incorrect");
+
+      if (spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("correct");
+      else if (spravne.includes(pism) && !oznacene.includes(pism)) div.classList.add("partial-correct");
+      else if (!spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("incorrect");
+      else div.classList.add("partial-incorrect");
+    });
+
+    const vseSpravne = spravne.every(s => oznacene.includes(s));
+    const ziadneZle = oznacene.every(o => spravne.includes(o));
+    if (vseSpravne && ziadneZle && !auto) body++;
+
+    if (!auto) {
+      document.querySelectorAll('input[name="odp"]').forEach(i => i.disabled = true);
+      btnSkontroluj.disabled = true;
+      skontrolovane = true; // ❗ zaznamenáme, že sme skontrolovali
+    }
+  }
+
+
+
+  function vyberDalsiuOtazku() {
+    const teraz = Date.now();
+
+    // 1️⃣ najprv hľadáme opakovanú otázku, ktorej vypršal čas
+    const readyOpakovanie = otazky.find(
+      o => !o.uzSpravna && o.nextTime <= teraz && o.opakovania > 0
+    );
+
+    if (readyOpakovanie) return readyOpakovanie;
+
+    // 2️⃣ inak berieme ďalšiu novú otázku v pôvodnom poradí
+    while (hlavnyIndex < otazky.length) {
+      const o = otazky[hlavnyIndex++];
+      if (!o.uzSpravna && o.opakovania === 0) {
+        return o;
+      }
+    }
+
+    // 3️⃣ nič nie je dostupné
+    return null;
+  }
+
+  function dalsia() {
+    if (!btnSkontroluj.disabled) skontroluj(true);
+    zobrazOtazku();
+  }
+
+  function chemFormat(text) {
+    return text
+      // dolné indexy (H_2, SO_4)
+      .replace(/_(\d+)/g, "<sub>$1</sub>")
+      // horné indexy s nábojom (2-, 3+, +, -)
+      .replace(/\^(\d*[+-])/g, "<sup>$1</sup>")
+      // obyčajné horné indexy (^2)
+      .replace(/\^(\d+)/g, "<sup>$1</sup>");
+  }
+
+  function nastavInterval(obtiaznost) {
+    if (!aktualnaOtazka) return;
+
+    const spravne = odpovede
+      .filter(x => x.cislo === aktualnaOtazka.cislo)
+      .flatMap(x => x.odpoved);
+
+    const oznacene = Array.from(
+      document.querySelectorAll('input[name="odp"]:checked')
+    ).map(el => el.value);
+
+    const ok =
+      spravne.every(s => oznacene.includes(s)) &&
+      oznacene.every(o => spravne.includes(o));
+
+    aktualnaOtazka.opakovania++;
+
+    // ❗ bodovanie len ak ešte nebolo stlačené Skontroluj
+    if (ok && !skontrolovane) {
+      body++;
+      aktualnaOtazka.uzSpravna = true;
+      aktualnaOtazka.nextTime = Infinity;
+    } else if (!ok) {
+      let delay = 0;
+      if (obtiaznost === "medium") delay = 5 * 60 * 1000;
+      if (obtiaznost === "hard") delay = 3 * 60 * 1000;
+
+      aktualnaOtazka.nextTime = Date.now() + delay;
+    }
+
+    // ❗ po nastavení intervalu prejdeme na ďalšiu otázku
+    zobrazOtazku();
+  }
+
+  function ukonciTest() {
+    // ✅ odstráni poslednú otázku
+    otazkaText.textContent = "";
+    odpovedeDiv.innerHTML = "";
+    progressBox.textContent = "";
+    buttons.style.display = "none";
+    nazov.style.display = "none";
+
+    // ✅ text do stredu
+    const finishText = document.createElement("div");
+    finishText.id = "finishText";
+    finishText.textContent = `🎉 Test z ${jeBio ? "Biológie" : "Chémie"} je dokončený!`;
+    document.getElementById("testContainer").prepend(finishText);
+
+    const percento = Math.round((body / otazky.length) * 100);
+    const sprava = percento >= 70
+      ? "🎉 Skvelá práca!"
+      : "👍 Ešte trochu potrénuj.";
+
+    vysledkyDiv.innerHTML = `
+      <div class="final-box">
+        <h2>${sprava}</h2>
+        <p>Získal si <strong>${body}</strong> z ${otazky.length} otázok (${percento}%).</p>
+      </div>
+      <div id="scrollPanel" class="scroll-panel"></div>
+    `;
+
+    const scrollPanel = document.getElementById("scrollPanel");
+
+    otazky.forEach(o => {
+      const otDiv = document.createElement("div");
+      otDiv.className = "vysledokOtazka";
+      otDiv.innerHTML = `<h3>${o.cislo}. ${o.text}</h3>`;
+
+      const spravne = odpovede.filter(x => x.cislo === o.cislo).flatMap(x => x.odpoved);
+      const oznacene = vybraneOdpovede[o.cislo] || [];
+
+      o.odpovede.forEach((odp, j) => {
+        const pism = odp.povodnePismeno;
+        const div = document.createElement("div");
+        div.className = "vysledokOdpoved";
+        div.innerHTML = `${pism}. ${chemFormat(odp.text)}`;
+
+        if (spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("correct");
+        else if (spravne.includes(pism) && !oznacene.includes(pism)) div.classList.add("partial-correct");
+        else if (!spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("incorrect");
+        else div.classList.add("partial-incorrect");
+
+        otDiv.appendChild(div);
+      });
+
+      scrollPanel.appendChild(otDiv);
+    });
+
+    // ✅ nové tlačidlá s jednotným štýlom
+    const btnRestart = document.createElement("button");
+    btnRestart.textContent = "🔁 Opakuj test";
+    btnRestart.className = "button-restart";
+    btnRestart.addEventListener("click", () => window.location.reload());
+
+    const btnDomov = document.createElement("button");
+    btnDomov.textContent = "🏠 Späť na úvod";
+    btnDomov.className = "button-domov";
+    btnDomov.addEventListener("click", () => window.location.href = "index.html");
+
+
+    vysledkyDiv.appendChild(btnRestart);
+    vysledkyDiv.appendChild(btnDomov);
+  }
+
+  btnSkontroluj.addEventListener("click", () => skontroluj(false));
+
+  zobrazOtazku();
+</script>
+</body>
+</html>

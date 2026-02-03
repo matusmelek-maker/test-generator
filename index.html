@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Generátor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>📘 Test Generátor</h1>
+</header>
+
+<main>
+  <div class="form">
+    <div class="row">
+      <label for="predmet">Predmet:</label>
+      <select id="predmet">
+        <option value="chemia">Chémia</option>
+        <option value="biologia">Biológia</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label for="typTestu">Typ testu:</label>
+      <select id="typTestu">
+        <option value="rozsah">Rozsah</option>
+        <option value="generator">Generátor</option>
+      </select>
+    </div>
+
+    <div class="row" id="vstupy"></div>
+
+    <div class="row">
+      <label for="mixOdpovede">Miešať poradie odpovedí:</label>
+      <input type="checkbox" id="mixOdpovede">
+    </div>
+
+    <button id="spustiTest">Spustiť test</button>
+
+    <div id="legenda">
+      <h2>LEGENDA</h2>
+      <p><strong>Chémia:</strong> otázky č. 1 – 1200</p>
+      <p><strong>Zakázané otázky:</strong><br>
+        366, 411, 433, 456, 457, 463, 505, 513, 524, 548, 549, 595, 596, 597, 646, 656, 657, 658, 669, 670, 675, 676, 678,
+        679, 680, 747, 749, 910, 948
+      </p>
+      <p><strong>Biológia:</strong> otázky č. 1 – 1100</p>
+    </div>
+  </div>
+</main>
+
+<script>
+  const typTestu = document.getElementById("typTestu");
+  const predmet = document.getElementById("predmet");
+  const vstupy = document.getElementById("vstupy");
+  const spustiButton = document.getElementById("spustiTest");
+
+  function aktualizujVstup() {
+    vstupy.innerHTML = "";
+    if (typTestu.value === "rozsah") {
+      vstupy.innerHTML = `
+        <label>Od:</label>
+        <input type="number" id="od" min="1" max="1200" placeholder="od">
+        <label>Do:</label>
+        <input type="number" id="do" min="1" max="1200" placeholder="do">
+      `;
+    } else {
+      vstupy.innerHTML = `
+        <label>Počet:</label>
+        <input type="number" id="pocet" min="1" max="100" placeholder="počet otázok">
+      `;
+    }
+  }
+
+  typTestu.addEventListener("change", aktualizujVstup);
+  window.onload = aktualizujVstup;
+
+  spustiButton.addEventListener("click", async () => {
+    const jeBio = predmet.value === "biologia";
+    const typ = typTestu.value;
+    const od = Number(document.getElementById("od")?.value) || 1;
+    const do_ = Number(document.getElementById("do")?.value) || 10;
+    const pocet = Number(document.getElementById("pocet")?.value) || 10;
+    const mix = document.getElementById("mixOdpovede").checked;
+
+    // ✅ Načítanie otázok
+    const otazkyResponse = await fetch(`data/otazky${jeBio ? "bio" : "chem"}.txt`);
+    if (!otazkyResponse.ok) {
+      alert("❌ Súbor otázok sa nenašiel!");
+      return;
+    }
+    const otazkyText = await otazkyResponse.text();
+
+    // ✅ Načítanie odpovedí
+    const odpovedeResponse = await fetch(`data/odpovede${jeBio ? "bio" : "chem"}.txt`);
+    if (!odpovedeResponse.ok) {
+      alert("❌ Súbor odpovedí sa nenašiel!");
+      return;
+    }
+    const odpovedeText = await odpovedeResponse.text();
+
+    const otazky = parseOtazky(otazkyText);
+    const odpovede = parseOdpovede(odpovedeText);
+
+    let vybrate;
+    if (typ === "rozsah") {
+      vybrate = otazky.filter(o => o.cislo >= od && o.cislo <= do_);
+    } else {
+      vybrate = shuffle(otazky).slice(0, pocet);
+    }
+
+    // ✅ Uloženie do localStorage
+    localStorage.setItem("mix", mix);
+    localStorage.setItem("otazky", JSON.stringify(vybrate));
+    localStorage.setItem("odpovede", JSON.stringify(odpovede));
+    localStorage.setItem("jeBio", jeBio);
+
+    window.location.href = "test.html";
+  });
+
+  function parseOtazky(text) {
+    const lines = text.split("\n");
+    const otazky = [];
+    let akt = null;
+    let odpovede = [];
+    for (let line of lines) {
+      line = line.trim();
+      if (!line) continue;
+      if (/^\d+\./.test(line)) {
+        if (akt) {
+          akt.odpovede = [...odpovede];
+          otazky.push(akt);
+        }
+        const cislo = parseInt(line.split(".")[0]);
+        const textOt = line.replace(/^\d+\.\s*/, "");
+        akt = { cislo, text: textOt, odpovede: [] };
+        odpovede = [];
+      } else if (/^[A-D]\./.test(line)) {
+        odpovede.push(line.substring(3).trim());
+      } else if (akt) {
+        akt.text += " " + line;
+      }
+    }
+    if (akt) {
+      akt.odpovede = odpovede;
+      otazky.push(akt);
+    }
+    return otazky;
+  }
+
+  function parseOdpovede(text) {
+    return text.split("\n").map(l => {
+      const trimmed = l.trim();
+      if (!trimmed) return null;
+      const parts = trimmed.split(/\s+/, 2);
+      if (parts.length < 2) return null;
+      const cislo = parseInt(parts[0]);
+      const odp = parts[1];
+      return { cislo, odpoved: odp.split("") };
+    }).filter(o => o && !isNaN(o.cislo));
+  }
+
+  function shuffle(arr) {
+    return arr.sort(() => Math.random() - 0.5);
+  }
+</script>
+</body>
+</html>
