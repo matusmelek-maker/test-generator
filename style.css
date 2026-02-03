@@ -109,7 +109,6 @@ button:disabled {
     cursor: not-allowed;
 }
 
-<<<<<<< HEAD
 .button-group {
   display: flex;
   gap: 10px;
@@ -121,8 +120,6 @@ button:disabled {
   padding: 10px;
 }
 
-=======
->>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 #nazovTestu {
     text-align: center;
     font-size: 24px;
