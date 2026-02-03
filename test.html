@@ -38,10 +38,16 @@
     <div id="otazkaText"></div>
     <div id="odpovede"></div>
     <div class="button-group" id="buttons">
+<<<<<<< HEAD
       <button id="skontroluj">Skontroluj otázku</button>
       <button id="dalsiaOtazka">➡️ Ďalšia otázka</button>
       <button onclick="nastavInterval('medium')">🟡 Stredná (5 min)</button>
       <button onclick="nastavInterval('hard')">🔴 Ťažká (3 min)</button>
+=======
+      <button id="spat">Späť</button>
+      <button id="skontroluj">Skontroluj otázku</button>
+      <button id="dalsia">Ďalšia otázka</button>
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
     </div>
     <div id="scoreBox" style="display:none;"></div>
     <div id="vysledky"></div>
@@ -54,6 +60,7 @@
   const jeBio = localStorage.getItem("jeBio") === "true";
   const mix = JSON.parse(localStorage.getItem("mix") || "false");
 
+<<<<<<< HEAD
   otazky.forEach(o => {
     o.nextTime = Date.now();   // hneď dostupná
     o.opakovania = 0;          // koľkokrát bola opakovaná
@@ -64,6 +71,12 @@
     q.odpovede = q.odpovede.map((text, aktualnaOtazka) => ({
       text,
       povodnePismeno: String.fromCharCode(65 + aktualnaOtazka)
+=======
+  otazky.forEach(q => {
+    q.odpovede = q.odpovede.map((text, index) => ({
+      text,
+      povodnePismeno: String.fromCharCode(65 + index)
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
     }));
     if (mix) q.odpovede.sort(() => Math.random() - 0.5);
   });
@@ -72,20 +85,30 @@
   const otazkaText = document.getElementById("otazkaText");
   const odpovedeDiv = document.getElementById("odpovede");
   const btnSkontroluj = document.getElementById("skontroluj");
+<<<<<<< HEAD
+=======
+  const btnDalsia = document.getElementById("dalsia");
+  const btnSpat = document.getElementById("spat");
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
   const buttons = document.getElementById("buttons");
   const scoreBox = document.getElementById("scoreBox");
   const vysledkyDiv = document.getElementById("vysledky");
   const progressBox = document.getElementById("progressBox");
 
+<<<<<<< HEAD
   let hlavnyIndex = 0;        // ide len dopredu (1 → 10)
   let aktualnaOtazka = null; // objekt otázky
   let skontrolovane = false;
+=======
+  let index = 0;
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
   let body = 0;
   const vybraneOdpovede = {};
 
   nazov.textContent = jeBio ? "Biológia" : "Chémia";
 
   function zobrazOtazku() {
+<<<<<<< HEAD
     // získa sa ďalšia otázka ako objekt
     aktualnaOtazka = vyberDalsiuOtazku();
 
@@ -111,6 +134,15 @@
     odpovedeDiv.innerHTML = "";
 
     // zobrazíme odpovede
+=======
+    if (index >= otazky.length) { ukonciTest(); return; }
+
+    const o = otazky[index];
+    otazkaText.textContent = o.cislo + ". " + o.text;
+    progressBox.textContent = `Otázka ${index + 1} z ${otazky.length}`;
+
+    odpovedeDiv.innerHTML = "";
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
     o.odpovede.forEach((odp, i) => {
       const pism = String.fromCharCode(65 + i);
       const div = document.createElement("div");
@@ -122,19 +154,28 @@
       checkbox.name = "odp";
       checkbox.value = odp.povodnePismeno;
 
+<<<<<<< HEAD
+=======
+      // ✅ Klik na celý obdĺžnik
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
       div.addEventListener("click", () => {
         checkbox.checked = !checkbox.checked;
       });
 
       label.appendChild(checkbox);
+<<<<<<< HEAD
       label.innerHTML += `${pism}. ${chemFormat(odp.text)}`;
 
+=======
+      label.appendChild(document.createTextNode(" " + pism + ". " + odp.text));
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
       div.appendChild(label);
       odpovedeDiv.appendChild(div);
     });
 
     btnSkontroluj.disabled = false;
   }
+<<<<<<< HEAD
   const btnDalsiaOtazka = document.getElementById("dalsiaOtazka");
 
   btnDalsiaOtazka.addEventListener("click", () => {
@@ -175,6 +216,15 @@
 
     const oznacene = Array.from(document.querySelectorAll('input[name="odp"]:checked'))
       .map(el => el.value);
+=======
+
+  function skontroluj(auto = false) {
+    const currentOt = otazky[index];
+    const cisloOtazky = currentOt.cislo;
+
+    const spravne = odpovede.filter(x => x.cislo === cisloOtazky).flatMap(x => x.odpoved);
+    const oznacene = Array.from(document.querySelectorAll('input[name="odp"]:checked')).map(el => el.value);
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 
     vybraneOdpovede[cisloOtazky] = oznacene;
 
@@ -185,19 +235,36 @@
 
       div.classList.remove("correct", "partial-correct", "incorrect", "partial-incorrect");
 
+<<<<<<< HEAD
       if (spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("correct");
       else if (spravne.includes(pism) && !oznacene.includes(pism)) div.classList.add("partial-correct");
       else if (!spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("incorrect");
       else div.classList.add("partial-incorrect");
+=======
+      if (spravne.includes(pism) && oznacene.includes(pism)) {
+        div.classList.add("correct");
+      } else if (spravne.includes(pism) && !oznacene.includes(pism)) {
+        div.classList.add("partial-correct");
+      } else if (!spravne.includes(pism) && oznacene.includes(pism)) {
+        div.classList.add("incorrect");
+      } else {
+        div.classList.add("partial-incorrect");
+      }
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
     });
 
     const vseSpravne = spravne.every(s => oznacene.includes(s));
     const ziadneZle = oznacene.every(o => spravne.includes(o));
+<<<<<<< HEAD
     if (vseSpravne && ziadneZle && !auto) body++;
+=======
+    if (vseSpravne && ziadneZle) body++;
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 
     if (!auto) {
       document.querySelectorAll('input[name="odp"]').forEach(i => i.disabled = true);
       btnSkontroluj.disabled = true;
+<<<<<<< HEAD
       skontrolovane = true; // ❗ zaznamenáme, že sme skontrolovali
     }
   }
@@ -273,6 +340,19 @@
 
     // ❗ po nastavení intervalu prejdeme na ďalšiu otázku
     zobrazOtazku();
+=======
+    }
+  }
+
+  function dalsia() {
+    if (!btnSkontroluj.disabled) skontroluj(true);
+    index++;
+    zobrazOtazku();
+  }
+
+  function spat() {
+    if (index > 0) { index--; zobrazOtazku(); }
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
   }
 
   function ukonciTest() {
@@ -316,7 +396,11 @@
         const pism = odp.povodnePismeno;
         const div = document.createElement("div");
         div.className = "vysledokOdpoved";
+<<<<<<< HEAD
         div.innerHTML = `${pism}. ${chemFormat(odp.text)}`;
+=======
+        div.textContent = `${pism}. ${odp.text}`;
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 
         if (spravne.includes(pism) && oznacene.includes(pism)) div.classList.add("correct");
         else if (spravne.includes(pism) && !oznacene.includes(pism)) div.classList.add("partial-correct");
@@ -340,12 +424,20 @@
     btnDomov.className = "button-domov";
     btnDomov.addEventListener("click", () => window.location.href = "index.html");
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
     vysledkyDiv.appendChild(btnRestart);
     vysledkyDiv.appendChild(btnDomov);
   }
 
   btnSkontroluj.addEventListener("click", () => skontroluj(false));
+<<<<<<< HEAD
+=======
+  btnDalsia.addEventListener("click", dalsia);
+  btnSpat.addEventListener("click", spat);
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 
   zobrazOtazku();
 </script>

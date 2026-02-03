@@ -7,7 +7,11 @@ D.	študuje len zloženie atómov a molekúl
 2.	Látka:
 A.	je jedna z foriem hmoty
 B.	sa skladá z častíc, ktorých rýchlosť pohybu je menšia ako rýchlosť svetla
+<<<<<<< HEAD
 C.	sa skladá len z častíc väčších ako 10^-^7 m
+=======
+C.	sa skladá len z častíc väčších ako 10-7 m
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	môže byť súbor makroskopických telies, napríklad planét, galaxií
 3.	Hmota:
 A.	existuje len vo forme látky
@@ -40,9 +44,15 @@ B.	sa líšia počtom protónov a neutrónov
 C.	majú rôzny počet protónov
 D.	líšia sa počtom neutrónov v atómovom jadre
 9.	Vyberte izotopy:
+<<<<<<< HEAD
 A.  ^1^6_8O, ^1^7_8O
 B.  ^1_1H, ^1_2H, ^1_3H
 C.  ^4^0_1_8Ar, ^4^0_1_9K
+=======
+A.	168O, 178O
+B.	11H, 12H, 13H
+C.	4018Ar, 4019K
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	protium, deutérium, trítium
 10.	Prvok:
 A.	je častica chemickej látky zložená z atómov s rovnakým nukleónovým číslom
@@ -53,7 +63,11 @@ D.	je napríklad sodík, kyslík, destilovaná voda
 A.	je častica látky zložená z dvoch alebo viacerých nezlúčených atómov
 B.	je častica látky zložená z dvoch alebo viacerých zlúčených atómov
 C.	je vždy zložená zo zlúčených atómov rôznych prvkov
+<<<<<<< HEAD
 D.	môže byť napríklad N_2, F_2, HCl
+=======
+D.	môže byť napríklad N2, F2, HCl
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 12.	Chemicky čistá látka:
 A.	sa skladá len z častíc rovnakého druhu
 B.	môže byť prvok alebo zlúčenina
@@ -83,7 +97,11 @@ D.	je koloidná zmes
 A.	môže byť rovnorodá alebo rôznorodá
 B.	je rovnorodá, ak sa skladá z dvoch alebo viacerých látok s rovnakou hmotnosťou
 C.	je napríklad prefiltrovaná morská voda
+<<<<<<< HEAD
 D.	môže byť rôznorodá, ak bude obsahovať častice s veľkosťou menšou ako 10^-^9 m
+=======
+D.	môže byť rôznorodá, ak bude obsahovať častice s veľkosťou menšou ako 10-9 m
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 18.	O rovnorodej zmesi môžeme povedať:
 A.	môže byť tuhá, kvapalná alebo plynná
 B.	je rovnorodá, ak sa skladá len z rovnakých atómov
@@ -101,9 +119,15 @@ C.	sa skladá vždy len z vody a z jednej rozpúšťanej látky
 D.	NaCl vo vode je chemické indivíduum
 21.	O roztokoch platí:
 A.	ich zloženie vyjadrujeme hmotnostným zlomkom w
+<<<<<<< HEAD
 B. obsahujú rozptýlené častice s veľkosťou 10^-^8 – 10^-^1^0 m
 C. obsahujú rozptýlené častice s veľkosťou väčšou ako 10^-^9 m
 D. ich zloženie vyjadrujeme v jednotkách mol . dm^-^3, g . dm^-^3
+=======
+B.	obsahujú rozptýlené častice s veľkosťou 10-8 – 10-10 m
+C.	obsahujú rozptýlené častice s veľkosťou väčšou ako 10-9 m
+D.	ich zloženie vyjadrujeme v jednotkách mol . dm-3, g . dm-3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 22.	Zloženie roztoku vyjadrujeme:
 A.	hmotnostným zlomkom
 B.	objemovým zlomkom
@@ -115,10 +139,17 @@ B.	je podiel hmotnosti rozpustenej látky a hmotnosti roztoku
 C.	je podiel hmotnosti rozpustenej látky v 1000 g vody
 D.	vyjadrujeme aj v percentách
 24.	25 % roztok síranu vápenatého obsahuje:
+<<<<<<< HEAD
 A.	25 g CaSO_4 v 100 g roztoku
 B.	25 g Ca2SO_4 v 100 g roztoku
 C.	25 g CaSO_4 v 100 g vody
 D.	25 g CaSO_4 a 75 g vody
+=======
+A.	25 g CaSO4 v 100 g roztoku
+B.	25 g Ca2SO4 v 100 g roztoku
+C.	25 g CaSO4 v 100 g vody
+D.	25 g CaSO4 a 75 g vody
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 25.	Rôznorodá zmes:
 A.	môže byť suspenzia, emulzia, pena a roztok
 B.	môže byť suspenzia, emulzia, pena a aerosól
@@ -156,13 +187,20 @@ C.	hmla
 D.	šľahačka
 32.	Atómová hmotnostná jednotka u a atómová hmotnostná konštanta (mu):
 A.	je hmotnosť atómu vodíka
+<<<<<<< HEAD
 B.  má hodnotu 6,023 . 10^2^3
 C.  má hodnotu 1,66057 . 10^-^2^7 kg (u)
 D.  je hmotnosť 1 / 12 hmotnosti atómu nuklidu uhlíka ^1^2C (m_u)
+=======
+B.	má hodnotu 6,023 . 1023
+C.	má hodnotu 1,66057 . 10-27 kg (u)
+D.	je hmotnosť 1 / 12 hmotnosti atómu nuklidu uhlíka 12C (mu)
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 33.	Relatívna atómová hmotnosť Ar:
 A.	udáva, koľkokrát je atóm prvku ťažší ako atómová hmotnostná jednotka
 B.	je súčet hmotností všetkých elementárnych častíc v atóme
 C.	umožňuje vypočítať skutočnú hmotnosť daného atómu
+<<<<<<< HEAD
 D.	označuje sa A_r a je bezrozmerné číslo
 34.	Relatívna molekulová hmotnosť Mr:
 A.	je súčet relatívnych atómových hmotností všetkých atómov v molekule
@@ -183,6 +221,29 @@ D.  je 6,022 . 10^2^3 g
 A.	je hmotnosť 1 mol látky
 B.	vyjadruje sa v kg . dm^3
 C.	vyjadruje sa v g . mol^-^1
+=======
+D.	označuje sa Ar a je bezrozmerné číslo
+34.	Relatívna molekulová hmotnosť Mr:
+A.	je súčet relatívnych atómových hmotností všetkých atómov v molekule
+B.	udáva, koľkokrát je molekula danej látky ťažšia, ako atómová hmotnostná jednotka
+C.	sa udáva v g . mol-1
+D.	má značku Mm
+35.	Zloženie roztoku vyjadrujeme ako:
+A.	koncentráciu látkového množstva látky A, čo je počet molov látky A v 1 litri rozpúšťadla
+B.	koncentráciu látkového množstva látky A, čo je počet molov látky A v 1 dm3 roztoku
+C.	hmotnostnú koncentráciu látky A, čo je podiel hmotnosti látky A a hmotnosti roztoku
+D.	hmotnostnú koncentráciu látky A, čo je podiel hmotnosti látky A a objemu roztoku
+36.	Látkové množstvo:
+A.	je množstvo látky, ktoré obsahuje rovnaký počet častíc aký sa nachádza v 12 g nuklidu 12C
+B.	je množstvo látky, ktoré obsahuje 6,022 . 1023 častíc
+C.	obsahuje 1,66 . 1027 častíc
+D.	je 6,022 . 1023 g
+
+37.	Molová hmotnosť:
+A.	je hmotnosť 1 mol látky
+B.	vyjadruje sa v kg . dm3
+C.	vyjadruje sa v g . mol-1
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	vyjadruje sa v g . mol
 38.	Počet atómov kyslíka v dihydrogénarzenitane sodnom je:
 A.  2
@@ -222,7 +283,11 @@ D.	magnetické určuje maximálny počet elektrónov vo valenčnej vrstve
 45.	Ak n = 3, potom platí, že:
 A.	l môže mať tiež hodnotu 3
 B.	maximálny počet elektrónov v elektrónovom obale je 10
+<<<<<<< HEAD
 C.	celkový počet elektrónov je 2^2
+=======
+C.	celkový počet elektrónov je 22
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	vedľajšie kvantové číslo má hodnotu 0, 1, 2
 46.	Vedľajšie kvantové číslo:
 A.	charakterizuje tvar orbitálu a čiastočne energiu
@@ -237,11 +302,19 @@ D.	m = - 1, -2, 1, 2
 48.	Vyberte správne hodnoty kvantových čísel:
 A.	n = 1, l = 0, m = 0
 B.	n = 3, l = 2, m = -2, -1, 0, 1, 2
+<<<<<<< HEAD
 C.	n = 4, l = 3, m = ^-^3, -2, - 1, 0, 1, 3
 D.	n = 2, l = 2, m = -1, -2, 0, 1, 2
 49.	Vyberte správne hodnoty kvantových čísel:
 A.	n = 2, l = 1, m = -1, 0, 1
 B.	n = 2, l = 3, m = ^-^3, -2, -1, 0, 1, 2, 3
+=======
+C.	n = 4, l = 3, m = -3, -2, - 1, 0, 1, 3
+D.	n = 2, l = 2, m = -1, -2, 0, 1, 2
+49.	Vyberte správne hodnoty kvantových čísel:
+A.	n = 2, l = 1, m = -1, 0, 1
+B.	n = 2, l = 3, m = -3, -2, -1, 0, 1, 2, 3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	n = 1, m = 0
 D.	druhá elektrónová vrstva môže mať orbitály s, p, d
 50.	Vyberte správny výrok:
@@ -264,13 +337,18 @@ A.	majú rovnakú hodnotu energie
 B.	majú rovnakú hodnotu spinového kvantového čísla
 C.	majú rovnaké hodnoty n, l, m; líšia sa iba hodnotou spinu
 D.	ich počet je daný Hundovým pravidlom
+<<<<<<< HEAD
 54.	Elektrónovú konfiguráciu 1s^2, 2s^1, 2px^1, 2py^1, 2pz^1 má:
+=======
+54.	Elektrónovú konfiguráciu 1s2, 2s1, 2px1, 2py1, 2pz1 má:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	atóm uhlíka v základnom stave
 B.	excitovaný atóm uhlíka
 C.	atóm dusíka v excitovanom stave
 D.	katión uhlíka
 55.	Elektrónová konfigurácia aniónu chlóru je:
 A.	rovnaká ako konfigurácia predchádzajúceho vzácneho plynu
+<<<<<<< HEAD
 B.	1s^2 2s^2 2p^6 3s^2 3p_x^2 3p_y^2 3p_z^3
 C.	1s^2 2s^2 2p^6 3s^2 3p^5
 D.	rovnaká ako argónu
@@ -284,6 +362,21 @@ A.	prvkov p je ns^1 np^1^-^6
 B.	prvkov d je ns^1^-^2(n-1)d^1^-^1^0
 C.	prvkov p je ns^2 np^1^-^6
 D.	halogénov je np^7
+=======
+B.	1s2 2s2 2p6 3s2 3px2 3py2 3pz3
+C.	1s2 2s2 2p6 3s2 3p5
+D.	rovnaká ako argónu
+56.	Rovnaký počet elektrónov nachádzame u všetkých prvkov a iónov v trojici:
+A.	Cl-, Ar, N2-
+B.	Ca2+, S2-, P3-
+C.	Br-, K+, O2-
+D.	Sc3+, S6+, Si4-
+57.	Všeobecná elektrónová konfigurácia valenčnej vrstvy:
+A.	prvkov p je ns1 np1-6
+B.	prvkov d je ns1-2(n-1)d1-10
+C.	prvkov p je ns2 np1-6
+D.	halogénov je np7
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 58.	Ionizačná energia:
 A.	v rámci jednej periódy v PSP stúpa zľava doprava
 B.	je energia, ktorú je potrebné dodať na rozštiepenie atómu v plynnom stave
@@ -306,7 +399,11 @@ C.	sa ionizačná energia nemení
 D.	klesajú hodnoty elektrónovej afinity ale ionizačná energia narastá
 62.	Vyberte správnu dvojicu vzorca a jeho názvu:
 A.	HClO – kyselina chlorovodíková
+<<<<<<< HEAD
 B.	BaHO_2 – hydrogénperoxid bárnatý (hydroperoxid bárnatý)
+=======
+B.	BaHO2 – hydrogénperoxid bárnatý (hydroperoxid bárnatý)
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	SbS – sulfid cínatý
 D.	NaClO – chlórnan sodný
 63.	Hydrogénperoxid sodný (hydroperoxid sodný) má vzorec:
@@ -342,7 +439,11 @@ D.	sa zhoduje s počtom elektrónov na poslednej elektrónovej vrstve
 69.	Maximálne záporné oxidačné číslo daného prvku v binárnej zlúčenine:
 A.	je vždy rovnaké ako číslo periódy
 B.	je -8
+<<<<<<< HEAD
 C.	dusíka je ^-^3
+=======
+C.	dusíka je -3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	vápnika je -6
 70.	Redukčné účinky prvkov:
 A.	v perióde zľava doprava klesajú
@@ -356,6 +457,7 @@ C.	všetky oxidy halogénov sú anhydridy kyselín
 D.	zásadotvornosť oxidov prvkov tretej periódy klesá od I. A po VII.A skupinu PSP
 72.	Kyselinotvorné oxidy :
 A.	sú oxidy s prvkami s nízkou hodnotou elektronegativity
+<<<<<<< HEAD
 B.	CO_2, BaO, SO_3 sú anhydridy kyselín
 C.	ktoré sú nerozpustné vo vode, reagujú s alkalickými hydroxidmi za vzniku solí ako SiO_2 + 2 NaOH → Na_2SiO_3 + H_2O
 D.	sú oxidy s prvkami s vysokou hodnotou elektronegativity
@@ -363,27 +465,52 @@ D.	sú oxidy s prvkami s vysokou hodnotou elektronegativity
 A.	sú oxidy len prvkov s^1 a s^2
 B.	nerozpustné vo vode reagujú s kyselinami aj zásadami za vzniku solí
 C.	reagujú podľa rovnice O^2^- + H_2O → 2 OH^–
+=======
+B.	CO2, BaO, SO3 sú anhydridy kyselín
+C.	ktoré sú nerozpustné vo vode, reagujú s alkalickými hydroxidmi za vzniku solí ako SiO2 + 2 NaOH → Na2SiO3 + H2O
+D.	sú oxidy s prvkami s vysokou hodnotou elektronegativity
+73.	Zásadotvorné oxidy prvkov:
+A.	sú oxidy len prvkov s1 a s2
+B.	nerozpustné vo vode reagujú s kyselinami aj zásadami za vzniku solí
+C.	reagujú podľa rovnice O2- + H2O → 2 OH–
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	sú oxidy kovov s oxidačným číslom menším ako IV
 74.	O hydridoch platí:
 A.	v iónových hydridoch je oxidačné číslo vodíka – I
 B.	sú to ternárne zlúčeniny elektronegatívnejších prvkov s vodíkom
 C.	nepolárne hydridy s vodou nereagujú
+<<<<<<< HEAD
 D.	iónové hydridy sú hydridy prvkov s^1 a s^2
 75.	Vyberte správne reakcie:
 A.	NaH + H_2O → NaOH + H_2
 B.	CaH + H_2O → Ca^2^+ + H_3O^+
 C.	AsH_3 + H_2O → AsH^4^+ + OH^-
 D.	HI + H_2O → H_3O^+ + I^-
+=======
+D.	iónové hydridy sú hydridy prvkov s1 a s2
+75.	Vyberte správne reakcie:
+A.	NaH + H2O → NaOH + H2
+B.	CaH + H2O → Ca2+ + H3O+
+C.	AsH3 + H2O → AsH4+ + OH-
+D.	HI + H2O → H3O+ + I-
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 76.	O hydridoch platí:
 A.	iónové hydridy reagujú s vodou za vzniku kyselín
 B.	iónové hydridy reagujú s vodou za vzniku hydroxidu a vodíka
 C.	nepolárne hydridy sú amfolyty
 D.	polárne kovalentné hydridy vo vode vytvárajú oxóniový katión
 77.	Vyznačte, ktoré reakcie hydridov nemôžu prebiehať:
+<<<<<<< HEAD
 A.	KH + H_2O → H_2 + KOH
 B.	CH_4 + H_2O → CO_2 + 3 H_2
 C.	HBr + H_2O → H_3O^+ + Br^-
 D.	PH_3 + H_2O → H_3PO_4 + 4 H_2
+=======
+A.	KH + H2O → H2 + KOH
+B.	CH4 + H2O → CO2 + 3 H2
+C.	HBr + H2O → H3O+ + Br-
+D.	PH3 + H2O → H3PO4 + 4 H2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 78.	Katión sodíka je stabilnejší ako atóm sodíka:
 A.	pretože má konfiguráciu predchádzajúceho vzácneho plynu Ne
 B.	nie je správne, pretože katión sodíka má kladný náboj a atóm je neutrálny
@@ -397,12 +524,20 @@ D.	sú veľmi dobré oxidačné činidlá
 80.	Alkalické kovy:
 A.	sa v prírode vyskytujú len v zlúčeninách, lebo sú veľmi reaktívne
 B.	si stabilizujú valenčnú vrstvu prijatím jedného elektrónu, lebo tak si dobudujú orbitál s
+<<<<<<< HEAD
 C.	sa v ľudskom organizme nachádzajú len vo forme katiónov M^+
+=======
+C.	sa v ľudskom organizme nachádzajú len vo forme katiónov M+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	sú hygroskopické a leptajú pokožku a sliznice
 81.	Katióny alkalických kovov:
 A.	sú stabilné, lebo majú na valenčnej vrstve konfiguráciu predchádzajúceho vzácneho plynu
 B.	sú elektrofilné činidlá
+<<<<<<< HEAD
 C.	C.	reagujú s vodou podľa rovnice: 2 M^+ + 2 H_2O → 2 MOH + H_2
+=======
+C.	reagujú s vodou podľa rovnice: 2 M+ + 2 H2O = 2 MOH + H2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	nepodliehajú hydrolýze
 82.	O atóme sodíka a katióne sodíka platí:
 A.	katión sodíka je stabilnejší, lebo má konfiguráciu vzácneho plynu
@@ -410,7 +545,11 @@ B.	atóm je stabilnejší
 C.	sú rovnako stabilné, lebo majú rovnaký počet protónov
 D.	katión sodíka je reaktívnejší
 83.	Označte správne výroky:
+<<<<<<< HEAD
 A.	kobalt patrí medzi biogénne makroprvky; je súčasťou vitamínu B_1_2
+=======
+A.	kobalt patrí medzi biogénne makroprvky; je súčasťou vitamínu B12
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	hliník má dobrú redukčnú schopnosť
 C.	hliník tvorí hydroxid hlinitý, ktorý môže reagovať s vodnými roztokmi silných kyselín aj hydroxidov
 D.	hliník tvorí so slabými kyselinami soli, ktoré v roztokoch neionizujú a nepodliehajú hydrolýze
@@ -423,6 +562,7 @@ D.	patria medzi najelektronegatívnejšie prvky
 A.	so stúpajúcim protónovým číslom v skupine klesajú ich oxidačné účinky
 B.	za normálnych podmienok sú fluór a chlór plyny a bróm a jód kvapaliny
 C.	z halogénov sublimuje len jód
+<<<<<<< HEAD
 D.	môžu reagovať podľa rovnice Cl_2 + 2 KF → 2 KCl + F_2
 86.	Vyberte správne reakcie:
 A.	2 KCl + F_2 → Cl_2 + 2 KF
@@ -431,6 +571,16 @@ C.	F_2 + 2 I^- → I_2 + 2 F^-
 D.	Cl_2 + 2 Br^- → Br_2 + 2 Cl^-
 87.	Pre halogény platí:
 A.	môžu reagovať podľa rovnice F_2 + 2 NaBr → 2 NaF + Br_2
+=======
+D.	môžu reagovať podľa rovnice Cl2 + 2 KF → 2 KCl + F2
+86.	Vyberte správne reakcie:
+A.	2 KCl + F2 → Cl2 + 2 KF
+B.	2 Br- + I2 → Br2 + 2 I-
+C.	F2 + 2 I- → I2 + 2 F-
+D.	Cl2 + 2 Br- → Br2 + 2 Cl-
+87.	Pre halogény platí:
+A.	môžu reagovať podľa rovnice F2 + 2 NaBr → 2 NaF + Br2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	halogén s väčšou elektronegativitou má silnejšie oxidačné účinky
 C.	pri izbovej teplote je kvapalný len bróm a jód
 D.	všetky ľahko sublimujú
@@ -443,13 +593,21 @@ D.	vodné roztoky halogénvodíkov sú, okrem HF, silné kyseliny
 A.	sú soli halogénovodíkových kyselín
 B.	vznikajú napríklad reakciou kovu s halogénovodíkovou kyselinou
 C.	nemôžu vzniknúť priamou reakciou kovu s halogénom
+<<<<<<< HEAD
 D.	vznikajú napríklad reakciou CaCO_3 a HCl
+=======
+D.	vznikajú napríklad reakciou CaCO3 a HCl
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 90.	V ľudskom organizme sú najviac zastúpené soli kyseliny:
 A.	uhličitej
 B.	fosforečnej
 C.	chlorovodíkovej
 D.	jodovodíkovej
+<<<<<<< HEAD
 91.	V kyselinách HClO, HClO_2, HClO_3, HClO_4 v uvedenom poradí:
+=======
+91.	V kyselinách HClO, HClO2, HClO3, HClO4 v uvedenom poradí:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	rastie sila kyseliny
 B.	rastú redukčné vlastnosti
 C.	rastie schopnosť odštiepiť katión vodíka
@@ -467,12 +625,20 @@ D.	kovalentné väzby
 94.	Kyslík:
 A.	patrí medzi najelektronegatívnejšie prvky
 B.	molekulový je stabilnejší a menej reaktívny ako atómový
+<<<<<<< HEAD
 C.	s vodou tvorí katióny H_3O^+
+=======
+C.	s vodou tvorí katióny H3O+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	v peroxide vodíka je jednoväzbový
 95.	O kyslíku platí:
 A.	v oxidoch s nekovmi tvorí kyslík väzby prevažne kovalentného charakteru
 B.	v zlúčeninách môže byť maximálne štvorväzbový
+<<<<<<< HEAD
 C.	vzniká rozkladom H_2O_2 v prítomnosti MnO_2
+=======
+C.	vzniká rozkladom H2O2 v prítomnosti MnO2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	pri búrkach vzniká z kyslíka ozón
 96.	Kyslík:
 A.	si stabilizuje valenčnú vrstvu prijatím dvoch elektrónov alebo vytvorením dvoch kovalentných väzieb
@@ -484,13 +650,21 @@ A.	môžu byť kyselinotvorné, zásadotvorné alebo amfotérne
 B.	delíme podľa štruktúry na iónové, atómové a molekulové
 C.	vznikajú len priamym zlučovaním s kyslíkom
 D.	sú všetky rozpustné vo vode, lebo sú to polárne látky
+<<<<<<< HEAD
 98.	Peroxid vodíka H_2O_2:
+=======
+98.	Peroxid vodíka H2O2:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	je v bezvodom stave výbušný
 B.	má štruktúru H-H-O-O
 C.	ako 3% roztok sa používa na dezinfekciu
 D.	vo väčšine reakcií má oxidačné účinky
 99.	Molekula vody:
+<<<<<<< HEAD
 A.	má polárne kovalentné väzby a väzbový uhol približne 104^°
+=======
+A.	má polárne kovalentné väzby a väzbový uhol približne 104°
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	v koordinačných zlúčeninách sa môže viazať ako centrálny atóm
 C.	má atómy vodíka a kyslíka viazané vodíkovými väzbami, preto má vysokú teplotu varu
 D.	môže tvoriť hydráty
@@ -498,6 +672,7 @@ D.	môže tvoriť hydráty
 A.	môže byť trvalá alebo prechodná
 B.	trvalá je spôsobená najmä prítomnosťou síranu vápenatého a horečnatého
 C.	prechodná sa nedá odstrániť varom
+<<<<<<< HEAD
 D.	prechodná sa odstráni varom, pričom dochádza k reakcii Ca(HCO_3)_2 → CaCO_3 + H_2O + CO_2
 101.	Prechodnú tvrdosť vody:
 A.	spôsobuje prítomnosť hydrogénuhličitanov prvkov I. A a II. A skupiny
@@ -508,6 +683,18 @@ D.	odstránime chlórovaním vody
 A.	sa dá odstrániť pridaním Na_2CO_3
 B.	je spôsobená prítomnosťou hlavne CaSO_4 a MgSO_4
 C.	sa môže odstrániť pridaním sódy podľa rovnice CaSO_4 + Na_2CO_3 → Na_2SO_4 + CaCO_3
+=======
+D.	prechodná sa odstráni varom, pričom dochádza k reakcii Ca(HCO3)2 → CaCO3 + H2O + CO2
+101.	Prechodnú tvrdosť vody:
+A.	spôsobuje prítomnosť hydrogénuhličitanov prvkov I. A a II. A skupiny
+B.	spôsobuje prítomnosť Ca(HCO3)2 a Mg(HCO3)2
+C.	odstránime pridaním sódy alebo varom
+D.	odstránime chlórovaním vody
+102.	Trvalá tvrdosť vody:
+A.	sa dá odstrániť pridaním Na2CO3
+B.	je spôsobená prítomnosťou hlavne CaSO4 a MgSO4
+C.	sa môže odstrániť pridaním sódy podľa rovnice CaSO4 + Na2CO3 → Na2SO4 + CaCO3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	sa nedá odstrániť
 103.	Sulfán:
 A.	je zapáchajúci jedovatý plyn
@@ -525,8 +712,13 @@ B.	môže aj kremík aj bór
 C.	môžu atómy, ktoré majú elektronegativitu väčšiu ako 2,00
 D.	majú všetky biogénne prvky
 106.	Vyberte pravdivý výrok o uhlíku:
+<<<<<<< HEAD
 A.	atómy uhlíka v grafite majú hybridizáciu sp^2
 B.	atómy uhlíka v diamante majú hybridizáciu sp^3
+=======
+A.	atómy uhlíka v grafite majú hybridizáciu sp2
+B.	atómy uhlíka v diamante majú hybridizáciu sp3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	atómy uhlíka v grafite sú viazané 4 kovalentnými nepolárnymi väzbami
 D.	sadze a živočíšne uhlie sú amorfné modifikácie uhlíka
 107.	Oxid uhoľnatý:
@@ -549,7 +741,11 @@ A.	je reaktívnejší ako CO
 B.	jeho molekula je nepolárna
 C.	má oxidačné aj redukčné účinky
 D.	sa nachádza v ľudskom organizme
+<<<<<<< HEAD
 111.	Zlúčenina COCl_2:
+=======
+111.	Zlúčenina COCl2:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	sa používa v medicíne ako súčasť narkózy
 B.	vzniká zlučovaním oxidu uhoľnatého s chlórom
 C.	je veľmi dobré rozpúšťadlo hlavne organických zlúčenín
@@ -557,7 +753,11 @@ D.	je fosgén, je veľmi jedovatý a používal sa ako bojový plyn
 112.	O uhlíku platí:
 A.	má redukčné účinky
 B.	s prvkami s nižšou elektronegativitou tvorí karbidy
+<<<<<<< HEAD
 C.	zlučovaním so sírou vzniká sírouhlík CS_2
+=======
+C.	zlučovaním so sírou vzniká sírouhlík CS2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	sa v prírode nenachádza voľný, lebo je veľmi reaktívny
 113.	Amorfná modifikácia uhlíka je:
 A.	tuha
@@ -572,7 +772,11 @@ D.	sú napríklad vodík, dusík, síra a fluór
 115.	O p prvkoch platí:
 A.	všetky sú kovy
 B.	od III. A po VII.A skupinu rastie elektronegativita a kyselinotvorný charakter
+<<<<<<< HEAD
 C.	majú všeobecnú konfiguráciu valenčnej vrstvy ns^2np^1^-^6
+=======
+C.	majú všeobecnú konfiguráciu valenčnej vrstvy ns2np1-6
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	sú kovy, nekovy a polokovy
 116.	Prvky II. A skupiny:
 A.	všetky sú kovy alkalických zemín
@@ -587,7 +791,11 @@ D.	sodík na žlto
 118.	O prvkoch III. A skupiny platí:
 A.	všetky sú kovy
 B.	bór tvorí len kovalentné väzby
+<<<<<<< HEAD
 C.	hliník okrem kovalentných zlúčenín tvorí aj hydratovaný katión [Al(H_2O)_6]^3^+
+=======
+C.	hliník okrem kovalentných zlúčenín tvorí aj hydratovaný katión [Al(H2O)6]3+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	tálium má podobné vlastnosti ako alkalické kovy
 119.	Prvky VI. A skupiny:
 A.	sa nazývajú chalkogény
@@ -600,7 +808,11 @@ B.	koncentrovaná má slabé oxidačné účinky
 C.	tvorí soli sírany a dihydrogénsírany
 D.	tvorí soli sírany a hydrogénsírany
 121.	O kyseline sírovej platí:
+<<<<<<< HEAD
 A.	vyrába sa reakciou SO_3 s vodou
+=======
+A.	vyrába sa reakciou SO3 s vodou
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	pri riedení klesajú jej kyslé účinky a rastú oxidačné účinky
 C.	pri riedení lejeme vždy vodu do kyseliny
 D.	v koncentrovanom stave má silné oxidačné účinky
@@ -610,17 +822,30 @@ B.	má len oxidačné účinky
 C.	má oxidačné aj redukčné účinky
 D.	ak sa nachádza v ovzduší, spôsobuje kyslé dažde
 123.	Vyberte reakcie, v ktorých oxid siričitý má redukčné účinky:
+<<<<<<< HEAD
 A.	2 SO_2 + O_2 → 2 SO_3
 B.	SO_2 + H_2O → H_2SO_3
 C.	SO_2 + H_2S → 3 S + 2 H_2O
 D.	SO_2 + 2 NaOH → Na_2SO_3 + H_2O
+=======
+A.	2 SO2 + O2 → 2 SO3
+B.	SO2 + H2O → H2SO3
+C.	SO2 + H2S → 3 S + 2 H2O
+D.	SO2 + 2 NaOH → Na2SO3 + H2O
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 124.	Prvky V. A skupiny:
 A.	sú N, F, As, Sn, Bi
 B.	na orbitále p majú tri nespárené elektróny
 C.	valenčnú vrstvu si stabilizujú vytvorením troch kovalentných väzieb
+<<<<<<< HEAD
 D.	tvoria anióny M^3^-
 125.	Dusík:
 A.	jeho molekula N_2 je mimoriadne stabilná, čoho prejavom je značná inertnosť dusíka
+=======
+D.	tvoria anióny M3-
+125.	Dusík:
+A.	jeho molekula N2 je mimoriadne stabilná, čoho prejavom je značná inertnosť dusíka
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	má maximálnu väzbovosť štyri
 C.	maximálne kladné oxidačné číslo je V a záporné –V
 D.	stabilizuje si valenčnú vrstvu len vytvorením troch nepolárnych kovalentných väzieb
@@ -635,8 +860,13 @@ B.	molekula dusíka má väčšiu hmotnosť ako atóm dusíka
 C.	molekula dusíka je nepolárna
 D.	vznik molekuly N2 je reakcia exotermická
 128.	Amoniak:
+<<<<<<< HEAD
 A.	má vzorec NH_4
 B.	má vzorec NH_3
+=======
+A.	má vzorec NH4
+B.	má vzorec NH3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	má zásaditý charakter
 D.	v koordinačných zlúčeninách vystupuje ako centrálny atóm
 129.	O amoniaku platí:
@@ -649,12 +879,17 @@ A.	je hlavným konečným produktom rozkladu bielkovín u človeka
 B.	s kyselinami tvorí amónne soli
 C.	je podľa Brőnsteda kyselina
 D.	je podľa Brőnsteda zásada
+<<<<<<< HEAD
 131.	Pri vzniku katiónu NH_4^+:
+=======
+131.	Pri vzniku katiónu NH4+:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	vzniká vodíková väzba
 B.	vzniká iónová väzba
 C.	vzniká donorno-akceptorová väzba
 D.	vznikajú tri kovalentné väzby a jedna koordinačne kovalentná väzba
 132.	Vyberte správne reakcie:
+<<<<<<< HEAD
 A.	2 NH_3 + 6 HCl → 2 NCl_3 + 3 H_2
 B.	4 NH_3 + 5 O_2 → 4 NO + 6 H_2O
 C.	NH_3 + H_2O → NH_2^- + H_3O^+
@@ -666,6 +901,19 @@ C.	N_2O sa nazýva rajský plyn
 D.	sú veľmi nestále a za normálnych podmienok sa rozkladajú
 134.	Kyselina dusitá:
 A.	má vzorec HNO_2
+=======
+A.	2 NH3 + 6 HCl → 2 NCl3 + 3 H2
+B.	4 NH3 + 5 O2 → 4 NO + 6 H2O
+C.	NH3 + H2O → NH2- + H3O+
+D.	NH3 + HBr → NH4Br
+133.	Kyslíkaté zlúčeniny dusíka:
+A.	sú oxidy, v ktorých má dusík oxidačné číslo I, II, III, IV alebo V
+B.	všetky okrem N2O sú toxické
+C.	N2O sa nazýva rajský plyn
+D.	sú veľmi nestále a za normálnych podmienok sa rozkladajú
+134.	Kyselina dusitá:
+A.	má vzorec HNO2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	je silná kyselina
 C.	jej soľ dusitan sodný sa používa v potravinárskom priemysle
 D.	tvorí soli dusitany a hydrogéndusitany
@@ -675,10 +923,17 @@ B.	reaguje takmer so všetkými kovmi, okrem zlata a platiny
 C.	vzniká reakciou oxidu dusitého s vodou
 D.	tvorí soli dusičnany a dusitany
 136.	Vyberte správne reakcie kyseliny dusičnej:
+<<<<<<< HEAD
 A.	Cu + HNO_3 → Cu(NO_3)_2 + H_2
 B.	2 NaOH + HNO_3 → Na_2NO_3 + H_2O
 C.	3 Cu + 8 HNO_3 → 2 NO + 3 Cu(NO_3)_2 + 4 H_2O
 D.	4 Zn + 10 HNO_3(aq) → 4 Zn(NO_3)_2 + NH_4NO_3 + 3 H_2O
+=======
+A.	Cu + HNO3 → Cu(NO3)2 + H2
+B.	2 NaOH + HNO3 → Na2NO3 + H2O
+C.	3 Cu + 8 HNO3 → 2 NO + 3 Cu(NO3)2 + 4 H2O
+D.	4 Zn + 10 HNO3(aq) → 4 Zn(NO3)2 + NH4NO3 + 3 H2O
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 137.	Fosfor:
 A.	sa nachádza vo forme vápenatých a horečnatých solí v kostiach a zuboch
 B.	sa nachádza aj v polysacharidoch
@@ -691,11 +946,19 @@ C.	má oveľa nižšiu zápalnú teplotu ako červený
 D.	vedie elektrický prúd rovnako ako čierny
 139.	Biely fosfor:
 A.	nie je jedovatý
+<<<<<<< HEAD
 B.	pri horení bieleho fosforu vzniká P_4O_6 a P_4O_10
 C.	tvorí molekuly P_2
 D.	tvorí molekuly P_4
 140.	O fosfore platí:
 A.	patrí medzi p^3 prvky
+=======
+B.	pri horení bieleho fosforu vzniká P4O6 a P4O10
+C.	tvorí molekuly P2
+D.	tvorí molekuly P4
+140.	O fosfore platí:
+A.	patrí medzi p[i]3[/i] prvky
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	s vodíkom tvorí fosfidy
 C.	patrí medzi biogénne mikroprvky
 D.	tvorí tri alotropické modifikácie, biely, červený a čierny fosfor
@@ -711,6 +974,7 @@ C.	je typický nekov
 D.	s vodíkom tvorí silicidy, ktoré sú analógmi alkánov
 143.	O oxide kremičitom platí:
 A.	tavením s alkalickými hydroxidmi vznikajú kremičitany
+<<<<<<< HEAD
 B.	reaguje s fluorovodíkom podľa rovnice SiO_2 + 4 HF → SiF_4 + 2 H_2O
 C.	patrí medzi iónové oxidy
 D.	je dobre rozpustný vo vode
@@ -719,6 +983,16 @@ A.	Al(OH)_3 + 3 H_2SO_4 → Al(SO_4)_3 + 6 H_2O
 B.	Al(OH)_3 + 3 H_3O^+ → [Al(H_2O)_6]^3^+
 C.	Al(OH)_3 + NaCl → Na[Al(OH)_4] + HCl
 D.	Al(OH)_3 + OH^- → [Al(OH)_4]^-
+=======
+B.	reaguje s fluorovodíkom podľa rovnice SiO2 + 4 HF → SiF4 + 2 H2O
+C.	patrí medzi iónové oxidy
+D.	je dobre rozpustný vo vode
+144.	Amfotérny charakter hydroxidu hlinitého dokazujú rovnice:
+A.	Al(OH)3 + 3 H2SO4 → Al(SO4)3 + 6 H2O
+B.	Al(OH)3 + 3 H3O+ → [Al(H2O)6]3+
+C.	Al(OH)3 + NaCl → Na[Al(OH)4] + HCl
+D.	Al(OH)3 + OH- → [Al(OH)4]-
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 145.	Prvky III.A skupiny:
 A.	si stabilizujú valenčnú vrstvu prijatím troch elektrónov
 B.	sú všetko kovy
@@ -735,22 +1009,37 @@ B.	len redukciou uhlíkom
 C.	redukciou uhlíkom, hliníkom alebo elektrolyticky
 D.	oxidáciou
 148.	Vyberte rovnicu priamej redukcie železa:
+<<<<<<< HEAD
 A.	Fe_2O_3 + 2 CO → 2 CO_2 + 2 Fe
 B.	Fe_2O_3 + 3 C → 3 CO + 2 Fe
 C.	FeO + CO → CO_2 + Fe
 D.	FeO + CO_2 → Fe + CO_3
+=======
+A.	Fe2O3 + 2 CO → 2 CO2 + 2 Fe
+B.	Fe2O3 + 3 C → 3 CO + 2 Fe
+C.	FeO + CO → CO2 + Fe
+D.	FeO + CO2 → Fe + CO3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 149.	Hliník sa vyrába z bauxitu:
 A.	redukciou uhlíkom
 B.	aluminotermicky
 C.	elektrolýzou taveniny oxidu hlinitého s kryolitom pri vysokej teplote
 D.	elektrolýzou kryolitu
 150.	Vápnik:
+<<<<<<< HEAD
 A.	sa v ľudskom organizme nachádza vo forme katiónov Ca^2^+ alebo viazaný vo forme fosforečnanov
+=======
+A.	sa v ľudskom organizme nachádza vo forme katiónov Ca2+ alebo viazaný vo forme fosforečnanov
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	sa zapája do hlavných regulačných mechanizmov činnosti buniek
 C.	je dôležitý pri udržovaní normálnej dráždivosti srdcového svalu, nervov, je antagonistom draslíka
 D.	sa nachádza spolu s horčíkom v chlorofyle
 151.	Prvky d :
+<<<<<<< HEAD
 A.	sú prvky, ktorých atómy majú valenčné elektróny v orbitáloch ns^1^-^2(n-1)d^1^-^1^0
+=======
+A.	sú prvky, ktorých atómy majú valenčné elektróny v orbitáloch ns1-2(n-1)d1-10
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	majú na poslednej elektrónovej vrstve 1 až 2 elektróny
 C.	poskytujú do kovovej väzby elektróny z orbitálov s, p, d, preto majú dobré fyzikálne vlastnosti
 D.	v periodickej sústave prvkov sa nachádzajú len v tretej a štvrtej perióde
@@ -763,22 +1052,41 @@ D.	v koordinačných zlúčeninách vystupujú ako akceptory elektrónov
 A.	v komplexných zlúčeninách sú donormi elektrónového páru
 B.	vystupujú v komplexných zlúčeninách ako centrálne atómy
 C.	majú na valenčnej vrstve v orbitále np 6 elektrónov a na orbitále (n-1)d 1-10 elektrónov
+<<<<<<< HEAD
 D.	na predposlednej vrstve majú 18 elektrónov
 154.	Centrálny atóm má oxidačné číslo II v zlúčenine:
 A.	K_3[Cr(H_2O)_4(CN)_6]
 B.	[Pt(NH_3)_6]_3[Fe(CN)_6]_2
 C.	[Cu(NH_3)_4]Cl_2
 D.	[Ni(H_2O)_3](NO_3)_2
+=======
+
+D.	na predposlednej vrstve majú 18 elektrónov
+154.	Centrálny atóm má oxidačné číslo II v zlúčenine:
+A.	K3[Cr(H2O)4(CN)6]
+B.	[Pt(NH3)6]3[Fe(CN)6]2
+C.	[Cu(NH3)4]Cl2
+D.	[Ni(H2O)3](NO3)2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 155.	Komplexne viazaný katión kovu sa nachádza v molekule:
 A.	kyseliny cholovej
 B.	žlčových farbív bilirubínu a biliverdínu
 C.	chlorofylu
+<<<<<<< HEAD
 D.	vitamínu B_12_
 156.	Železo sa nachádza ako:
 A.	katión Fe^2^+ v hemoglobíne
 B.	katión Fe^3^+ v cytochrómoch
 C.	katión Fe^2^+ v chlorofyle
 D.	katión Fe^3^+ v žlčových farbivách
+=======
+D.	vitamínu B12
+156.	Železo sa nachádza ako:
+A.	katión Fe2+ v hemoglobíne
+B.	katión Fe3+ v cytochrómoch
+C.	katión Fe2+ v chlorofyle
+D.	katión Fe3+ v žlčových farbivách
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 157.	Chemická väzba:
 A.	je sila, ktorá viaže atómy v molekule
 B.	je tvorená voľným elektrónovým párom
@@ -809,16 +1117,27 @@ A.	od počtu atómov v molekule
 B.	len od polarity väzby
 C.	od veľkosti väzbovej energie, ktorá sa spotrebuje pri jej vzniku
 D.	od veľkosti väzbovej energie, ktorá sa uvoľní pri jej vzniku
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 163.	Kovalentná väzba:
 A.	môže byť väzba σ alebo π
 B.	môže byť len jednoduchá
 C.	je jednoduchá alebo násobná
 D.	môže byť nepolárna, polárna
 164.	Nepolárna kovalentná väzba sa nachádza v molekulách:
+<<<<<<< HEAD
 A.	NaCl, CH_4, NH_3
 B.	Cl_2, N_2, O_2
 C.	H_2O, NH_3, HCl
 D.	HCl, H_2O, CO
+=======
+A.	NaCl, CH4, NH3
+B.	Cl2, N2, O2
+C.	H2O, NH3, HCl
+D.	HCl, H2O, CO
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 165.	O kovalentnej väzbe platí:
 A.	vzniká len medzi rovnakými atómami
 B.	atómy z väzby zdieľajú spoločný elektrónový pár
@@ -840,10 +1159,17 @@ B.	sa nachádza v molekule amoniaku
 C.	vzniká tak, že jeden atóm poskytne do väzby elektrónový pár a druhý atóm prázdny orbitál
 D.	môže byť iónová
 169.	Centrálnym atómom v daných zlúčeninách je:
+<<<<<<< HEAD
 A.	jód v K_3[AgI_4]
 B.	Fe v KFe(SO_4)_2
 C.	Ni v [Ni(NH_3)_6]SO_4
 D.	K v K_3[Fe(CN)_6]
+=======
+A.	jód v K3[AgI4]
+B.	Fe v KFe(SO4)2
+C.	Ni v [Ni(NH3)6]SO4
+D.	K v K3[Fe(CN)6]
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 170.	Väzba sigma:
 A.	vzniká aj prekryvom orbitálov d-d
 B.	vzniká vtedy, ak najväčší prekryv orbitálov je na spojnici atómových jadier
@@ -861,6 +1187,7 @@ B.	sú dve iónové väzby a 3 polárne kovalentné väzby
 C.	sú 3 kovalentné polárne väzby, jedna iónová a jedna koordinačne kovalentná väzba
 D.	sa nachádzajú len kovalentné väzby
 173.	Vyberte dvojice, v ktorých sa nachádza koordinačná väzba:
+<<<<<<< HEAD
 A.	CH_4 ; CHCl_3
 B.	H_3O^+ ; NH_4^+
 C.	[Cu(NH_3)_4]Cl_2 ; KCr(SO_4)_2
@@ -873,6 +1200,20 @@ D.	väzba σ aj väzba π môžu existovať nezávisle na sebe
 175.	Vyberte správny výrok:
 A.	jednoduchá kovalentná väzba vzniká medzi atómami ak rozdiel v hodnote ich elektronegativít je menší ako 1,7
 B.	molekula CO aj CO_2 sú polárne
+=======
+A.	CH4 ; CHCl3
+B.	H3O+; NH4+
+C.	[Cu(NH3)4]Cl2 ; KCr(SO4)2
+D.	[Ni(H2O)3](NO3)2 ; NH4Cl
+174.	Vyberte správny výrok:
+A.	väzba σ vzniká prekrytím orbitálov na spojnici atómových jadier
+B.	väzba π vzniká prekrytím orbitálov nad a pod spojnicou atómových jadier
+C.	väzba π sa nachádza napríklad v molekulách Cl2, H2, N2, O2
+D.	väzba σ aj väzba π môžu existovať nezávisle na sebe
+175.	Vyberte správny výrok:
+A.	jednoduchá kovalentná väzba vzniká medzi atómami ak rozdiel v hodnote ich elektronegativít je menší ako 1,7
+B.	molekula CO aj CO2 sú polárne
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	koordinačná väzba, ktorá sa volá aj donorno-akceptorná, vzniká tak, že obidva väzbové elektróny poskytne len jeden atóm
 D.	vodíková väzba, ktorá sa volá aj vodíkový mostík, je silnejšia ako kovalentná väzba
 176.	Vodíková väzba:
@@ -882,9 +1223,15 @@ C.	vzniká aj v molekulách bielkovín
 D.	podmieňuje dobrú rozpustnosť etanolu vo vode
 177.	Molekula amoniaku:
 A.	má tvar pravidelného štvorstenu, pretože atóm dusíka má na valenčnej vrstve 3 nespárené elektróny
+<<<<<<< HEAD
 B.	má väzbové uhly 107^o
 C.	môže s molekulami vody tvoriť vodíkové väzby
 D.	má väzbové uhly 109^o
+=======
+B.	má väzbové uhly 107o
+C.	môže s molekulami vody tvoriť vodíkové väzby
+D.	má väzbové uhly 109o
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 178.	Vyberte, čo platí pre iónový kryštál:
 A.	v kryštálovej mriežke medzi katiónmi a aniónmi pôsobia silné elektrostatické príťažlivé sily
 B.	v pevnom skupenstve veľmi dobre vedie elektrický prúd
@@ -896,20 +1243,34 @@ B.	ich taveniny vedú elektrický prúd
 C.	ich kryštály sú dobré vodiče tepla a elektrického prúdu
 D.	sú sypké
 180.	Atómový kryštál:
+<<<<<<< HEAD
 A.	tvoria atómy uhlíka v hybridizácii sp^2, sp^3
 B.	je veľmi stabilný, pretože medzi atómami pôsobia pevné polárne kovalentné väzby
 C.	tvoria aj zlúčeniny SiO_2, SiC
+=======
+A.	tvoria atómy uhlíka v hybridizácii sp2, sp3
+B.	je veľmi stabilný, pretože medzi atómami pôsobia pevné polárne kovalentné väzby
+C.	tvoria aj zlúčeniny SiO2, SiC
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	má vysokú teplotu topenia, nevedie elektrický prúd a je veľmi tvrdý
 
 181.	Grafit, tuha:
 A.	vedie elektrický prúd
+<<<<<<< HEAD
 B.	je tvorená atómami uhlíka v hybridizácii sp^2, takže každý atóm C tvorí tri pevné kovalentné väzby
+=======
+B.	je tvorená atómami uhlíka v hybridizácii sp2, takže každý atóm C tvorí tri pevné kovalentné väzby
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	je stierateľná, pretože nespárené elektróny na valenčnej vrstve sú čiastočne delokalizované a jednotlivé vrstvy sú viazané len slabými van der Waalsovými silami
 D.	tvorí molekulový kryštál
 182.	Kryštál oxidu uhličitého:
 A.	tvorí typický molekulový nepolárny kryštál
 B.	je stabilný pri vyšších teplotách
+<<<<<<< HEAD
 C.	v kryštálovej mriežke sú molekuly CO_2 viazané vodíkovými väzbami
+=======
+C.	v kryštálovej mriežke sú molekuly CO2 viazané vodíkovými väzbami
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	je nestabilný, prchavý
 183.	Vodíková väzba:
 A.	sa nachádza napríklad v molekule vody
@@ -960,6 +1321,7 @@ D.	adičné, substitučné, eliminačné
 192.	Podstatou protolytickej reakcie je:
 A.	prenos vodíka
 B.	prenos kyslíka
+<<<<<<< HEAD
 C.	výmena H_3O^+ za OH^-
 D.	prenos katiónu vodíka H^+
 193.	Protolytickú reakciu vyjadruje rovnica:
@@ -977,6 +1339,25 @@ A.	NH_4^+ + H_2O → NH_3 + H_3O^+
 B.	HCO_3^- + H_2O → H_2CO_3 + OH^-
 C.	SO_2 + H_2O → H_2SO_3
 D.	CaO + H_2O → Ca(OH)_2
+=======
+C.	výmena H3O+ za OH-
+D.	prenos katiónu vodíka H+
+193.	Protolytickú reakciu vyjadruje rovnica:
+A.	N2 + 3 H2 → 2 NH3
+B.	HCl + H2O → H3O+ + Cl-
+C.	H2SO4 + Ca(OH)2 → CaSO4 + 2 H2O
+D.	CaCl2 + Na2SO4 → CaSO4 + 2 NaCl
+194.	Vyberte protolytické reakcie:
+A.	AgNO3 + KCl → AgCl + KNO3
+B.	2 Na + 2 H2O → 2 NaOH + H2
+C.	2 KOH + H2SO4 → K2SO4 + 2 H2O
+D.	NH3 + HCl → NH4Cl
+195.	Medzi protolytické reakcie môžeme zaradiť:
+A.	NH4+ + H2O → NH3 + H3O+
+B.	HCO3- + H2O → H2CO3 + OH-
+C.	SO2 + H2O → H2SO3
+D.	CaO + H2O → Ca(OH)2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 196.	Podstata redoxných reakcií je:
 A.	prenos katiónu vodíka
 B.	prenos elektrónov
@@ -994,8 +1375,13 @@ C.	vodík
 D.	draslík
 
 199.	Oxidačné aj redukčné účinky má:
+<<<<<<< HEAD
 A.	HNO_3
 B.	H_2S
+=======
+A.	HNO3
+B.	H2S
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	HClO
 D.	HCl
 200.	Reakčné teplo:
@@ -1045,10 +1431,17 @@ B.	entropia roztoku KCl je rovnaká ako entropia KCl v roztoku
 C.	entropia KCl v roztoku je nižšia ako entropia kryštálov KCl
 D.	nedá sa určiť
 209.	Vyberte exotermické rovnice:
+<<<<<<< HEAD
 A.	4 NH_3 (g) + 5 O_2 (g) → 4 NO (g) + 6 H_2O (g)	∆H = -906 kJ/mol
 B.	2 CO + O (g) → 2 CO_2 (g) + 566 kJ
 C.	CaCO_3 (g) + 178 kJ → CaO (g) + CO_2 (g)
 D.	2 H_2 (g) + O_2 (g) → 2 H_2O (l) + 571,6 kJ
+=======
+A.	4 NH3 (g) + 5 O2 (g) → 4 NO (g) + 6 H2O (g)	∆H = -906 kJ/mol
+B.	2 CO + O (g) → 2 CO2 (g) + 566 kJ
+C.	CaCO3 (g) + 178 kJ → CaO (g) + CO2 (g)
+D.	2 H2 (g) + O2 (g) → 2 H2O (l) + 571,6 kJ
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 210.	Pre endotermické reakcie platí:
 A.	reaktanty chemických reakcií sú nestabilnejšie ako produkty
 B.	produkty endotermických reakcií sú nestabilnejšie ako reaktanty
@@ -1089,12 +1482,20 @@ D.	závisí od reakčného tepla
 A.	vypočítame pomocou energetickej bilancie chemického deja
 B.	v = ∆t/∆c
 C.	v = ∆c/∆t
+<<<<<<< HEAD
 D.	má jednotku mol . dm^-^3 . s^-^1
+=======
+D.	má jednotku mol . dm-3 . s-1
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 218.	Podľa Guldbergovho – Waageho zákona:
 A.	rýchlosť chemickej rekcie je priamo úmerná súčtu molárnych koncentrácii reaktantov a produktov
 B.	rýchlosť chemickej reakcie je pri stálej teplote priamo úmerná súčinu koncentrácií dosiaľ nezreagovaných reaktantov
 C.	sa rýchlosť v priebehu chemickej reakcie nemení, je konštantná
+<<<<<<< HEAD
 D.	rýchlosť pre všeobecnú reakciu vypočítame podľa rovnice v = k . c(A)^a. c(B)^β
+=======
+D.	rýchlosť pre všeobecnú reakciu vypočítame podľa rovnice v = k . c(A)a. c(B)β
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 219.	Rýchlostná konštanta k:
 A.	je konštanta pre daný typ chemickej reakcie
 B.	závisí od teploty
@@ -1102,9 +1503,15 @@ C.	závisí od skupenstva reagujúcich látok
 D.	závisí len od koncentrácie produktov
 220.	Podľa Arrhenia:
 A.	rýchlosť chemickej reakcie závisí od teploty
+<<<<<<< HEAD
 B.	ak sa teplota reakčnej sústavy zvýši o 10^oC, rýchlosť každej reakcie sa zvýši štvornásobne
 C.	ak sa teplota reakcie zvýši o 2-4^oC, rýchlosť chemickej reakcie bude desaťkrát väčšia
 D.	ak sa teplota reakčnej sústavy zvýši o 10^oC, rýchlosť chemickej reakcie sa zvýši 2-4 krát
+=======
+B.	ak sa teplota reakčnej sústavy zvýši o 10oC, rýchlosť každej reakcie sa zvýši štvornásobne
+C.	ak sa teplota reakcie zvýši o 2-4oC, rýchlosť chemickej reakcie bude desaťkrát väčšia
+D.	ak sa teplota reakčnej sústavy zvýši o 10oC, rýchlosť chemickej reakcie sa zvýši 2-4 krát
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 221.	Rýchlosť chemickej reakcie môže ovplyvniť:
 A.	len teplota, lebo rýchlostná konštanta závisí len od teploty
 B.	len koncentrácia reaktantov, ako vyplýva z I. kinetického zákona
@@ -1131,9 +1538,15 @@ A.	bude v oboch nádobách rovnaká, pretože majú rovnaký objem
 B.	bude rovnaká, pretože reagujú rovnaké plyny
 C.	v guľovitej nádobe bude vyššia ako v úzkej trubici
 D.	v úzkej trubici bude väčšia ako v guľovitej nádobe
+<<<<<<< HEAD
 226.	Rovnováha chemickej reakcie 2 NO (g) + O_2 (g) ↔ 2 NO_2 (g) s hodnotou reakčného tepla Q = -117 kJ/mol sa posúva na stranu reaktantov:
 A.	znížením teploty
 B.	odstraňovaním NO_2 z reakčnej zmesi
+=======
+226.	Rovnováha chemickej reakcie 2 NO (g) + O2 (g) ↔ 2 NO2 (g) s hodnotou reakčného tepla Q = -117 kJ/mol sa posúva na stranu reaktantov:
+A.	znížením teploty
+B.	odstraňovaním NO2 z reakčnej zmesi
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	zvýšením tlaku v reakčnej zmesi
 D.	znížením tlaku v reakčnej zmesi
 227.	Na rýchlosť chemickej reakcie vplýva:
@@ -1177,16 +1590,28 @@ A.	je stav reakčnej sústavy, keď sa všetky reaktanty premenili na produkty
 B.	je stav, pri ktorom je rýchlosť priamej a spätnej reakcie rovnaká
 C.	charakterizuje rovnovážna konštanta K
 D.	charakterizuje rýchlostná konštanta
+<<<<<<< HEAD
 235.	Hodnota rovnovážnej konštanty reakcie 4 KClO_3 ↔ KCl + 3 KClO_4 je daná vzťahom:
 A.	K = 4 [ KClO_3 ] / ( [ KCl ] + 3 [ KClO_4 ] )
 B.	K = ( [ KCl ] . [ KClO_4 ]^3 ) / [ KClO_3 ]^4
 C.	K = ( [ KCl ] + [ KClO_4 ]^3 ) / [ KClO_3 ]
 D.	K = [ KClO_3 ]^4 / ( [ KCl ] . [ KClO_4 ]^3 )
+=======
+235.	Hodnota rovnovážnej konštanty reakcie 4 KClO3 ↔ KCl + 3 KClO4 je daná vzťahom:
+A.	K = 4 [ KClO3 ] / ( [ KCl ] + 3 [ KClO4] )
+B.	K = ( [ KCl ].[ KClO4 ]3 ) / [ KClO3 ]4
+C.	K = ( [ KCl ] + [ KClO4 ]3 ) / [ KClO3]
+D.	K = [ KClO3 ]4/ ( [ KCl ] . [KClO4 ]3 )
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 236.	Rovnovážna konštanta:
 A.	sa vypočíta pomocou I. termochemického zákona
 B.	závisí od typu reakcie a od teploty reakčného systému
 C.	závisí vždy od tlaku v reakčnej zmesi
+<<<<<<< HEAD
 D.	ak je väčšia ako 10^-^2 udáva, že rovnováha je posunutá na stranu produktov
+=======
+D.	ak je väčšia ako 10-2 udáva, že rovnováha je posunutá na stranu produktov
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 237.	Hodnota rovnovážnej konštanty K:
 A.	sa vypočíta z Hessovho zákona
 B.	sa vypočíta pomocou 1. kinetického zákona
@@ -1207,7 +1632,11 @@ A.	tlak, teplota, katalyzátor, koncentrácia
 B.	pH, teplota, koncentrácia
 C.	veľkosť povrchu reaktantov, teplota, koncentrácia
 D.	tlak, teplota, koncentrácia
+<<<<<<< HEAD
 241.	Vyberte faktory, ktoré v reakcii CaCO_3 (s) ↔ CaO (s) + CO_2 (g) ∆Q > 0 posunú rovnovážny stav na stranu produktov:
+=======
+241.	Vyberte faktory, ktoré v reakcii CaCO3 (s) ↔ CaO (s) + CO2 (g) ∆Q > 0 posunú rovnovážny stav na stranu produktov:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	znížime teplotu
 B.	odoberáme oxid uhličitý a CaO
 C.	zvýšime teplotu
@@ -1228,27 +1657,44 @@ A.	vyvolá vždy posun rovnováhy
 B.	môže vyvolať posun rovnováhy len v prípade, že sa v reakčnom systéme nachádzajú plynné látky
 C.	nemá vplyv na rovnovážny stav
 D.	ovplyvňuje len koncentráciu látok
+<<<<<<< HEAD
 245.	Rovnovážny stav reakcie 2 HBr (g) ←→ H_2 (g) + Br_2 (g) ∆H > 0 sa posunie na stranu reaktantov:
+=======
+245.	Rovnovážny stav reakcie 2 HBr (g) ←→ H2 (g) + Br2 (g) ∆H > 0 sa posunie na stranu reaktantov:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	zvýšením teploty
 B.	odoberaním vodíka z reakčnej zmesi
 C.	zvýšením tlaku
 D.	odoberaním HBr z rovnovážnej zmesi
+<<<<<<< HEAD
 246.	Chemická rovnováha v reakčnom systéme 2 SO_3 (g) ←→ 2 SO_2 (g) + O_2 (g) ∆H = +195 kJ/mol sa posunie na stranu produktov:
+=======
+246.	Chemická rovnováha v reakčnom systéme 2 SO3 (g) ←→ 2 SO2 (g) + O2 (g) ∆H = +195 kJ/mol sa posunie na stranu produktov:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	znížením teploty
 B.	zvýšením koncentrácie oxidu sírového v rovnovážnej zmesi
 C.	znížením tlaku
 D.	odoberaním kyslíka z rovnovážnej zmesi
+<<<<<<< HEAD
 247.	V rovnovážnom systéme N_2 (g) + 3 H_2 (g) ←→ NH_3 (g) ∆H = -92,4 kJ/mol sa posunie rovnováha na stranu produktov, ak:
+=======
+247.	V rovnovážnom systéme N2 (g) + 3 H2 (g) ←→ NH3 (g) ∆H = -92,4 kJ/mol sa posunie rovnováha na stranu produktov, ak:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	zvýšime tlak
 B.	budeme odoberať produkt
 C.	zvýšime teplotu
 D.	odoberieme reaktanty
+<<<<<<< HEAD
 248.	Rovnováhu v chemickej reakcii NaOH (aq) + HCl (aq) ↔ NaCl (aq) + H_2O (l) môžeme na stranu produktov posunúť:
+=======
+248.	Rovnováhu v chemickej reakcii NaOH (aq) + HCl (aq) ↔ NaCl (aq) + H2O (l) môžeme na stranu produktov posunúť:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	zvýšením tlaku
 B.	odoberaním NaCl
 C.	pridávaním NaOH
 D.	pridaním vody
 249.	Podľa Arrhenia:
+<<<<<<< HEAD
 A.	kyselina je látka, ktorá vo vodnom prostredí odštiepi atóm vodíka a vytvorí katión H_3O^+
 B.	kyselina je látka, ktorá vo vodnom prostredí odštiepi katión vodíka a vytvorí katión H_3O^+
 C.	zásada je látka, ktorá vo vodnom prostredí vytvorí hydroxylový anión OH^-
@@ -1261,11 +1707,27 @@ D.	zásady sú napríklad NaOH, KOH, Mg(OH)_2
 251.	Podľa Brönstedovej teórie:
 A.	kyseliny sú látky schopné odštiepiť katión vodíka
 B.	kyseliny sú donormi vodíka
+=======
+A.	kyselina je látka, ktorá vo vodnom prostredí odštiepi atóm vodíka a vytvorí katión H3O+
+B.	kyselina je látka, ktorá vo vodnom prostredí odštiepi katión vodíka a vytvorí katión H3O+
+C.	zásada je látka, ktorá vo vodnom prostredí vytvorí hydroxylový anión OH-
+D.	zásada je látka, ktorá vo vodnom prostredí vytvorí H3O-
+250.	Z Arrheniovej teórie vyplýva:
+A.	kyseliny a zásady môžu byť len neutrálne molekuly
+B.	kyseliny a zásady môžu byť neutrálne látky alebo katióny
+C.	kyseliny sú napríklad HCl, H2SO4, NH4+, HNO3
+D.	zásady sú napríklad NaOH, KOH, Mg(OH)2
+251.	Podľa Brönstedovej teórie:
+A.	kyseliny sú látky schopné odštiepiť katión vodíka
+B.	kyseliny sú donormi vodíka
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	zásady sú akceptormi protónu
 D.	zásady sú látky schopné vodík prijať
 252.	Kyselina podľa Brönsteda:
 A.	je látka, ktorá obsahuje v molekule atóm kyslíka
 B.	je vždy len neutrálna molekula
+<<<<<<< HEAD
 C.	môže byť katión alebo anión, napr. Cl^-
 D.	je látka, ktorá je donorom katiónu vodíka
 253.	Kyseliny podľa Brönsteda sú:
@@ -1273,22 +1735,39 @@ A.	HNO_3, NH_3, HCl, H_2SO_4
 B.	NH_4^+, HCl, H_2PO_4^-
 C.	H_3O^+, HClO_4, H_3PO_4
 D.	Cl^-, H_2O, H_3O^+
+=======
+C.	môže byť katión alebo anión, napr. Cl-
+D.	je látka, ktorá je donorom katiónu vodíka
+253.	Kyseliny podľa Brönsteda sú:
+A.	HNO3, NH3, HCl, H2SO4
+B.	NH4+, HCl, H2PO4-
+C.	H3O+, HClO4, H3PO4
+D.	Cl-, H2O, H3O+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 254.	Zásady podľa Brönsteda sú:
 A.	látky, ktoré v molekule obsahujú aspoň jednu hydroxylovú skupinu
 B.	napríklad alkoholy a fenoly
 C.	látky, ktoré sú akceptormi katiónu vodíka
 D.	látky schopné prijať vodík
 255.	Brönstedove zásady sú:
+<<<<<<< HEAD
 A.	OH^-, HPO_4^2^-, Cl^-
 B.	NH_3, KOH, H_2S
 C.	Br^-, NH_4^+, NaOH
 D.	Cl^-, PO_4^3-, OH^-
+=======
+A.	OH-, HPO42-, Cl-
+B.	NH3, KOH, H2S
+C.	Br-, NH4+, NaOH
+D.	Cl-, PO43-, OH-
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 256.	Podľa Brönsteda sú amfolyty látky:
 A.	schopné odštiepiť alebo prijať katión vodíka
 B.	ktoré v molekule obsahujú atómy vodíka aj hydroxylové skupiny, napríklad glukóza
 C.	ktoré sa môžu tvoriť aj v organizme, napr. HCO3-
 D.	schopné prijať aj odštiepiť vodík
 257.	Vyberte amfotérne látky podľa Brönsteda:
+<<<<<<< HEAD
 A.	H_2PO_4^- , HCO_3^- , H_2O
 B.	HClO_4 , H_2PO_4^- , Cl^-
 C.	H_2O , OH^- , H_3O^+
@@ -1301,6 +1780,20 @@ D.	H_2O , OH^-
 259.	Neutralizácia je:
 A.	reakcia kyseliny a zásady, pričom vzniká soľ a vodík
 B.	rovnica, ktorú môžeme zapísať rovnicou H_3O^+ + OH^- → 2 H_2O
+=======
+A.	H2PO4-, HCO3-, H2O
+B.	HClO4, H2PO4-, Cl-
+C.	H2O, OH-, H3O+
+D.	NH3, H2O, CO2
+258.	V rovnici NH3 + HCl → NH4+ + Cl- určte konjugované páry:
+A.	NH3, Cl-
+B.	NH3, NH4+
+C.	HCl, Cl-
+D.	H2O, OH-
+259.	Neutralizácia je:
+A.	reakcia kyseliny a zásady, pričom vzniká soľ a vodík
+B.	rovnica, ktorú môžeme zapísať rovnicou H3O+ + OH- → 2 H2O
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	napríklad reakcia kyseliny mravčej a kyseliny chlorovodíkovej
 D.	napríklad reakcia kyseliny octovej a hydroxidu sodného
 260.	Silu kyselín:
@@ -1308,13 +1801,21 @@ A.	určuje schopnosť kyseliny prijať katión vodíka
 B.	určuje schopnosť kyseliny odštiepiť katión vodíka
 C.	určuje počet atómov vodíka v molekule kyseliny
 D.	určuje počet atómov kyslíka v molekule kyseliny
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 261.	Mierou sily kyseliny je:
 A.	hodnota pH
 B.	hodnota disociačnej konštanty
 C.	ionizačný stupeň
 D.	koncentrácia kyseliny
 262.	Sila zásady je určená:
+<<<<<<< HEAD
 A.	schopnosťou zásady odštiepiť OH^-
+=======
+A.	schopnosťou zásady odštiepiť OH-
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	počtom OH skupín v molekule
 C.	schopnosťou zásady prijať protón
 D.	koncentráciou zásady
@@ -1365,6 +1866,7 @@ B.	zrážacou reakciou
 C.	reakciou kyselinotvorného oxidu s hydroxidom
 D.	soľ vzniká len pri redoxných reakciách
 272.	Zásaditú reakciu majú vodné roztoky soli:
+<<<<<<< HEAD
 A.	NaNO_3, K_2MnO_4
 B.	K_2CO_3, (CH_3COO)_2Mg
 C.	NH_4Cl, NaNO_2
@@ -1384,6 +1886,27 @@ A.	Li_2SO_4
 B.	NH_4NO_3
 C.	NaCl
 D.	FeCl_3
+=======
+A.	NaNO3, K2MnO4
+B.	K2CO3, (CH3COO)2Mg
+C.	NH4Cl, NaNO2
+D.	K2SO3, Na2S
+273.	Kyslú reakciu majú vodné roztoky:
+A.	Fe2SO4, NH4I
+B.	CH3COOK, RbCl
+C.	(NH4)2SO4, Al(NO3)3
+D.	H2CO3, CH3COOH
+274.	Vodný roztok s pH < 7 vznikne rozpustením:
+A.	FeSO4, SO2
+B.	glukóza, NH4Br
+C.	Cl2, CO2
+D.	CaCl2, NaNO3
+275.	Modrý lakmus sa sfarbí na červeno vo vodnom roztoku soli:
+A.	Li2SO4
+B.	NH4NO3
+C.	NaCl
+D.	FeCl3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 276.	V roztoku octanu draselného bude mať indikátor farbu:
 A.	lakmus modrú farbu
 B.	metyloranž červenú farbu
@@ -1392,18 +1915,31 @@ D.	metyloranž žltú farbu
 277.	Metyloranž bude mať červenú farbu:
 A.	v roztoku KCl
 B.	ak dáme sodík do vody
+<<<<<<< HEAD
 C.	ak rozpustíme SO_2 vo vode
+=======
+C.	ak rozpustíme SO2 vo vode
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	v roztoku octanu amónneho
 278.	Roztok A obsahuje kyselinu octovú s koncentráciou 0,2mol/l a roztok B obsahuje octan sodný s rovnakou koncentráciou, potom platí (ak sa neberie do úvahy následná hydrolýza soli):
 A.	koncentrácia octanových aniónov je v obidvoch roztokoch rovnaká
 B.	koncentrácia octanových aniónov je väčšia v roztoku B
 C.	koncentrácia octanových aniónov je väčšia v roztoku A
 D.	octan sodný vo vode nedisociuje
+<<<<<<< HEAD
 279.	Po rozpustení vo vode vznikne zásaditý roztok:
 A.	CaO
 B.	N_2O_5
 C.	Mg_O
 D.	P_2O_5
+=======
+
+279.	Po rozpustení vo vode vznikne zásaditý roztok:
+A.	CaO
+B.	N2O5
+C.	MgO
+D.	P2O5
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 280.	Vodný roztok bude mať pOH < 7 ak v destilovanej vode rozpustíme:
 A.	chlorid draselný
 B.	kyanid sodný
@@ -1417,6 +1953,7 @@ D.	od sýtnosti kyseliny
 282.	Určte, v ktorom prostredí bude sila kyseliny sírovej najväčšia:
 A.	v destilovanej vode
 B.	v roztoku NaOH
+<<<<<<< HEAD
 C.	v zriedenej HNO_3
 D.	najsilnejšia bude v koncentrovanom stave
 283.	Iónový súčin vody K_v:
@@ -1424,6 +1961,15 @@ A.	predstavuje rovnovážnu konštantu autoprotolýzy destilovanej vody
 B.	je daný súčinom rovnovážnych molárnych koncentrácií H_3O^+ a OH^-
 C.	jeho hodnota je vždy 10^-^1^4
 D.	v destilovanej vode má hodnotu 10^-^1^4 pri 25^oC
+=======
+C.	v zriedenej HNO3
+D.	najsilnejšia bude v koncentrovanom stave
+283.	Iónový súčin vody Kv:
+A.	predstavuje rovnovážnu konštantu autoprotolýzy destilovanej vody
+B.	je daný súčinom rovnovážnych molárnych koncentrácií H3O+ a OH-
+C.	jeho hodnota je vždy 10-14
+D.	v destilovanej vode má hodnotu 10-14 pri 25oC
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 284.	Vyberte kyslý roztok:
 A.	pH = 9,2
 B.	pOH = 1,5
@@ -1434,6 +1980,7 @@ A.	pOH > 7
 B.	pH = 3,5
 C.	pH > 8
 D.	pOH = 12,3
+<<<<<<< HEAD
 286.	Podľa koncentrácií H_3O^+ a OH^- vyberte zásadité roztoky:
 A.	c(H_3O^+) = 1,5 . 10^-^5 mol . dm^-^3
 B.	c(OH^-) = 4,5 . 10^-^1^2 mol . dm^-^3
@@ -1466,20 +2013,64 @@ C.	Cr_2^V^I + 6e^- → Cr_2^I^I^I
 D.	stechiometrické koeficienty sú 3 + 1 + 4 → 3 + 1 + 1 + 7
 D.	stechiometrické koeficienty sú 3 + 1 + 4 → 3 + 1 + 1 + 7
 292.	V chemickej reakcii Fe + MgSO_4 ↔ FeSO_4 + Mg:
+=======
+286.	Podľa koncentrácií H3O+ a OH- vyberte zásadité roztoky:
+A.	c(H3O+) = 1,5 . 10-5 mol . dm–3
+B.	c(OH-) = 4,5 . 10-12 mol . dm–3
+C.	c(OH-) = 8,7 . 10-3 mol . dm–3
+D.	c(H3O+) = 4,4 . 10-11 mol . dm–3
+287.	Na úplnú neutralizáciu 1 mol kyseliny sírovej potrebujeme:
+A.	1 mol KOH
+B.	2 mol Ca(OH)2
+C.	1/3 mol Ba(OH)3
+D.	1 mol Mg(OH)2
+
+288.	1 mol kyseliny citrónovej úplne zneutralizuje:
+A.	3 mol NaOH
+B.	1 mol Bi(OH)3
+C.	2 mol Ca(OH)2
+D.	3 mol Fe(OH)3
+289.	Pre redoxnú reakciu KMnO4 + FeSO4 + H2SO4 → MnSO4 + K2SO4 + Fe2(SO4)3 + H2O platí:
+A.	mangán sa redukuje
+B.	MnIV + 2e → MnII
+C.	2FeII - 2e → Fe2III
+D.	stechiometrické koeficienty sú 2 + 5 + 10 → 2 + 1 + 10 + 3
+290.	Pre redoxnú reakciu HCl + KMnO4 → Cl2 + MnCl2 + KCl + H2O platí:
+A.	2Cl-I + 2e → Cl0
+B.	MnVII + 5e → MnII
+C.	MnVI + 4e → MnII
+D.	stechiometrické koeficienty sú 16 + 2 → 5 + 2 + 2 + 8
+291.	Pre redoxnú reakciu H2S + K2Cr2O7 + H2SO4 → S + Cr2(SO4)3 + K2SO4 + H2O platí:
+A.	H2S pôsobí ako oxidačné činidlo
+B.	S-II + 3e → SIV
+C.	Cr2VI + 6e → Cr2III
+D.	stechiometrické koeficienty sú 3 + 1 + 4 → 3 + 1 + 1 + 7
+292.	V chemickej reakcii Fe + MgSO4 ↔ FeSO4 + Mg :
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	železo sa oxiduje
 B.	môže prebiehať len sprava doľava
 C.	horčík je redukčné činidlo
 D.	oxidačné číslo síry sa nemení
+<<<<<<< HEAD
 293.	Pre redoxnú reakciu NH_3 + O_2 → HNO_3 + H_2O platí:
 A.	dusík sa v NH_3 nachádza v oxidačnom čísle -^I^I^I
 B.	N^-^I^I^I - 8 e^- → N^V
 C.	N^I^I^I - 2 e^- → N^V
 D.	stechiometrické koeficienty sú: 1 + 2 → 1 + 1
 294.	Atóm draslíka v reakcii 2 K + 2 H_2O → 2 KOH + H_2 :
+=======
+293.	Pre redoxnú reakciu NH3 + O2 → HNO3 + H2O platí:
+A.	dusík sa v NH3 nachádza v oxidačnom čísle -III
+B.	N-III - 8 e → NV
+C.	NIII - 2 e → NV
+D.	stechiometrické koeficienty sú: 1 + 2 → 1+ 1
+294.	Atóm draslíka v reakcii 2 K + 2 H2O → 2 KOH + H2 :
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	sa oxiduje, je oxidovadlo
 B.	sa oxiduje, je redukovadlo
 C.	prijíma elektróny
 D.	sa redukuje, je redukovadlo
+<<<<<<< HEAD
 295.	Pre redoxnú reakciu Zn + NaNO_3 + NaOH → Na_2ZnO_2 + NH_3 + H_2O platí:
 A.	oxidačné číslo sodíka sa nemení
 B.	zinok sa redukuje
@@ -1491,10 +2082,25 @@ B.	Zn nemôže redukovať Ni, pretože v rade napätia kovov stojí viac vľavo
 C.	reakcia prebieha zľava doprava lebo Zn má silnejšie redukčné účinky ako Ni
 D.	katión Ni^2^+ je oxidovadlo
 297.	Reakcia Cl_2 + 2 NaI ↔ 2 NaCl+ I_2 :
+=======
+295.	Pre redoxnú reakciu Zn + NaNO3 + NaOH → Na2ZnO2 + NH3 + H2O platí:
+A.	oxidačné číslo sodíka sa nemení
+B.	zinok sa redukuje
+C.	oxidačné číslo Zn v Na2ZnO2 je II
+D.	stechiometrické koeficienty sú: 4 + 1 + 7 → 4 + 1 +2
+296.	V reakcii Zn + NiSO4 ↔ ZnSO4 + Ni :
+A.	zinok sa oxiduje a vystupuje ako redukčné činidlo
+B.	Zn nemôže redukovať Ni, pretože v rade napätia kovov stojí viac vľavo
+C.	reakcia prebieha zľava doprava lebo Zn má silnejšie redukčné účinky ako Ni
+D.	katión Ni2+ je oxidovadlo
+
+297.	Reakcia Cl2 + 2 NaI ↔ 2 NaCl+ I2 :
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	prebieha sprava doľava, pretože chlór má silnejšie oxidačné účinky ako jód
 B.	prebieha zľava doprava, pretože chlór má silnejšie oxidačné účinky ako jód
 C.	jód sa ľahšie redukuje ako chlór, preto v reakcii vystupuje ako oxidačné činidlo
 D.	chlór vystupuje ako oxidačné činidlo
+<<<<<<< HEAD
 298.	Pre redoxnú reakciu H_2O_2 + KMnO_4 + H_2SO_4 → O_2 + MnSO_4 + K_2SO_4 + H_2O platí:
 A.	Mn^V^I^I - 5e^- → Mn^I^I
 B.	O_2^-^I - 2e^- → O_2^0
@@ -1506,10 +2112,24 @@ B.	2 I^- - 2e^- → I_2^0
 C.	peroxid je redukovadlo
 D.	stechiometrické koeficienty sú: 1 + 3 + 1 → 1 + 3 + 2
 300.	Reakcia Cu + 2 HCl ↔ CuCl_2 + H_2:
+=======
+298.	Pre redoxnú reakciu H2O2 + KMnO4 + H2SO4 → O2 + MnSO4 + K2SO4 + H2O platí
+A.	MnVII - 5e → Mn II
+B.	O2–I - 2e → O20
+C.	O–I + 1e → O-II
+D.	stechiometrické koeficienty sú: 5 + 2 + 3 → 5 + 2 + 2 + 7
+299.	Pre redoxnú reakciu H2O2 + KI + H2SO4 → I2 + K2SO4 + H2O platí:
+A.	O2-I + 2e → 2O-II
+B.	2 I-I - 2e → I20
+C.	peroxid je redukovadlo
+D.	stechiometrické koeficienty sú: 1 + 3 + 1 → 1 + 3 + 2
+300.	Reakcia Cu + 2 HCl ↔ CuCl2 + H2:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	nemôže prebiehať, lebo meď má záporný elektródový potenciál
 B.	prebieha, lebo meď má dobré redukčné účinky
 C.	neprebieha, lebo meď je ušľachtilý kov
 D.	prebieha len pri vyšších teplotách
+<<<<<<< HEAD
 301.	Peroxid vodíka H_2O_2 je oxidovadlom v reakciách:
 A.	H_2O_2 + KI + H_2SO_4 → I_2 + K_2SO_4 + H_2O
 B.	Ag_2O + H_2O_2 → 2 Ag + H_2O + O_2
@@ -1517,10 +2137,20 @@ C.	H_2O_2 + 2 FeSO_4 + H_2SO_4 → Fe_2(SO_4)_3 + 2 H_2O
 D.	5 H_2O_2 + 2 KMnO_4 + 3 H_2SO_4 → 5 O_2 + 2 MnSO_4 + K_2SO_4 + 8 H_2O
 302.	Pre H_2O_2 platí:
 A.	v reakcii s KMnO_4 sa kyslík peroxidu oxiduje aj redukuje
+=======
+301.	Peroxid vodíka H2O2 je oxidovadlom v reakciách:
+A.	H2O2 + KI + H2SO4 → I2 + K2SO4 + H2O
+B.	Ag2O + H2O2 → 2 Ag + H2O + O2
+C.	H2O2 + 2 FeSO4 + H2SO4 → Fe2(SO4)3 + 2 H2O
+D.	5 H2O2 + 2 KMnO4 + 3 H2SO4 → 5 O2 + 2 MnSO4 + K2SO4 + 8 H2O
+302.	Pre H2O2 platí:
+A.	v reakcii s KMnO4 sa kyslík peroxidu oxiduje aj redukuje
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	v roztokoch sa chová ako slabá kyselina
 C.	30% roztok sa používa v medicíne na dezinfekciu
 D.	3% roztok sa používa v medicíne na dezinfekciu
 303.	Ako oxidovadlo môže v chemických reakciách vystupovať:
+<<<<<<< HEAD
 A.	MnO_2
 B.	HNO_3
 C.	H_2S
@@ -1535,6 +2165,22 @@ A.	redoxná reakcia, pri ktorej dochádza k výmene len jedného elektrónu
 B.	4 KClO_3 → 3 KClO_4 + KCl
 C.	redoxná reakcia, pri ktorej sa jedna látka oxiduje aj redukuje
 D.	3 HNO_2 → HNO_3 + 2 NO + H_2O
+=======
+A.	MnO2
+B.	HNO3
+C.	H2S
+D.	Br-
+304.	Ako redukovadlo môže v chemických reakciách vystupovať:
+A.	H2S
+B.	KClO4
+C.	SO2
+D.	CO2
+305.	Dismutácia je:
+A.	redoxná reakcia, pri ktorej dochádza k výmene len jedného elektrónu
+B.	4 KClO3 → 3 KClO4 + KCl
+C.	redoxná reakcia, pri ktorej sa jedna látka oxiduje aj redukuje
+D.	3 HNO2 → HNO3 + 2 NO + H2O
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 
 306.	Ako oxidovadlo aj ako redukovadlo môže vystupovať:
 A.	kyselina dusičná
@@ -1546,7 +2192,11 @@ A.	dismutácia
 B.	redoxná
 C.	protolytická
 D.	ide o prípravu roztoku
+<<<<<<< HEAD
 308.	Pre reakciu Zn + HNO_3 → Zn(NO_3)_2 + H_2 platí:
+=======
+308.	Pre reakciu Zn + HNO3 → Zn(NO3)2 + H2 platí:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	Zn sa oxiduje, prijíma elektróny
 B.	Zn sa oxiduje, je redukovadlo
 C.	vodík sa redukuje, odovzdáva elektróny
@@ -1571,7 +2221,11 @@ A.	prebiehajú rýchlo, pretože sa pri nich uvoľňuje veľké množstvo tepeln
 B.	prebiehajú pomaly, pretože prostredie je nehomogénne
 C.	prebiehajú pomaly, pretože reaktanty sú málo rozpustné
 D.	prebiehajú veľmi rýchlo, pretože vyžadujú nízku aktivačnú energiu
+<<<<<<< HEAD
 313.	Súčin rozpustnosti K_s:
+=======
+313.	Súčin rozpustnosti Ks:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	udáva rozpustnosť kvapalnej, plynnej alebo kryštalickej látky
 B.	udáva maximálnu rozpustnosť soli za definovaných podmienok
 C.	charakterizuje rozpustnosť danej soli vo vode
@@ -1596,37 +2250,66 @@ D.	za daných podmienok je v roztoku rozpustené maximálne množstvo látky dan
 A.	je znížená
 B.	je zvýšená
 C.	sa nezmení, NaCl rozpustnosť neovplyvní
+<<<<<<< HEAD
 D.	sa zmenší ak pridáme katióny Ag^+
+=======
+D.	sa zmenší ak pridáme katióny Ag+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 318.	Pri určovaní množstva chloridov v moči možno použiť roztok:
 A.	dusičnanu strieborného
 B.	síranu sodného
 C.	dusičnanu draselného
+<<<<<<< HEAD
 D.	Ag(NO_3)_2
 319.	Z uvedených reakcií vyberte zrážacie reakcie:
 A.	NaOH + HCl → NaCl + H_2O
 B.	Pb(NO_3)_2 + 2 KI → PbI_2 + 2 KNO_3
 C.	Zn + CuSO_4 → ZnSO_4 + Cu
 D.	2 NaHCO_3 → Na_2CO_3 + H_2O + CO_2
+=======
+D.	Ag(NO3)2
+319.	Z uvedených reakcií vyberte zrážacie reakcie:
+A.	NaOH + HCl → NaCl + H2O
+B.	Pb(NO3)2 + 2 KI → PbI2 + 2 KNO3
+C.	Zn + CuSO4 → ZnSO4 + Cu
+D.	2 NaHCO3 → Na2CO3 + H2O + CO2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 320.	Pre hodnotu súčinu rozpustnosti Ks platí:
 A.	Ks závisí len od teploty a typu rozpúšťanej látky
 B.	čím je pri danej teplote hodnota Ks väčšia, tým je látka nerozpustnejšia
 C.	charakterizuje rozpustnosť tuhých elektrolytov
 D.	je konštanta, ktorá charakterizuje iónovú rovnováhu v roztokoch málo rozpustných elektrolytov
+<<<<<<< HEAD
 321.	Na základe známych hodnôt K_s pri teplote 25^oC vyberte najlepšie rozpustnú látku:
 A.	CaF_2: K_s = 3,4 . 10^-^1^1
 B.	AgCl: K_s = 8,3 . 10^-^1^7
 C.	CaCO_3: K_s = 4,5 . 10^-^9
 D.	BaSO_4: K_s = 1,4 . 10^-^1^0
+=======
+321.	Na základe známych hodnôt Ks pri teplote 25oC vyberte najlepšie rozpustnú látku:
+A.	CaF2: Ks = 3,4.10-11
+B.	AgCl: Ks = 8,3.10-17
+C.	CaCO3: Ks = 4,5.10-9
+D.	BaSO4: Ks = 1,4.10-10
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 322.	Vyberte správne výroky:
 A.	v roztoku sa začne vylučovať zrazenina, ak súčin koncentrácií voľných iónov v roztoku bude rovný jednej
 B.	čím je hodnota súčinu rozpustnosti menšia, tým je látka menej rozpustná
 C.	látka sa vo vode rozpúšťa dovtedy, kým hodnota súčinu jej iónov v roztoku nedosiahne hodnotu iónového súčinu vody
 D.	rozpustnosť danej látky môžeme ovplyvniť pridaním jedného z jej iónov do roztoku
 323.	Pri danej teplote je najmenej rozpustná zlúčenina:
+<<<<<<< HEAD
 A.	AgBr: ak Ks = 3,6 . 10^-^1^3
 B.	Ag_2CrO_4: ak za daných podmienok je jeho rozpustnosť 3,32 . 10^-^2 g/l
 C.	Ag_2SO_4: ak Ks = 7 . 10^-^5
 D.	AgOH: ak za daných podmienok je jeho rozpustnosť 3,95 . 10^-^3 g/l
+=======
+A.	AgBr: ak Ks = 3,6 . 10-13
+B.	Ag2CrO4: ak za daných podmienok je jeho rozpustnosť 3,32 . 10-2 g/l
+C.	Ag2SO4: ak Ks = 7 . 10-5
+
+D.	AgOH: ak za daných podmienok je jeho rozpustnosť 3,95 . 10-3 g/l
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 324.	Prirodzená rádioaktivita:
 A.	je samovoľný rozpad atómových jadier niektorých prvkov sprevádzaný rádioaktívnym žiarením
 B.	je samovoľný rozpad atómových jadier niektorých prvkov, pričom sa zvyšuje ich vnútorná energia
@@ -1639,11 +2322,19 @@ C.	rádioaktivita závisí od toho, či je atóm súčasťou zlúčeniny alebo p
 D.	objav rádioaktivity potvrdil nedeliteľnosť atómu
 326.	Rádioaktívne žiarenie:
 A.	alfa, beta a gama sa nedajú rozlíšiť podľa správania sa v elektrickom poli
+<<<<<<< HEAD
 B.	gama je elektromagnetické žiarenie s vlnovou dĺžkou 0,5 - 40 . 10^-^1^2 m
 C.	alfa a beta je prenikavejšie ako gama
 D.	gama je najprenikavejšie
 327.	O rádioaktívnom žiarení môžeme povedať:
 A.	žiarenie alfa je prúd atómových jadier hélia ^4_2He
+=======
+B.	gama je elektromagnetické žiarenie s vlnovou dĺžkou 0,5 - 40 . 10-12 m
+C.	alfa a beta je prenikavejšie ako gama
+D.	gama je najprenikavejšie
+327.	O rádioaktívnom žiarení môžeme povedať:
+A.	žiarenie alfa je prúd atómových jadier hélia 42He
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	žiarenie beta vzniká rozpadom jedného neutrónu na protón a elektrón, ktorý sa potom vyžiari
 C.	žiarenie alfa sa v elektrickom poli vychýli ako prúd záporných nábojov
 D.	ak atóm vyžiari časticu beta vznikne prvok, ktorý v PSP stojí o jedno miesto doprava
@@ -1668,6 +2359,7 @@ B.  4
 C.  6
 D.  8
 332.	Atóm chrómu má oxidačné číslo VI v zlúčenine:
+<<<<<<< HEAD
 A.	KCr(SO_4)_2
 B.	Cr2(SO_3)_3
 C.	[Cr(NH_3)_6]Cl_6
@@ -1732,6 +2424,74 @@ A.	roztok glukózy s koncentráciou 0,3 mol . dm^-^3
 B.	roztok NaCl s koncentráciou 0,15 mol . dm^-^3
 C.	roztok glukózy s koncentráciou 0,15 mol . dm^-^3
 D.	roztok NaCl s koncentráciou 0,3 mol . dm^-^3
+=======
+A.	KCr(SO4)2
+B.	Cr2(SO3)3
+C.	[Cr(NH3)6]Cl6
+
+D.	K2CrO4
+333.	Dihydrogénarseničnan horečnatý má vzorec:
+A.	Mg(H2AtO4)2
+B.	Mg(H2AsO3)2
+C.	Mg(H2AsO4)2
+D.	Mg(H2AsO4)
+334.	Jodistan vápenatý má vzorec:
+A.	Ca(IO3)2
+B.	Ca(IO4)2
+C.	CaIO4
+D.	CaI2O7
+335.	Vanád má oxidačné číslo V v zlúčenine:
+A.	AgVO3
+B.	Mg(VO2)2
+C.	Na2VO3
+D.	K[VCl6]
+336.	Fosfor má oxidačné číslo V v zlúčenine:
+A.	Na3PO4
+B.	Ca3(PO3)2
+C.	ATP
+D.	P4O10
+337.	Mangán má oxidačné číslo VI v zlúčenine:
+A.	K2MnO4
+B.	KMnO4
+C.	Al2(MnO4)3
+D.	MnO2
+338.	Centrálny atóm má oxidačné číslo III v zlúčenine:
+A.	[Cr(H2O)6]Cl3
+B.	Li[AlH4]
+C.	[Ag(NH3)2]Cl
+D.	Na3[CoF6]
+339.	Centrálny atóm má oxidačné číslo II v zlúčenine:
+A.	Na[Pb(OH)3]
+B.	[Co(H2O)6]SO4
+C.	K3[Fe(CN)6]
+D.	Li[BF4]
+340.	Centrálny atóm má oxidačné číslo II v zlúčenine:
+A.	[Cu(NH3)4]SO4
+B.	K4[Fe(CN)6]
+C.	[Fe(H2O)6]Cl3
+D.	H2[PtCl6]
+341.	Vyberte silné elektrolyty:
+A.	CaCl2
+B.	C6H12O6
+C.	HNO2
+D.	NH4OH
+
+342.	Medzi slabé elektrolyty patrí:
+A.	NH4OH
+B.	CH3COOH
+C.	CuSO4
+D.	Ni(NO3)2
+343.	Medzi neelektrolyty patrí:
+A.	H2O
+B.	C6H6
+C.	C6H12O6
+D.	HOOC-COOH
+344.	Fyziologický roztok je:
+A.	roztok glukózy s koncentráciou 0,3 mol . dm-3
+B.	roztok NaCl s koncentráciou 0,15 mol . dm-3
+C.	roztok glukózy s koncentráciou 0,15 mol . dm-3
+D.	roztok NaCl s koncentráciou 0,3 mol . dm-3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 345.	Osmóza je:
 A.	samovoľný prechod častíc rozpúšťadla cez semipermeabilnú membránu
 B.	samovoľný prechod častíc látky cez semipermeabilnú membránu
@@ -1755,7 +2515,11 @@ D.	je dej, pri ktorom častice rozpustenej látky prechádzajú cez polopriepust
 349.	Fyziologický roztok:
 A.	je izotonický s vnútorným prostredím bunky
 B.	izolované bunky pečene v ňom nemenia svoj objem
+<<<<<<< HEAD
 C.	je izotonický s roztokom sacharózy s koncentráciou 0,15 mol . l^-^1
+=======
+C.	je izotonický s roztokom sacharózy s koncentráciou 0,15 mol . l-1
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	je roztok glukózy
 350.	Látková premena v živých sústavách využíva okrem jednoduchej difúzie:
 A.	aktívny transport, ktorý podmieňuje prechod látky pomocou prenášačov proti koncentračnému spádu bez dodávania energie
@@ -1771,7 +2535,11 @@ D.	je tlak, ktorým musíme pôsobiť na povrch roztoku, aby sa zabránilo preni
 352.	Difúzia:
 A.	je prechod častíc rozpúšťadla z miesta s vyššou koncentráciou rozpúšťanej látky na miesto s jej nižšou koncentráciou
 B.	je samovoľný prechod častíc látky v smere koncentračného spádu
+<<<<<<< HEAD
 C.	nastane napríklad pri rozpúšťaní kryštalického KMnO_4 vo vode
+=======
+C.	nastane napríklad pri rozpúšťaní kryštalického KMnO4 vo vode
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	je formálne opakom dialýzy
 353.	Osmotický tlak:
 A.	je určený koncentráciou všetkých osmoticky aktívnych častíc v roztoku
@@ -1799,6 +2567,7 @@ B.	sú zlúčeniny, ktoré vo svojich molekulách obsahujú najmä uhlík, vodí
 C.	typu uhľovodíkov, okrem metánu a jeho derivátov, majú vo svojej molekule uhlíkový reťazec
 D.	nemôžeme ich pripraviť aj z anorganických zlúčenín
 358.	Uhlík v organických zlúčeninách:
+<<<<<<< HEAD
 A.	môže byť len v hybridizácii sp^3
 B.	môže byť v hybridizácii sp^3, sp^2, sp
 C.	tvorí najčastejšie dvojité a trojité väzby
@@ -1808,6 +2577,18 @@ A.	1s^2 2s^1 2p^3
 B.	1s^2 2s^2 2p^2
 C.	1s^2 2s^2 2p^1 2p^1 2p^1
 D.	[He] 2s^2 2p^2
+=======
+A.	môže byť len v hybridizácii sp3
+B.	môže byť v hybridizácii sp3, sp2, sp
+C.	tvorí najčastejšie dvojité a trojité väzby
+D.	je štvorväzbový
+
+359.	Elektrónová konfigurácia atómu uhlíka v základnom stave je:
+A.	1s2 2s1 2p3
+B.	1s2 2s2 2p2
+C.	1s2 2s2 2p 1 2p 1 2p1
+D.	[He] 2s2 2p2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 360.	Atóm uhlíka je:
 A.	primárny, ak v molekule zlúčeniny priamo viaže jeden atóm uhlíka
 B.	sekundárny, ak sa viaže s tromi ďalšími atómami uhlíka
@@ -1824,10 +2605,17 @@ B.	zinok
 C.	arzén
 D.	meď
 363.	Uhlík v organických zlúčeninách:
+<<<<<<< HEAD
 A.	tvorí 4 jednoduché väzby, ak sa nachádza v hybridizácii sp^2
 B.	sa môže viazať tak, že tvorí väzbové uhly 109^o
 C.	je štvorväzbový, preto nemôže tvoriť väzbové uhly 120^o
 D.	ak je v hybridizácii sp tvorí väzbové uhly 180^o
+=======
+A.	tvorí 4 jednoduché väzby, ak sa nachádza v hybridizácii sp2
+B.	sa môže viazať tak, že tvorí väzbové uhly 109o
+C.	je štvorväzbový, preto nemôže tvoriť väzbové uhly 120o
+D.	ak je v hybridizácii sp tvorí väzbové uhly 180o
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 364.	Atómy uhlíka sa môžu medzi sebou navzájom spájať väzbou:
 A.	vodíkovou
 B.	kovalentnou nepolárnou
@@ -1837,7 +2625,11 @@ D.	iónovou
 A.	obsahujú vo svojich molekulách prevažne nepolárne kovalentné väzby
 B.	nie sú dobre rozpustné vo vode, ale rozpúšťajú sa v polárnych rozpúšťadlách
 C.	prevažne sú rozpustné v nepolárnych rozpúšťadlách, napríklad v benzéne alebo iných kvapalných uhľovodíkoch
+<<<<<<< HEAD
 D.	sú horľavé a pri ich spaľovaní vzniká CO^2 a voda
+=======
+D.	sú horľavé a pri ich spaľovaní vzniká CO2 a voda
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 367.	O chemických vzorcoch v organickej chémii platí:
 A.	používame len sumárne, molekulové vzorce, ktoré určujú počet jednotlivých atómov v molekule
 B.	nestačí poznať len molekulový vzorec, lebo v organickej chémii je dôležité poznať aj štruktúru molekuly
@@ -1846,8 +2638,13 @@ D.	štruktúrny elektrónový vzorec uvádza aj usporiadanie valenčných elektr
 368.	Molekulový vzorec:
 A.	vyjadruje len typy atómov v molekule
 B.	vyjadruje typy atómov a ich počet v molekule
+<<<<<<< HEAD
 C.	je napríklad CH_3-CH_2-OH, C_2H_5OH
 D.	je napríklad C_6H_1_2O_6, C_3H_7Cl
+=======
+C.	je napríklad CH3-CH2-OH, C2H5OH
+D.	je napríklad C6H12O6, C3H7Cl
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 369.	Štruktúrny vzorec:
 A.	vyjadruje poradie, spôsob a typ viazania jednotlivých atómov v molekule
 B.	nazýva sa aj konštitučný vzorec
@@ -1878,6 +2675,10 @@ A.	polárna kovalentná väzba tak, že väzbový elektrónový pár sa presunie
 B.	v prítomnosti heterolytického činidla napríklad väzba C = C
 C.	napríklad násobná väzba medzi atómami uhlíka pôsobením NaOH
 D.	aj väzba C-H v molekule benzénu vplyvom nukleofilného činidla
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 375.	O chemických vlastnostiach organických zlúčenín platí:
 A.	závisia len od druhu atómov v reťazci
 B.	závisia od štruktúry molekuly
@@ -1897,11 +2698,19 @@ D.	je tvorená len dvomi väzbami π
 A.	len pôsobením UV žiarenia
 B.	pôsobením elektrofilného činidla
 C.	vždy za vzniku biradikálu
+<<<<<<< HEAD
 D.	pôsobením molekuly vody v prítomnosti H^+ ako katalyzátora
 379.	Homolytické činidlo:
 A.	je Cl^• ; H^•
 B.	môže byť Br2 v prítomnosti UV žiarenia
 C.	je aj Cl_2 v prítomnosti FeCl_3
+=======
+D.	pôsobením molekuly vody v prítomnosti H+ ako katalyzátora
+379.	Homolytické činidlo:
+A.	je Cl• ; H•
+B.	môže byť Br2 v prítomnosti UV žiarenia
+C.	je aj Cl2 v prítomnosti FeCl3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	môže byť len ultrafialové žiarenie, ionizačné žiarenie alebo zvýšená teplota
 380.	Radikálové činidlo:
 A.	je málo reaktívna častica s minimálne jedným nespáreným elektrónom
@@ -1911,7 +2720,11 @@ D.	väčšinou nie je elektricky nabitá častica
 381.	Heterolyticky môže zanikať väzba medzi atómami:
 A.	C-Br
 B.	akýmikoľvek
+<<<<<<< HEAD
 C.	C-NO_2
+=======
+C.	C-NO2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	C-C
 382.	Elektrofilné činidlo:
 A.	sa naväzuje na tú časť molekuly, kde je zvýšená elektrónová hustota
@@ -1919,10 +2732,18 @@ B.	sa naväzuje na tú časť molekuly, kde je znížená elektrónová hustota
 C.	môže byť len katión
 D.	môže byť len anión
 383.	Elektrofilným činidlom nemôže byť:
+<<<<<<< HEAD
 A.	katión Na^+, pretože má konfiguráciu vzácneho plynu a je nereaktívny
 B.	H^+, NO_2^+
 C.	častica s čiastkovým kladným nábojom δ^+
 D.	H_2O, NH_3
+=======
+A.	katión Na+, pretože má konfiguráciu vzácneho plynu a je nereaktívny
+B.	H+, NO2+
+C.	častica s čiastkovým kladným nábojom δ+
+D.	H2O, NH3
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 384.	Nukleofilné činidlo:
 A.	je napríklad molekula s voľným elektrónovým párom
 B.	môže byť len anión alebo katión
@@ -1932,7 +2753,11 @@ D.	sa naväzuje na tú časť molekuly, kde je čiastkový kladný náboj
 A.	katión vodíka alebo katión draslíka
 B.	anión
 C.	atóm s elektrónovým zriedením
+<<<<<<< HEAD
 D.	H_2O alebo NH_3
+=======
+D.	H2O alebo NH3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 386.	Indukčný efekt:
 A.	vzniká v dôsledku prítomnosti elektronegatívnejšieho atómu, resp. polárnej väzby
 B.	ide o posun elektrónov σ-väzieb v uhlíkovom reťazci
@@ -1944,14 +2769,22 @@ B.	záporný, ak atómy alebo skupiny spôsobia zvýšenie elektrónovej hustoty
 C.	vždy len záporný, pretože ide o posun elektrónov
 D.	kladný alebo záporný
 388.	Kladný indukčný efekt vyvolá:
+<<<<<<< HEAD
 A.	-CH_3
+=======
+A.	-CH3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	-R
 C.	-COOH
 D.	-SO3H
 389.	Záporný indukčný efekt vyvolá:
 A.	-Cl
 B.	-R
+<<<<<<< HEAD
 C.	-NH_2
+=======
+C.	-NH2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	-OH
 390.	Mezomérny efekt:
 A.	vzniká posunom polárneho efektu po π väzbách
@@ -2067,7 +2900,11 @@ C.	môže byť cis-/trans- izoméria
 D.	cis-/trans- sa nachádza aj v molekulách necyklických alkánov
 413.	Vyberte zlúčeninu, ktorá tvorí cis-/trans- izoméry:
 A.	pent-1-én
+<<<<<<< HEAD
 B.	hept^-^3-én
+=======
+B.	hept-3-én
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	2-metylpent-2-én
 D.	1,1-dichlóretén
 414.	Vyberte dvojice, ktoré tvoria cis-/trans- izoméry:
@@ -2076,12 +2913,21 @@ B.	kyselina maleínová a fumarová
 C.	kyselina malónová a ftalová
 D.	kyselina olejová a elaidová
 415.	Asymetrický uhlík:
+<<<<<<< HEAD
 A.	je uhlík v hybridizácii sp_2
 B.	je uhlík v hybridizácii sp_3
 C.	na ktorom sú naviazané aspoň dva substituenty
 D.	na ktorom sú naviazané 4 rôzne substituenty
 416.	Optická izoméria:
 A.	je typ izomérie, pri ktorej izoméry otáčajú rovinu polarizovaného svetla vždy o 90^o doľava alebo doprava
+=======
+A.	je uhlík v hybridizácii sp2
+B.	je uhlík v hybridizácii sp3
+C.	na ktorom sú naviazané aspoň dva substituenty
+D.	na ktorom sú naviazané 4 rôzne substituenty
+416.	Optická izoméria:
+A.	je typ izomérie, pri ktorej izoméry otáčajú rovinu polarizovaného svetla vždy o 90o doľava alebo doprava
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	je typ izomérie, pri ktorej izoméry otáčajú rovinu polarizovaného svetla o rovnaký uhol doľava alebo doprava
 C.	je podmienená prítomnosťou chirálneho uhlíka v molekule
 D.	je podmienená prítomnosťou uhlíka v hybridizácii sp
@@ -2091,10 +2937,18 @@ B.	je zmes pravotočivého a ľavotočivého izoméru v pomere 1 : 1
 C.	nie je opticky aktívna zmes
 D.	je roztok neelektrolytu
 418.	Vyberte, ktoré dvojice zlúčenín predstavujú tautoméry:
+<<<<<<< HEAD
 A.	CH_3-CH_2-COOH a CH_3-O-CH_3
 B.	CH_2=CH-OH a CH_3-CHO
 C.	CH_3-O-CH_3 a (CH_3-CH_2)_2O
 D.	CH_2=C(OH)-CH_3 a CH_3-CO-CH_3
+=======
+A.	CH3-CH2-COOH a CH3-O-CH3
+B.	CH2=CH-OH a CH3-CHO
+C.	CH3-O-CH3 a (CH3-CH2)2O
+
+D.	CH2=C(OH)-CH3 a CH3-CO-CH3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 419.	Vyberte, ktoré látky predstavujú enol a keto formu:
 A.	kyselina 2-hydroxypropánová a kyselina 2-oxopropánová
 B.	2- hydroxy-6-oxopyrimidín a 2,6-dioxopyrimidín
@@ -2140,10 +2994,18 @@ A.	etánu
 B.	eténu
 C.	etylénu
 D.	acetylénu
+<<<<<<< HEAD
 428.	Alyl je jednoväzbová skupina:
 A.	CH_2=CH-CH_2-
 B.	CH_3-CH=CH-CH_2-
 C.	CH_2=CH-
+=======
+
+428.	Alyl je jednoväzbová skupina:
+A.	CH2=CH-CH2-
+B.	CH3-CH=CH-CH2-
+C.	CH2=CH-
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	odvodená od propénu
 429.	Alkyly, R- :
 A.	sú napríklad formyl, acetyl
@@ -2173,15 +3035,26 @@ D.	chloroprén
 435.	Medzi acyklické uhľovodíky nepatrí:
 A.	3-metylbután
 B.	cyklopentán
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	naftalén
 D.	2-etylhexán
 436.	Alkány:
 A.	sú uhľovodíky, ktoré majú len lineárne reťazce s nepolárnymi jednoduchými väzbami
 B.	môžu byť lineárne, rozvetvené alebo cyklické
+<<<<<<< HEAD
 C.	nerozvetvené necyklické majú homologický vzorec C_nH_2_n_+_2
 D.	s nižším počtom uhlíkov sú rozpustné vo vode
 437.	Atóm uhlíka v alkánoch:
 A.	môže byť v hybridizácii sp^3, sp^2, sp
+=======
+C.	nerozvetvené necyklické majú homologický vzorec CnH2n+2
+D.	s nižším počtom uhlíkov sú rozpustné vo vode
+437.	Atóm uhlíka v alkánoch:
+A.	môže byť v hybridizácii sp3, sp2, sp
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	je vždy viazaný jednoduchými kovalentnými väzbami
 C.	je v molekulách nahradený aj atómom síry, dusíka alebo kyslíka
 D.	je štvorväzbový
@@ -2201,7 +3074,11 @@ B.	redoxné reakcie
 C.	radikálové adície
 D.	eliminácie
 441.	Reakciou alkánov s:
+<<<<<<< HEAD
 A.	kyslíkom vzniká CO_2 a voda
+=======
+A.	kyslíkom vzniká CO2 a voda
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	oxidačnými činidlami v prítomnosti katalyzátora vznikajú kyslíkaté zlúčeniny
 C.	HCl vznikajú chlórderiváty uhľovodíkov
 D.	aldehydmi vznikajú acetály
@@ -2214,12 +3091,20 @@ D.	ich charakteristické reakcie sú radikálové substitúcie
 A.	vzniká radikálovou substitúciou
 B.	reakciou chlóru s propánom v prítomnosti ultrafialového žiarenia
 C.	reakciou chlóru s propánom v prítomnosti chloridu hlinitého
+<<<<<<< HEAD
 D.	reakciou chlóru s propánom pri teplote 25^oC
+=======
+D.	reakciou chlóru s propánom pri teplote 25oC
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 444.	Pre alkány platí:
 A.	pri úplnom spaľovaní vzniká vždy oxid uhličitý a voda
 B.	reakciou s oxidačnými činidlami vznikajú alkoholy až karboxylové kyseliny
 C.	sú málo reaktívne
 D.	reakciou s oxidačnými činidlami priamo vznikajú estery
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 445.	Vyberte, ktoré reakcie môžu prebiehať:
 A.	alkán a koncentrovaná kyselina chlorovodíková
 B.	propán a chlór v prítomnosti ultrafialového žiarenia
@@ -2254,7 +3139,11 @@ D.	môžu tvoriť cis-/trans- izoméry
 A.	reakciou s brómovou vodou
 B.	biuretovou reakciou
 C.	Selivanovým činidlom
+<<<<<<< HEAD
 D.	reakciou s roztokom KMnO_4
+=======
+D.	reakciou s roztokom KMnO4
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 452.	Alkény:
 A.	možno zaradiť do homologického radu podobne ako alkány
 B.	majú podobné fyzikálne a chemické vlastnosti ako alkány
@@ -2265,6 +3154,10 @@ A.	elektrofilná substitúcia
 B.	elektrofilná adícia
 C.	nukleofilná adícia
 D.	dehydrogenácia
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 454.	Podľa Markovnikovho pravidla platí:
 A.	pri elektrofilnej adícii sa elektrofil naväzuje na uhlík s menším počtom atómov vodíka
 B.	pri elektrofilnej adícii na asymetrický alkén sa elektrofil naväzuje na uhlík z dvojitej väzby, ktorý má väčší počet atómov vodíka
@@ -2280,6 +3173,10 @@ A.	v molekule majú dva atómy uhlíka v hybridizácii sp
 B.	sú menej reaktívne ako alkény
 C.	charakteristické reakcie alkínov sú elektrofilné substitúcie
 D.	nereagujú s alkoholmi
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 459.	Charakteristické reakcie alkínov sú:
 A.	nukleofilné substitúcie
 B.	elektrofilné adície
@@ -2287,7 +3184,11 @@ C.	dehydrogenácie
 D.	napríklad adície halogénvodíkov
 460.	Alkíny môžu reagovať s:
 A.	alkalickými hydroxidmi
+<<<<<<< HEAD
 B.	halogénmi v prítomnosti katalyzátora typu AIX_3
+=======
+B.	halogénmi v prítomnosti katalyzátora typu AIX3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	vodou
 D.	halogénvodíkmi
 461.	Vyberte správne reakcie:
@@ -2320,7 +3221,11 @@ D.	sú napríklad izoprén a 1,3-butadién
 A.	majú v molekule dve dvojité väzby, ktoré vychádzajú z jedného atómu uhlíka
 B.	nie sú stabilné a ľahko prešmykujú na alkíny
 C.	nie sú stabilné a ľahko sa štiepia na dva alkény
+<<<<<<< HEAD
 D.	majú molekulový vzorec C_nH_2_n
+=======
+D.	majú molekulový vzorec CnH2n
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 468.	Konjugovaný systém dvojitých väzieb sa nachádza v molekule uhľovodíka:
 A.	2,4,5-hexatriénu
 B.	chloroprénu
@@ -2329,7 +3234,11 @@ D.	1,3,5-hexatriénu
 469.	Roztok KMnO4 pri reakcii s nenasýtenými alkénmi mení farbu:
 A.	mení červenofialovú farbu, pretože dochádza k oxidácii dvojitých väzieb
 B.	sa odfarbuje, pretože dochádza k oxidácii mangánu
+<<<<<<< HEAD
 C.	pretože sa Mn^V^I^I redukuje na Mn^I^V
+=======
+C.	pretože sa MnVII redukuje na MnIV
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	pretože vznikajú rôzne oxidačné produkty, napríklad fenoly
 470.	Z eténu môžeme vyrobiť zlúčeninu:
 A.	vinylchlorid
@@ -2360,17 +3269,29 @@ D.	sú typické pre aromatické uhľovodíky
 A.	vzniká 2-metylpentán-2-ol
 B.	vzniká terciárny alkohol
 C.	vzniká sekundárny alkohol
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	ide o nukleofilnú substitúciu
 476.	Cyklohexén od cyklohexánu sa líši:
 A.	reakciou s brómovou vodou
 B.	reakciou s Tollensovým činidlom
 C.	tým, že dáva pozitívnu jodoformovú reakciu
+<<<<<<< HEAD
 D.	tým, že fialový roztok KMnO_4 pri reakcii s cyklohexénom sa odfarbí a vznikne hnedá zrazenina
+=======
+D.	tým, že fialový roztok KMnO4 pri reakcii s cyklohexénom sa odfarbí a vznikne hnedá zrazenina
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 477.	2,2,3,3-tetrachlórbután vznikne reakciou:
 A.	but-2-énu s HCl
 B.	but-2-ínu s dvomi molekulami chlóru
 C.	nukleofilnou adíciou chlóru
+<<<<<<< HEAD
 D.	elektrofilnou adíciou chlóru na but-2-ín v prítomnosti napr. AlCl_3
+=======
+D.	elektrofilnou adíciou chlóru na but-2-ín v prítomnosti napr. AlCl3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 478.	O nenasýtených uhľovodíkoch neplatí:
 A.	vznikajú dehydratáciou alkoholov
 B.	vznikajú dehydrogenáciou alkoholov
@@ -2416,7 +3337,11 @@ D.	je ester kyseliny šťaveľovej
 A.	je 1,3,5-cyklohexatrién
 B.	je nenasýtený uhľovodík
 C.	má atómy uhlíka v hybridizácii sp, preto je dĺžka všetkých väzieb v aromatickom kruhu 0,139 nm
+<<<<<<< HEAD
 D.	je pravidelný šesťuholník, ktorého uhlíky v cykle majú hybridizáciu sp^2
+=======
+D.	je pravidelný šesťuholník, ktorého uhlíky v cykle majú hybridizáciu sp2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 487.	O benzéne platí:
 A.	charakteristickou reakciou je elektrofilná adícia
 B.	je nestabilný a rozkladá sa už pri izbovej teplote, preto pri práci s ním treba vetrať
@@ -2430,7 +3355,11 @@ D.	v priestore majú vaničkovú formu
 489.	Pre arény neplatí:
 A.	majú rovinné molekuly
 B.	ich charakteristické reakcie sú adície elektrofilné
+<<<<<<< HEAD
 C.	atómy uhlíka v molekule benzénu tvoria tri σ-väzby, ktoré zvierajú uhol 120^o
+=======
+C.	atómy uhlíka v molekule benzénu tvoria tri σ-väzby, ktoré zvierajú uhol 120o
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	za bežných podmienok reagujú rovnako ako nenasýtené uhľovodíky
 490.	O arénoch platí tvrdenie:
 A.	benzén sa kumuluje v mozgu
@@ -2452,6 +3381,10 @@ A.	kumén
 B.	p-xylén
 C.	krezol
 D.	dioxán
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 494.	Charakteristické reakcie benzénu sú:
 A.	reakcie nukleofilné a radikálové
 B.	substitúcie elektrofilné
@@ -2464,7 +3397,11 @@ C.	nitrácia a sulfonácia
 D.	vznik hexachlórhexánu
 496.	Nitrobenzén pripravíme:
 A.	reakciou benzénu s kyselinou dusitou
+<<<<<<< HEAD
 B.	reakciou benzénu s HNO_3 v prítomnosti kyseliny sírovej
+=======
+B.	reakciou benzénu s HNO3 v prítomnosti kyseliny sírovej
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	adíciou nitrózoskupiny na benzénové jadro
 D.	nitráciou benzénu
 497.	Charakteristické reakcie arénov sú:
@@ -2483,7 +3420,11 @@ B.	benzénu a chlóru v prítomnosti UV žiarenia
 C.	katalytická hydrogenácia benzénu
 D.	benzénu a chloridu kyseliny octovej v prítomnosti chloridu hlinitého
 500.	Radikálovým mechanizmom prebieha reakcia:
+<<<<<<< HEAD
 A.	chlorácia benzénu v prítomnosti FeCl_3
+=======
+A.	chlorácia benzénu v prítomnosti FeCl3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	chlorácia benzénu v prítomnosti UV žiarenia
 C.	adícia vodíka v prítomnosti Pt
 D.	hydrogenácia benzénu za prítomnosti katalyzátora
@@ -2497,6 +3438,10 @@ A.	vznik trinitrotoluénu z toluénu
 B.	reakcia brómetánu a etanolátu draselného
 C.	reakcia eténu s HCl
 D.	vznik vinylbenzénu z benzénu
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 503.	K aromatickým zlúčeninám nepatrí:
 A.	hydrochinón
 B.	rezorcinol
@@ -2508,14 +3453,24 @@ B.	funkčný derivát kyseliny benzoovej
 C.	jednoväzbová skupina odvodená od kyseliny benzoovej
 D.	chlórderivát odvodený od toluénu
 506.	Do polohy orto- a para- orientujú ďalšiu substitúciu:
+<<<<<<< HEAD
 A.	-NH_2
 B.	-NO_2
+=======
+A.	-NH2
+B.	-NO2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	R-
 D.	-COOH
 507.	Do polohy meta- orientujú ďalšiu substitúciu:
 A.	-Cl
+<<<<<<< HEAD
 B.	-SO_3H
 C.	-NO_2
+=======
+B.	-SO3H
+C.	-NO2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	-OH
 508.	Na prípravu meta-chlórnitrobenzénu je najvhodnejší:
 A.	toluén
@@ -2585,9 +3540,15 @@ C.	nitrácia anilínu prebieha ťažšie ako nitrácia benzénu
 D.	metylácia benzaldehydu prebieha ťažšie ako metylácia benzénu
 522.	Vyberte správne výroky:
 A.	reakcia vzniku acetylbenzénu z benzénu je alkylácia
+<<<<<<< HEAD
 B.	reakcia benzénu s H_2SO_4 je elektrofilná substitúcia
 C.	nitrácia benzénu je reakcia vzniku anilínu
 D.	reakcia benzénu s Cl_2 za katalýzy FeCl_3 je radikálová adícia
+=======
+B.	reakcia benzénu s H2SO4 je elektrofilná substitúcia
+C.	nitrácia benzénu je reakcia vzniku anilínu
+D.	reakcia benzénu s Cl2 za katalýzy FeCl3 je radikálová adícia
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 523.	Vyberte správne výroky:
 A.	oxidáciou kuménu vzniká fenol
 B.	hydrogenáciou styrénu vzniká etylbenzén
@@ -2620,7 +3581,11 @@ C.	používa sa na dezinfekciu
 D.	je pre človeka toxický
 530.	Pre freóny platí:
 A.	sú heterocykly, ktoré majú v molekule aspoň dva halogény, z ktorých jeden musí byť fluór
+<<<<<<< HEAD
 B.	CCl_2F_2 je dobrým rozpúšťadlom najmä tukov
+=======
+B.	CCl2F2 je dobrým rozpúšťadlom najmä tukov
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	vo vyšších vrstvách atmosféry sa rozkladajú za vzniku fluóru a spôsobujú rozklad ozónu
 D.	vo vyšších vrstvách atmosféry sa rozkladajú za vzniku radikálu chlóru a spôsobujú rozklad ozónu
 531.	Freóny:
@@ -2628,6 +3593,10 @@ A.	sú deriváty uhľovodíkov, ktoré v molekule obsahujú aspoň dva rôzne ho
 B.	sú deriváty uhľovodíkov, ktoré v molekule obsahujú aspoň dva rôzne halogény, z ktorých jeden musí byť fluór
 C.	sú napríklad dibrómdifluórmetán a chlórfluórmetán
 D.	sú napríklad dichlórdibrómmetán a dichlórtrijódmetán
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 532.	Vyberte nesprávne tvrdenie:
 A.	dichlóretén, hexachlórcyklohexán, chloroform, tetrachlórmetán, chlórbenzén sú látky, ktoré poškodzujú zdravie
 B.	dichlóretén, hexachlórcyklohexán, chloroform, tetrachlórmetán, chlórbenzén majú karcinogénne účinky
@@ -2645,10 +3614,17 @@ C.	závisí od energie, polarity a polarizovateľnosti väzby C-halogén
 D.	stúpa v poradí C-F < C-Cl < C-Br < C-I
 535.	Charakteristické reakcie halogénderivátov uhľovodíkov sú:
 A.	elektrofilné substitúcie, pretože na atóme halogénu sú voľné elektrónové páry
+<<<<<<< HEAD
 B.	nukleofilné substitúcie, pretože na uhlíku vedľa halogénu je δ^+
 C.	nukleofilné adície
 D.	radikálové substitúcie
 536.	Reaktivita halogénderivátov uhľovodíkov pri S_N závisí:
+=======
+B.	nukleofilné substitúcie, pretože na uhlíku vedľa halogénu je δ+
+C.	nukleofilné adície
+D.	radikálové substitúcie
+536.	Reaktivita halogénderivátov uhľovodíkov pri SN závisí:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	len od halogénu, ktorý je naviazaný na atóme uhlíka
 B.	len od počtu uhlíkov v molekule halogénderivátu
 C.	od typu halogénu, hybridizácie atómu uhlíka, skupiny viazanej na C s halogénom
@@ -2666,13 +3642,21 @@ D.	dichlorid kyseliny etánovej
 539.	Dietyléter môže vzniknúť reakciou:
 A.	metoxidu sodného a 1-chlórpropánu
 B.	etoxidu draselného a chlóretánu
+<<<<<<< HEAD
 C.	CH_3CH_2OK a C_2H_5Cl
+=======
+C.	CH3CH2OK a C2H5Cl
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	NaOH a C2H5Cl
 540.	Chlorid uhličitý:
 A.	má triviálny názov fosgén
 B.	je nepolárne rozpúšťadlo
 C.	vzniká reakciou acetylidu vápenatého s vodou
 D.	je nehorľavý
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 541.	Halogénderiváty uhľovodíkov môžeme pripraviť:
 A.	radikálovou substitúciou z alkánov
 B.	elektrofilnou substitúciou z alkénov
@@ -2681,7 +3665,11 @@ D.	elektrofilnou substitúciou z arénov
 542.	O halogénderivátoch uhľovodíkov platí:
 A.	nukleofilné substitúcie prebiehajú ľahšie na halogénalkánoch ako na halogénalkénoch
 B.	ak je halogén naviazaný na aromatické jadro, neprebiehajú substitúcie nukleofilné ale elektrofilné
+<<<<<<< HEAD
 C.	S_N na arylhalogenidoch a nenasýtených alkylhalogenidoch prebiehajú neochotne
+=======
+C.	SN na arylhalogenidoch a nenasýtených alkylhalogenidoch prebiehajú neochotne
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	môžeme ich pripraviť polymerizáciou alkénov
 543.	Eliminácie u halogénderivátov uhľovodíkov:
 A.	nie sú možné
@@ -2695,9 +3683,15 @@ C.	alkén
 D.	alkán
 545.	Vyberte reakcie, ktoré môžu prebiehať:
 A.	alkén + HBr → brómalkán
+<<<<<<< HEAD
 B.	alkén + Br_2 → dibrómalkán
 C.	alkán + HCl → chlóralkán
 D.	alkén + H_2O → ketón
+=======
+B.	alkén + Br2 → dibrómalkán
+C.	alkán + HCl → chlóralkán
+D.	alkén + H2O → ketón
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 546.	Reakciou benzylchloridu s metoxidom sodným vzniká:
 A.	ester
 B.	propylbenzén
@@ -2706,16 +3700,26 @@ D.	éter
 547.	Dietyléter môže vznikať reakciou:
 A.	metoxidu sodného a 1-chlórpropánu
 B.	metoxidu draselného a chlóretánu
+<<<<<<< HEAD
 C.	CH_3CH_2OK a C_2H_5Cl
 D.	C_2H_5OH a C_2H_5Cl
+=======
+C.	CH3CH2OK a C2H5Cl
+D.	C2H5OH a C2H5Cl
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 550.	Reakcia alkylhalogenidu s alkoxidom je:
 A.	elektrofilná adícia
 B.	nukleofilná adícia
 C.	nukleofilná substitúcia
 D.	reakcia vzniku éteru
 551.	Nitrozlúčeniny sú deriváty uhľovodíkov, ktoré:
+<<<<<<< HEAD
 A.	majú atóm vodíka v molekule uhľovodíka nahradený -NO_2
 B.	vznikajú S_N z halogénderivátov uhľovodíkov a dusitanov
+=======
+A.	majú atóm vodíka v molekule uhľovodíka nahradený -NO2
+B.	vznikajú SN z halogénderivátov uhľovodíkov a dusitanov
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	vznikajú reakciou alkoholu s kyselinou dusitou
 D.	majú v molekule nitrózoskupinu
 552.	Nitrozlúčeniny vznikajú:
@@ -2729,22 +3733,39 @@ B.	redukciou anilínu
 C.	priamou reakciou uhľovodíkov so zriedenou kyselinou dusičnou pri vysokej teplote
 D.	substitúciou atómu uhlíka dusíkom a následnou oxidáciou
 554.	O nitrozlúčeninách platí:
+<<<<<<< HEAD
 A.	skupina –NO_2 je silným nukleofilom
 B.	skupina –NO_2 vyvoláva záporný indukčný a záporný mezomérny efekt
 C.	patria medzi najmenej polárne organické zlúčeniny
 D.	skupina –NO_2 sa ľahko oxiduje
+=======
+A.	skupina –NO2 je silným nukleofilom
+B.	skupina –NO2 vyvoláva záporný indukčný a záporný mezomérny efekt
+C.	patria medzi najmenej polárne organické zlúčeniny
+D.	skupina –NO2 sa ľahko oxiduje
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 555.	O nitroderivátoch platí:
 A.	nitrobenzén sa redukuje vodíkom za prítomnosti katalyzátorov (Pt, Ni) na anilín
 B.	nitroderiváty, ktoré obsahujú v molekule viac nitroskupín sú výbušné
 C.	používajú sa hlavne na výrobu polymérov
 D.	používajú sa na výrobu farieb, výbušnín a liekov
+<<<<<<< HEAD
 556.	Redukciou nitroarénov vznikajú:
 A.	v kyslom prostredí amíny s charakteristickou skupinou –NH_2
+=======
+
+556.	Redukciou nitroarénov vznikajú:
+A.	v kyslom prostredí amíny s charakteristickou skupinou –NH2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	v neutrálnom prostredí hydroxylamíny s charakteristickou skupinou –NH-OH
 C.	v alkalickom prostredí hydrazozlúčeniny –NH-NH-
 D.	vždy vznikajú amíny bez ohľadu na pH prostredia
 557.	Aminoderiváty:
+<<<<<<< HEAD
 A.	delíme na primárne, sekundárne a terciárne podľa typu uhlíka, na ktorom je naviazaná –NH_2 skupina
+=======
+A.	delíme na primárne, sekundárne a terciárne podľa typu uhlíka, na ktorom je naviazaná –NH2 skupina
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	sú primárne, sekundárne alebo terciárne podľa toho, koľko atómov vodíka v amoniaku teoreticky nahradíme uhľovodíkovým zvyškom
 C.	majú amfotérny charakter
 D.	s kyselinami tvoria amóniové soli
@@ -2754,9 +3775,15 @@ B.	molekuly rozpustných amínov tvoria s molekulami vody vodíkové väzby
 C.	všetky amíny majú amoniakálny zápach
 D.	všetky amíny sú biele kryštalické látky
 559.	Medzi primárne amíny patrí:
+<<<<<<< HEAD
 A.	(CH_3)N
 B.	NH_2-(CH_2)_6-NH_2
 C.	CH_3-CH(CH_3)-NH_2
+=======
+A.	(CH3)N
+B.	NH2-(CH2)6-NH2
+C.	CH3-CH(CH3)-NH2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	pyrol
 560.	Zásadité vlastnosti aminoderivátov:
 A.	podmieňuje voľný elektrónový pár na atóme dusíka
@@ -2783,6 +3810,10 @@ A.	anilín
 B.	etándiamín
 C.	hexándiamín
 D.	dimetylamín
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 565.	O anilíne platí:
 A.	má slabo kyslé vlastnosti
 B.	je sekundárny amín
@@ -2796,7 +3827,11 @@ D.	kopulácia
 567.	Anilín:
 A.	vzniká oxidáciou nitrobenzénu
 B.	vzniká redukciou nitrobenzénu vodíkom
+<<<<<<< HEAD
 C.	má vzhľadom na kladný mezomérny efekt –NH_2 skupiny slabo kyslý charakter
+=======
+C.	má vzhľadom na kladný mezomérny efekt –NH2 skupiny slabo kyslý charakter
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	má zásaditý charakter
 568.	Dve aminoskupiny v molekule má:
 A.	alanín
@@ -2828,8 +3863,14 @@ A.	sekundárne amíny pôsobia ako elektrofilné činidlá
 B.	amíny pôsobia ako nukleofilné činidlá
 C.	diazotácia prebieha len pri vysokých teplotách
 D.	primárne amíny reagujú s halogénderivátmi uhľovodíkov za vzniku sekundárnych amínov
+<<<<<<< HEAD
 574.	Diazóniové soli vznikajú:
 A.	reakciou primárnych aromatických alebo alifatických amínov s NaNO_2 v prostredí HCl
+=======
+
+574.	Diazóniové soli vznikajú:
+A.	reakciou primárnych aromatických alebo alifatických amínov s NaNO2 v prostredí HCl
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	vznikajú kopuláciou
 C.	oxidáciou primárnych amínov
 D.	reakciou primárnych amínov s alkalickým dusitanom v prostredí kyseliny chlorovodíkovej
@@ -2873,6 +3914,10 @@ A.	azobenzén
 B.	anilínová čerň
 C.	azozlúčenina
 D.	diazóniová soľ
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 583.	Dehydratáciou 2-pentanolu vzniká:
 A.	3-pentén
 B.	pentán
@@ -2895,7 +3940,11 @@ C.	medzi molekulami nižších hydroxyderivátov sa tvoria kyslíkové väzby
 D.	vyššie alkoholy sú kvapaliny príjemného zápachu a omamných účinkov
 587.	Metanol:
 A.	je surovinou na výrobu formaldehydu
+<<<<<<< HEAD
 B.	pripravíme podľa rovnice: CO + 2 H_2 → CH_3-OH pri zvýšenej teplote za prítomnosti katalyzátora
+=======
+B.	pripravíme podľa rovnice: CO + 2 H2 → CH3-OH pri zvýšenej teplote za prítomnosti katalyzátora
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	je pre človeka toxický, letálna dávka je 20 - 50 ml
 D.	od etanolu sa líši hlavne zápachom
 588.	Etanol:
@@ -2964,6 +4013,10 @@ A.	vzniká reakciou sekundárneho alkoholu s vodou v kyslom prostredí
 B.	je kyslejší ako primárny alkohol
 C.	je napríklad pyrogalol
 D.	nemôže sa oxidovať za vzniku aldehydu
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 604.	Reakciou kyseliny s alkoholom vzniká:
 A.	alkoxid
 B.	alkoxóniová soľ
@@ -2999,7 +4052,11 @@ A.	alkoxid
 B.	napríklad alkoholát sodný
 C.	fenoxid
 D.	soľ alkoholu
+<<<<<<< HEAD
 611.	Zlúčenina CH_3CH_2OK :
+=======
+611.	Zlúčenina CH3CH2OK :
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	je etoxid draselný
 B.	etanoát draselný
 C.	etanolát draselný
@@ -3009,6 +4066,10 @@ A.	pripravíme reakciou kyseliny benzoovej s draslíkom
 B.	vzniká reakciou fenolu s hydroxidom draselným
 C.	má v molekule iónovú väzbu
 D.	vzniká reakciou toluénu s draslíkom
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 613.	Alkoxóniové soli vznikajú:
 A.	oxidáciou alkoholov
 B.	reakciou alkoholu s minerálnymi kyselinami
@@ -3021,8 +4082,13 @@ C.	v dôsledku negatívneho mezomérneho efektu –OH skupiny
 D.	nie sú kyslejšie, pretože kyslík je silne elektronegatívny a priťahuje si elektróny z aromatického jadra
 615.	Metanol od etanolu rozlíšime:
 A.	podľa vône
+<<<<<<< HEAD
 B.	reakciou s KMnO_4
 C.	reakciou s I_2 v prostredí alkalického hydroxidu
+=======
+B.	reakciou s KMnO4
+C.	reakciou s I2 v prostredí alkalického hydroxidu
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	jodoformovou reakciou
 616.	Medzi fenoly zaraďujeme:
 A.	kyselinu salicylovú
@@ -3040,7 +4106,11 @@ B.	dehydrogenáciou hydrochinónu
 C.	dehydratáciou hydrochinónu
 D.	oxidáciou hydrochinónu
 619.	Vyberte správne tvrdenie:
+<<<<<<< HEAD
 A.	fenoly s FeCl_3 dávajú farebné reakcie
+=======
+A.	fenoly s FeCl3 dávajú farebné reakcie
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	fenol je dobre rozpustný vo vode
 C.	fenol vzniká oxidáciou kuménu
 D.	úplnou hydrogenáciou fenolu vzniká cyklohexán
@@ -3054,16 +4124,27 @@ A.	dehydratáciou metántiolu
 B.	oxidáciou metántiolu
 C.	redukciou metántiolu
 D.	z organických peroxidov
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 622.	Disulfidová väzba:
 A.	vzniká oxidáciou tiolov
 B.	sa nachádza aj v molekulách bielkovín
 C.	vzniká hydrogenáciou etántiolu
 D.	sa podieľa na sekundárnej štruktúre bielkovín
 623.	Metamérom dibutyléteru je:
+<<<<<<< HEAD
 A.	CH_3–CH_2–CH_2–O–CH_2–CH_2–CH_2–CH_2–CH_3
 B.	CH_3–CH_2–CH_2–CH_2–CH_2–CH_2–CH_2–O–CH_3
 C.	CH_3–CH_2–CH_2–O–CH_2–CH_2–CH_3
 D.	CH_3–CH_2–CH_2–CH_2–CH_2–CH_2–CH_2–CHO
+=======
+A.	CH3– CH2– CH2–O–CH2– CH2– CH2– CH2–CH3
+B.	CH3– CH2– CH2– CH2– CH2– CH2–CH2–O–CH3
+C.	CH3– CH2– CH2–O–CH2– CH2–CH3
+D.	CH3– CH2– CH2– CH2– CH2– CH2– CH2–CHO
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 624.	O éteroch môžeme povedať:
 A.	majú nižšie teploty varu ako príslušné alkoholy
 B.	medzi molekulami éterov sa tvoria kyslíkové väzby
@@ -3099,6 +4180,10 @@ A.	jednosýtne s najnižším počtom atómov uhlíka v molekule sú bezfarebné
 B.	s najnižším počtom atómov uhlíka v molekule sú vo vode veľmi dobre rozpustné
 C.	sú vo vode nerozpustné, pretože nedochádza k disociácii
 D.	ich rozpustnosť vo vode stúpa s rastúcim počtom atómov uhlíka v molekule
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 631.	Alkoholy majú vyššie teploty varu v porovnaní so základnými uhľovodíkmi pretože:
 A.	medzi molekulami alkoholov sa netvoria vodíkové väzby
 B.	medzi molekulami alkoholov sa tvoria vodíkové väzby
@@ -3139,11 +4224,20 @@ A.	je kvapalina príjemnej vône, preto sa používa na odorizáciu zemného ply
 B.	má v molekule dve -SH skupiny
 C.	je sírna obdoba etylalkoholu
 D.	dehydrogenáciou vzniká dietyldisulfid
+<<<<<<< HEAD
 639.	Reakciou etanolu s H_2SO_4 vzniká:
 A.	pri zvýšenej teplote etén
 B.	za studena ester
 C.	CH_3–CH_2–O–SO_3H pri nízkej teplote
 D.	CH_3–CH_2–O–O–SO_3H pri nízkej teplote
+=======
+639.	Reakciou etanolu s H2SO4 vzniká:
+A.	pri zvýšenej teplote etén
+B.	za studena ester
+C.	CH3-CH2-O-SO3H pri nízkej teplote
+D.	CH3-CH2-O-O-SO3H pri nízkej teplote
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 640.	Hydroxyderiváty uhľovodíkov poskytujú reakcie:
 A.	produktom dehydrogenácie sekundárneho alkoholu je zlúčenina typu R-CO-R
 B.	oxidáciou –OH skupiny v kyseline mliečnej vzniká oxoskupina
@@ -3160,20 +4254,35 @@ B.	elektrofilné substitúcie fenolov prebiehajú ľahšie ako nesubstituovanýc
 C.	hydroxylové skupiny sa vyskytujú aj v molekulách sterolov, sacharidov, bielkovín, cholesterolu, vitamínu A, vitamínu E
 D.	etylalkohol je jednosýtny sekundárny alkohol
 643.	Vyberte, čo platí o fenole:
+<<<<<<< HEAD
 A.	reakciou s Cl_2 v prítomnosti FeCl_3 vzniká o-chlórfenol alebo p-chlórfenol
+=======
+A.	reakciou s Cl2 v prítomnosti FeCl3 vzniká o-chlórfenol alebo p-chlórfenol
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	reakciou s HCl vzniká fenyloxónium chlorid
 C.	reakciou s metanolom vzniká fenylester
 D.	reakciou s draslíkom vzniká fenoxid draselný
 644.	Vyberte karbonylové zlúčeniny:
+<<<<<<< HEAD
 A.	CH_3-CO-C_6H_5
+=======
+A.	CH3-CO-C6H5
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	acetofenón
 C.	pyrogalol
 D.	R-CO-O-R
 645.	Vyberte, ktoré zo zlúčenín sú karbonylové zlúčeniny:
+<<<<<<< HEAD
 A.	CH_2O
 B.	NH_2-CO-NH_2
 C.	CH_3-O-CH_3
 D.	CH_3-CO-CH_3
+=======
+A.	CH2O
+B.	NH2-CO-NH2
+C.	CH3-O-CH3
+D.	CH3-CO-CH3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 647.	O karbonylových zlúčeninách platí:
 A.	majú nižšiu teplotu varu ako hydroxyderiváty uhľovodíkov, lebo medzi ich molekulami sa netvoria vodíkové väzby
 B.	nižšie aldehydy a ketóny sú dobre rozpustné vo vode, lebo s molekulami vody tvoria vodíkové väzby
@@ -3217,8 +4326,13 @@ D.	s karboxylovými kyselinami za vzniku esterov
 655.	Acetálová reakcia:
 A.	má význam v priemysle
 B.	používa sa na ochranu aldehydovej skupiny pred oxidáciou
+<<<<<<< HEAD
 C.	prebieha len v prítomnosti H^+ ako katalyzátora, ktorý potlačí disociáciu vodíka aldehydu
 D.	prebieha len v prítomnosti H^+ ako katalyzátora, ktorý zvyšuje reaktivitu karbonylového uhlíka
+=======
+C.	prebieha len v prítomnosti H+ ako katalyzátora, ktorý potlačí disociáciu vodíka aldehydu
+D.	prebieha len v prítomnosti H+ ako katalyzátora, ktorý zvyšuje reaktivitu karbonylového uhlíka
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 659.	O aldehydoch a ketónoch platí:
 A.	vyššie aldehydy a ketóny sú súčasťou prírodných chuťových a vonných látok
 B.	benzaldehyd je kvapalina horkomandľovej vône a nachádza sa napríklad v kôstkach horkých mandlí
@@ -3270,7 +4384,11 @@ B.	používa sa na výrobu lakov, farieb, rozpúšťadiel
 C.	vzniká v organizme pri vážnej dehydratácii a pri metabolických dejoch u diabetikov
 D.	je prchavá nehorľavá kvapalina
 671.	O redoxných reakciách ketónov platí:
+<<<<<<< HEAD
 A.	pri redukcii ketónov v prítomnosti H^+ vznikajú primárne alebo sekundárne alkoholy
+=======
+A.	pri redukcii ketónov v prítomnosti H+ vznikajú primárne alebo sekundárne alkoholy
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	redukciou ketónov vznikajú sekundárne alkoholy
 C.	ketóny sa v prítomnosti oxidačných činidiel oxidujú na primárne alkoholy
 D.	ketóny sa za bežných podmienok neoxidujú
@@ -3285,15 +4403,25 @@ B.	Fehlingovým činidlom
 C.	biuretovou reakciou
 D.	brómovou vodou
 674.	Haloformová reakcia:
+<<<<<<< HEAD
 A.	je reakcia halogénu v zásaditom prostredí s karbonylovou zlúčeninou typu CH_3–CO–R
+=======
+A.	je reakcia halogénu v zásaditom prostredí s karbonylovou zlúčeninou typu CH3–CO–R
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	prebieha na a-uhlíku metylketónov a acetaldehydu
 C.	podmienkou pozitívnej jodoformovej reakcie je prítomnosť metylovej skupiny na karbonylovom uhlíku
 D.	je napríklad reakcia jódu s formaldehydom v prítomnosti NaOH
 677.	Jodoformová reakcia:
 A.	je reakcia jódu v zásaditom prostredí s ľubovoľnými aldehydmi alebo ketónmi za vzniku jodoformu
+<<<<<<< HEAD
 B.	je dôkazová reakcia prítomnosti skupiny –CO–CH_3
 C.	ak je pozitívna, vzniká červená kryštalická látka CHI_3
 D.	ak je pozitívna, vzniká žltá kryštalická látka, jodoform CHI_3
+=======
+B.	je dôkazová reakcia prítomnosti skupiny –CO–CH3
+C.	ak je pozitívna, vzniká červená kryštalická látka CHI3
+D.	ak je pozitívna, vzniká žltá kryštalická látka, jodoform CHI3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 681.	Acetály vznikajú:
 A.	reakciou dvoch aldehydov
 B.	reakciou 1 molu aldehydu a 2 molov alkoholu
@@ -3317,7 +4445,11 @@ D.	but-1-én
 685.	Dimetylketón dáva farebnú pozitívnu reakciu:
 A.	s Fehlingovým činidlom
 B.	so Schiffovým činidlom
+<<<<<<< HEAD
 C.	s HNO_3
+=======
+C.	s HNO3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	jodoformovú
 686.	Acetofenón vzniká zo styrénu:
 A.	dehydrogenáciou
@@ -3349,6 +4481,10 @@ A.	poloacetály a acetály
 B.	len ketály
 C.	3-hydroxyaldehydy
 D.	zlúčeniny, ktoré majú v molekule hydroxyskupinu aj karbonylovú skupinu
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 692.	Karboxylové kyseliny:
 A.	môžu byť mono-, di-, tri- až polykarboxylové kyseliny
 B.	s nižším počtom atómov uhlíka majú štipľavý zápach
@@ -3365,7 +4501,11 @@ B.	z presunu elektrónov čo sa prejaví na polarizácii väzby O–H
 C.	z toho, že v dôsledku vysokej elektronegativity kyslíka vzniká mezomérny efekt, ktorý polarizuje väzbu O–H tak, že sa odštiepi protón
 D.	z počtu atómov vodíka v molekule
 695.	O karboxylovej skupine platí:
+<<<<<<< HEAD
 A.	karboxylový uhlík je v hybridizácii sp^2
+=======
+A.	karboxylový uhlík je v hybridizácii sp2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	karboxylový uhlík vytvára tri σ a jednu π väzbu
 C.	atóm uhlíka a dva atómy kyslíka tvoria pravidelný oktaéder
 D.	voľné elektrónové páry kyslíka z –OH skupiny sa zapájajú do konjugácie s väzbou –C=O
@@ -3383,16 +4523,28 @@ D.	od dĺžky a charakteru uhlíkového reťazca
 A.	polarita väzby –OH podmieňuje odštiepenie H+
 B.	v anióne –COO- je záporný náboj rozložený rovnomerne na obidva kyslíky
 C.	dĺžka väzieb –C–O v skupine –COOH je rovnaká a je to 0,127 mm
+<<<<<<< HEAD
 D.	všetky tri väzby na karboxylovom uhlíku sú usporiadané v priestore a zvierajú uhol 107^°
 699.	Silu karboxylových kyselín charakterizuje:
 A.	pH
 B.	koncentrácia
 C.	hodnota K_a a pK_a
+=======
+D.	všetky tri väzby na karboxylovom uhlíku sú usporiadané v priestore a zvierajú uhol 107°
+699.	Silu karboxylových kyselín charakterizuje:
+A.	pH
+B.	koncentrácia
+C.	hodnota Ka a pKa
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	ionizačný stupeň
 700.	Kyslosť karboxylových kyselín vzrastá v poradí:
 A.	kyselina maslová < kyselina mravčia
 B.	kyselina octová < kyselina oxálová
 C.	kyselina šťavelová < kyselina mravčia
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	kyselina mravčia < kyselina benzoová
 701.	O karboxylových kyselinách môžeme povedať:
 A.	v prírode sa väčšinou vyskytujú vo forme solí a derivátov
@@ -3410,7 +4562,11 @@ B.	nachádza sa v telách mravcov, komárov, včiel a v žihľave, ale nemá pra
 C.	využíva sa pri metalizácii kovov, spracovaní kože a syntéze zložitejších zlúčenín
 D.	priemyselne sa vyrába z metanolu a oxidu uhoľnatého
 704.	Vyberte nesprávne tvrdenie:
+<<<<<<< HEAD
 A.	konjugácia voľného elektrónového páru kyslíka –OH skupiny spôsobuje zmenšenie hodnoty δ^+ na karboxylovom uhlíku a polarizáciu –OH skupiny
+=======
+A.	konjugácia voľného elektrónového páru kyslíka –OH skupiny spôsobuje zmenšenie hodnoty δ+ na karboxylovom uhlíku a polarizáciu –OH skupiny
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	karboxylový uhlík v dôsledku konjugácie elektrónového páru kyslíka, je voči nukleofilným činidlám menej reaktívny ako karbonylový uhlík
 C.	charakteristické reakcie karboxylových kyselín sú nukleofilné adície
 D.	karboxylový uhlík je v hybridizácii sp
@@ -3439,6 +4595,10 @@ A.	nie je opticky aktívna
 B.	je kyselina propántriová
 C.	patrí medzi substitučné deriváty karboxylových kyselín
 D.	patrí medzi funkčné deriváty karboxylových kyselín
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 710.	Charakteristické reakcie karboxylových kyselín sú:
 A.	neutralizácia
 B.	elektrofilné substitúcie
@@ -3464,6 +4624,7 @@ A.	trichlóretánová
 B.	dichlóretánová
 C.	4-chlórpentánová
 D.	octová
+<<<<<<< HEAD
 715.	Zlúčenina CH_3—CH_2–O–CO–CH_2–CH_2–CH_3 vznikne reakciou:
 A.	CH_3—CH_2–CO–O–CO–CH_2–CH_2–CH_3 s metanolom
 B.	CH_3—CH_2–CH_2–CO–O–CO–CH_2–CH_2–CH_3 s etanolom
@@ -3473,6 +4634,17 @@ D.	CH_3—CH_2–COOCl s propanolom
 A.	CH_3CONa
 B.	CH_3CONH_2
 C.	CH_3CH_2CH(Cl)COOH
+=======
+715.	Zlúčenina CH3—CH2–O–CO–CH2–CH2–CH3 vznikne reakciou:
+A.	CH3—CH2–CO–O–CO–CH2–CH2–CH3 s metanolom
+B.	CH3—CH2–CH2–CO– O–CO–CH2–CH2–CH3 s etanolom
+C.	CH3—CH2–CH2–COCl s etanolom
+D.	CH3—CH2–COOCl s propanolom
+716.	Vyberte funkčné deriváty karboxylových kyselín:
+A.	CH3CONa
+B.	CH3CONH2
+C.	CH3CH2CH(Cl)COOH
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	kyselina salicylová
 717.	Označte zlúčeninu, ktorá predstavuje substitučný derivát karboxylovej kyseliny:
 A.	glycín
@@ -3484,6 +4656,10 @@ A.	kyselina jablčná
 B.	kyselina jantárová
 C.	kyselina glutámová
 D.	kyselina glutárová
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 719.	Acylpyrín pripravíme reakciou:
 A.	kyseliny ftalovej a etanolu
 B.	kyseliny benzoovej a kyseliny octovej
@@ -3529,6 +4705,10 @@ A.	kyselina maslová je silnejšia ako kyselina jantárová
 B.	kyselina jantárová je najslabšia
 C.	kyselina mravčia je najsilnejšia
 D.	všetky patria medzi silné karboxylové kyseliny
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 728.	Pre substitučné deriváty karboxylových kyselín platí:
 A.	majú rovnaké fyzikálne a chemické vlastnosti ako pôvodné karboxylové kyseliny
 B.	obidve charakteristické skupiny si zachovávajú svoje chemické vlastnosti a reaktivitu
@@ -3536,7 +4716,11 @@ C.	ich chemické vlastnosti závisia od typu charakteristickej skupiny a vzdiale
 D.	nemajú vôbec charakter karboxylových kyselín
 729.	Aminokyseliny:
 A.	sú funkčné deriváty karboxylových kyselín
+<<<<<<< HEAD
 B.	všetky majú len zásadité vlastnosti, lebo obsahujú zásaditú skupinu –NH_2
+=======
+B.	všetky majú len zásadité vlastnosti, lebo obsahujú zásaditú skupinu –NH2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	obsahujú charakteristické skupiny, ktoré sú schopné odštiepiť aj viazať protón
 D.	sú amfolyty
 730.	Aminokyseliny sú amfolyty, pretože:
@@ -3545,7 +4729,11 @@ B.	obsahujú v molekule kyslú aj zásaditú charakteristickú skupinu
 C.	sú schopné tvoriť vnútorný ión
 D.	môžu byť kyslé, zásadité alebo neutrálne
 731.	Izoelektrický bod pI aminokyseliny:
+<<<<<<< HEAD
 A.	je hodnota pK_a, pri ktorej sa aminokyselina v elektrickom poli nepohybuje
+=======
+A.	je hodnota pKa, pri ktorej sa aminokyselina v elektrickom poli nepohybuje
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	je rovnovážna konštanta aminokyseliny
 C.	je hodnota pH prostredia, pri ktorej aminokyselina v roztoku tvorí amfión
 D.	sa využíva pri elektroforetickej separácii aminokyselín
@@ -3574,6 +4762,10 @@ A.	je kyselina o-hydroxybenzoová
 B.	je funkčný derivát kyseliny benzoovej
 C.	reakciou s kyselinou etánovou vytvára acylpyrín
 D.	je funkčný derivát kyseliny octovej
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 737.	Vyberte molekuly, ktoré sú opticky aktívne:
 A.	kyselina vínna
 B.	kyselina fumarová
@@ -3594,7 +4786,11 @@ A.	je bezfarebná kvapalina
 B.	má v molekule chirálny uhlík
 C.	vzniká pri kvasení kapusty
 D.	pri nadmernej fyzickej záťaži sa vytvára vo svaloch a je považovaná za príčinu „svalovice“
+<<<<<<< HEAD
 741.	Anión CH_3-COO- je:
+=======
+741.	Anión CH3-COO- je:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	acyl
 B.	acetyl
 C.	acetát
@@ -3605,7 +4801,11 @@ B.	fosgén
 C.	močovina
 D.	kyselina močová
 743.	Funkčné deriváty karboxylových kyselín vznikajú reakciou:
+<<<<<<< HEAD
 A.	karboxylovej kyseliny s PCl_3 alebo s PCl_5
+=======
+A.	karboxylovej kyseliny s PCl3 alebo s PCl5
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	karboxylovej kyseliny s alkoholom v kyslom prostredí
 C.	anhydridu karboxylovej kyseliny s vodou
 D.	acylchloridu s aldehydom
@@ -3651,9 +4851,15 @@ B.	pôsobí na regeneráciu a syntézu červených krviniek
 C.	je rastovým faktorom niektorých mikroorganizmov
 D.	podporuje tvorbu a ukladanie lipidov do tukových tkanív
 754.	Šťaveľan vápenatý:
+<<<<<<< HEAD
 A.	má vzorec (COOH)_2Ca
 B.	je zložkou obličkových kameňov
 C.	má vzorec Ca(COO)_2
+=======
+A.	má vzorec (COOH)2Ca
+B.	je zložkou obličkových kameňov
+C.	má vzorec Ca(COO)2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	je ester kyseliny šťaveľovej
 755.	O kyseline šťaveľovej neplatí:
 A.	vzniká oxidáciou metántiolu
@@ -3675,6 +4881,10 @@ A.	jablčná
 B.	mliečna
 C.	pyrohroznová
 D.	2-hydroxypropánová
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 759.	Karboxylovú kyselinu obvykle pripravíme:
 A.	kyslou hydrolýzou esterov
 B.	oxidáciou primárneho alkoholu do druhého stupňa
@@ -3683,7 +4893,11 @@ D.	oxidáciou ketónov
 760.	Kyselina etánová:
 A.	vzniká v prírode kvasením sacharidov
 B.	priemyselne sa vyrába oxidáciou butánu v prítomnosti katalyzátora
+<<<<<<< HEAD
 C.	bezvodá (100%) tuhne pri 16^°C na látku podobnú ľadu, preto sa koncentrovaná kyselina octová nazýva „ľadová“
+=======
+C.	bezvodá (100%) tuhne pri 16°C na látku podobnú ľadu, preto sa koncentrovaná kyselina octová nazýva „ľadová“
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	v laboratórnych podmienkach sa pripravuje redukciou acetaldehydu
 761.	Dekarboxyláciou kyseliny:
 A.	ftalovej vzniká fenol
@@ -3696,6 +4910,7 @@ B.	kyselina oxáloctová
 C.	kyselina fumarová
 D.	kyselina valérová
 763.	Ako nukleofilná substitúcia prebieha reakcia karboxylových kyselín s:
+<<<<<<< HEAD
 A.	PCl_5 za vzniku chloridov karboxylových kyselín, resp. acylchloridov
 B.	NH_3 za vzniku amóniových solí
 C.	NH_3 za vzniku amidov
@@ -3704,6 +4919,16 @@ D.	alkalickými hydroxidmi za vzniku esterov
 A.	CH_3COOH + CH_3COOH
 B.	HOOC–CH_2–CH_2–COOH + CH_3–OH
 C.	redukcia HOOC–CH_2–CH_2–COOH na HOOC–CH_2–CH_2–CH_2–OH
+=======
+A.	PCl5 za vzniku chloridov karboxylových kyselín, resp. acylchloridov
+B.	NH3 za vzniku amóniových solí
+C.	NH3 za vzniku amidov
+D.	alkalickými hydroxidmi za vzniku esterov
+764.	Vyberte reakcie prípravy funkčných derivátov karboxylových kyselín:
+A.	CH3COOH + CH3COOH
+B.	HOOC-CH2-CH2-COOH + CH3-OH
+C.	redukcia HOOC-CH2-CH2-COOH na HOOC-CH2-CH2-CH2-OH
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	dekarboxylácia kyseliny ftalovej na benzoovú
 765.	Heterocyklické zlúčeniny:
 A.	sú cyklické zlúčeniny, ktoré majú v molekule nahradený aspoň jeden atóm vodíka dusíkom, kyslíkom alebo sírou
@@ -3719,6 +4944,10 @@ D.	surovina pre farmaceutický priemysel
 A.	musia mať v cykle najmenej tri atómy a najviac šesť
 B.	závisia len od charakteru heteroatómu
 C.	vzhľadom na prítomnosť heteroatómu majú všetky výraznejší aromatický charakter ako benzén
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	závisia od charakteru heteroatómu, veľkosti a charakteru cyklu 768. Pre heterocykly platí:
 A.	heterocykly, ktoré obsahujú v molekule dusík, majú vlastnosti amínov
 B.	ako cyklické étery môžeme označiť heterocykly s kyslíkom ako heteroatómom
@@ -3738,7 +4967,11 @@ D.	klesá v poradí tiofén > pyrol > furán
 A.	hemoglobínu a chlorofylu
 B.	bilirubínu a žlčových kyselín
 C.	žlčových farbív
+<<<<<<< HEAD
 D.	vitamínu B_1_2
+=======
+D.	vitamínu B12
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 772.	Žlčové farbivá:
 A.	vznikajú rozkladom hemoglobínu
 B.	sú základom pre vznik žlčových kyselín
@@ -3761,9 +4994,16 @@ C.	tryptofánu
 D.	porfínu
 776.	Pyrolové jadrá sú súčasťou molekuly:
 A.	hemoglobínu
+<<<<<<< HEAD
 B.	vitamínu B_1_2
 C.	žlčových kyselín
 D.	kyseliny močovej
+=======
+B.	vitamínu B12
+C.	žlčových kyselín
+D.	kyseliny močovej
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 777.	Substitúcie elektrofilné:
 A.	spomedzi tiofénu, furánu a pyrolu najľahšie prebiehajú na tioféne
 B.	spomedzi tiofénu, furánu a pyrolu takmer vôbec neprebiehajú na furáne
@@ -3798,7 +5038,11 @@ D.	hydrogenáciou dáva piperidín
 A.	je derivátom pyrimidínu
 B.	v organizme sa mení na nikotínamid
 C.	je známa ako niacín
+<<<<<<< HEAD
 D.	môže vznikať v organizme aj z tryptofánu, ak je dostatok vitamínu B_1, B_2 a B_6
+=======
+D.	môže vznikať v organizme aj z tryptofánu, ak je dostatok vitamínu B1, B2 a B6
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 784.	Pyridín:
 A.	reaguje s kyselinami za vzniku solí
 B.	redukciou dáva piperidín
@@ -3809,6 +5053,10 @@ A.	pyrol
 B.	pyridín
 C.	pyrán
 D.	porfín
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 786.	Kyselina barbitúrová je derivátom:
 A.	pyridínu
 B.	piperidínu
@@ -3845,8 +5093,13 @@ B.	uracil
 C.	pyridín
 D.	kyselina močová
 793.	Päťčlánkové heterocyklické zlúčeniny:
+<<<<<<< HEAD
 A.	majú v molekule atómy uhlíka v hybridizácii sp^2 alebo sp^3
 B.	majú v molekule len atómy uhlíka v hybridizácii sp^2 preto sú rovinnými útvarmi s väzbovými uhlami 120^°
+=======
+A.	majú v molekule atómy uhlíka v hybridizácii sp2 alebo sp3
+B.	majú v molekule len atómy uhlíka v hybridizácii sp2 preto sú rovinnými útvarmi s väzbovými uhlami 120°
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	nemôžu mať aromatický charakter
 D.	sú napríklad pyrol, tiofén, furán
 794.	Síru ako heteroatóm obsahuje:
@@ -3854,6 +5107,10 @@ A.	furán
 B.	tiazol
 C.	tiofén
 D.	imidazol
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 795.	Vyberte správne tvrdenie:
 A.	od pyrazolu a tiazolu sú odvodené niektoré liečivá, ktoré tlmia bolesť a znižujú teplotu
 B.	od tiazolu sú odvodené penicilíny, sulfónamidy a tiamín
@@ -3863,7 +5120,11 @@ D.	pyrazol obsahuje v molekule jeden atóm kyslíka a jeden atóm dusíka
 A.	všetky majú ako heteroatóm dusík
 B.	sú napríklad 2H-pyrán, 4H-pyrán a pyridín
 C.	väčšina má v molekule atómy uhlíka v hybridizácii sp
+<<<<<<< HEAD
 D.	väčšina má v molekule atómy uhlíka v hybridizácii sp^2
+=======
+D.	väčšina má v molekule atómy uhlíka v hybridizácii sp2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 797.	Kyselina močová:
 A.	vzniká u človeka ako produkt rozpadu pyrimidínových látok
 B.	je dobre rozpustná vo vode
@@ -3915,10 +5176,17 @@ B.	najjednoduchšie zoskupenie atómov, ktoré sa pravidelne opakuje
 C.	polyetylénového typu je totožná so štruktúrnou jednotkou
 D.	je molekula, ktorá obsahuje dvojitú väzbu alebo dve reaktívne charakteristické skupiny
 807.	Základná stavebná jednotka:
+<<<<<<< HEAD
 A.	polypropylénu je -[CH_2–CH(CH_3)]-
 B.	polyterpénu je -[CH_2–C(CH_3)=CH–CH_2]-
 C.	musí byť vždy totožná so štruktúrnou jednotkou
 D.	polyetylénu je -[CH_3–CH_2]-
+=======
+A.	polypropylénu je -[CH2-CH(CH3)]-
+B.	polyterpénu je -[CH2-C(CH3)=CH-CH2]-
+C.	musí byť vždy totožná so štruktúrnou jednotkou
+D.	polyetylénu je -[CH3-CH2]-
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 808.	Štruktúrna jednotka:
 A.	je časť makromolekuly s rovnakým chemickým zložením
 B.	predstavuje najjednoduchšie usporiadanie stavebných jednotiek, ktoré sa pravidelne opakuje
@@ -3978,7 +5246,11 @@ D.	takmer všetky majú sladkú chuť
 A.	sú to biele kryštalické látky dobre rozpustné vo vode
 B.	vo vode disociujú
 C.	sú dobre rozpustné vo vode, lebo s vodou netvoria vodíkové väzby
+<<<<<<< HEAD
 D.	pri zvýšenej teplote v prostredí minerálnej kyseliny hydrolyzujú na CO_2 a H_2O
+=======
+D.	pri zvýšenej teplote v prostredí minerálnej kyseliny hydrolyzujú na CO2 a H2O
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 820.	Viac ako jeden chirálny atóm uhlíka sa nachádza v molekule:
 A.	aldotriózy
 B.	ketotriózy
@@ -4062,7 +5334,11 @@ C.	s Fehlingovým činidlom
 D.	s brómovou vodou
 836.	Prítomnosť monosacharidu vo vzorke dokážeme:
 A.	roztokom jódu
+<<<<<<< HEAD
 B.	zmesou kyseliny HNO_3 a K_2CrO_4
+=======
+B.	zmesou kyseliny HNO3 a K2CrO4
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	Fehlingovým alebo Tollensovým činidlom
 D.	jodoformovou reakciou
 837.	Prítomnosť všetkých/akýchkoľvek sacharidov v analyzovanej vzorke sa dokáže:
@@ -4074,12 +5350,20 @@ D.	biuretovou reakciou
 A.	Fehlingovým činidlom
 B.	Molischovým činidlom
 C.	reakciou s roztokom jódu
+<<<<<<< HEAD
 D.	roztokom KMnO_4
+=======
+D.	roztokom KMnO4
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 839.	Redukujúce sacharidy odlíšime od neredukujúcich:
 A.	Fehlingovým činidlom
 B.	Tollensovým činidlom
 C.	nitrochrómovou reakciou
 D.	reakciou s roztokom jódu
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 840.	Glukózu v moči dokážeme:
 A.	Selivanovým činidlom
 B.	Molischovým činidlom
@@ -4114,7 +5398,11 @@ D.	prítomnosťou kyslíka na druhom atóme monosacharidu ribózy
 A.	vzniká esterifikáciou fruktózy fosfánom
 B.	vzniká reakciou hydroxylu na šiestom atóme uhlíka fruktózy a kyseliny fosforečnej
 C.	nevzniká, pretože na šiestom atóme uhlíka nie je naviazaný poloacetálový hydroxyl
+<<<<<<< HEAD
 D.	vzniká esterifikáciou primárnej –OH skupiny na šiestom atóme uhlíka fruktózy kyselinou H_3PO_4
+=======
+D.	vzniká esterifikáciou primárnej –OH skupiny na šiestom atóme uhlíka fruktózy kyselinou H3PO4
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 847.	Vyberte správne tvrdenie:
 A.	esterifikácia môže prebiehať len na poloacetálovom hydroxyle monosacharidu
 B.	v molekule glukózy sa môže esterifikovať poloacetálový hydroxyl alebo primárny hydroxyl na šiestom uhlíku
@@ -4125,6 +5413,10 @@ A.	reakciou každého sacharidu s alkoholom
 B.	reakciou medzi dvomi monosacharidmi
 C.	reakciou ľubovoľného primárneho hydroxylu s alkoholom
 D.	len reakciou poloacetálového hydroxylu s alkoholom
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 849.	Glykozidová väzba:
 A.	môže vzniknúť medzi poloacetálovým hydroxylom a –OH skupinou alkoholu
 B.	môže vzniknúť medzi poloacetálovým hydroxylom jedného monosacharidu a poloacetálovým alebo primárnym hydroxylom druhého monosacharidu
@@ -4163,7 +5455,11 @@ D.	nemôže tvoriť estery
 856.	Pri reakcii glukózy s Fehlingovým činidlom:
 A.	sa glukóza redukuje
 B.	katión meďnatý sa redukuje na katión meďný
+<<<<<<< HEAD
 C.	vzniká červená zrazenina Cu_2O
+=======
+C.	vzniká červená zrazenina Cu2O
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	sa meď oxiduje
 857.	Podstatou dôkazu prítomnosti glukózy Fehlingovým činidlom je:
 A.	že glukóza sa oxiduje
@@ -4330,20 +5626,34 @@ B.	kyselina asparágová
 C.	kyselina steárová
 D.	kyselina palmitová
 889.	Vyberte ktorá mastná kyselina je esenciálna pre človeka:
+<<<<<<< HEAD
 A.	C_1_7H_3_1COOH
 B.	C_1_7H_2_9COOH
 C.	C_1_5H_3_1COOH
 D.	C_1_8H_3_0O_2
+=======
+A.	C17H31COOH
+B.	C17H29COOH
+C.	C15H31COOH
+D.	C18H30O2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 890.	Dve a viac dvojitých väzieb v molekule má kyselina:
 A.	olejová
 B.	linolénová
 C.	arachidónová
 D.	elaidová
 891.	Vyberte esenciálne mastné kyseliny:
+<<<<<<< HEAD
 A.	CH_3–(CH_2)_7–CH=CH–(CH_2)_7–COOH
 B.	CH_3–(CH_2)_4–CH=CH–CH_2–CH=CH–(CH_2)_7–COOH
 C.	CH_3–CH_2–CH=CH–CH_2–CH=CH–CH_2–CH=CH–(CH_2)_7–COOH
 D.	CH_3–CH_2–CH=CH–CH(CH_3)–CH=C(CH_3)–CH(CH_3)–CH=CH–(CH_2)_7–COOH
+=======
+A.	CH3–(CH2)7 –CH=CH–(CH2)7–COOH
+B.	CH3–(CH2)4–CH=CH–CH2–CH=CH–(CH2)7–COOH
+C.	CH3–CH2 –CH=CH–CH2–CH=CH–CH2–CH=CH–(CH2)7–COOH
+D.	CH3–CH2 –CH=CH–CH(CH3)–CH=C(CH3)–CH(CH3)–CH=CH–(CH2)7–COOH
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 892.	O vlastnostiach lipidov platí:
 A.	sú hydrofóbne
 B.	v studenej vode sú nerozpustné, ale v teplej vode sa rozpúšťajú
@@ -4354,6 +5664,10 @@ A.	sú štiepené amylázou
 B.	majú konzistenciu, ktorá závisí od pomeru nasýtených a nenasýtených vyšších karboxylových kyselín
 C.	sú súčasťou steroidov
 D.	môžu byť v organizme enzýmovo rozložené na svoje zložky
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 894.	Teplota topenia lipidov:
 A.	závisí len od dĺžky reťazca esterifikovanej karboxylovej kyseliny
 B.	závisí len od počtu nenasýtených väzieb v molekule
@@ -4374,7 +5688,11 @@ A.	kyselina olejová
 B.	kyselina linolová
 C.	kyselina arachová
 D.	nasýtený uhľovodík
+<<<<<<< HEAD
 898.	Reakciou C_1_7H_2_9COOH + 2 H_2 vzniká:
+=======
+898.	Reakciou C17H29COOH + 2 H2 vzniká:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	kyselina linolová
 B.	kyselina olejová
 C.	kyselina oktadecénová
@@ -4398,6 +5716,10 @@ D.	peptidová
 A.	obsahuje v molekule tri karboxylové kyseliny viazané na terciárny alkohol
 B.	má karboxylové kyseliny viazané karboxyesterovými väzbami
 C.	má v molekule aj fosfoesterovú väzbu
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	je 1,2,3-propántriol
 903.	Zlúčenina 2-stearylglycerol:
 A.	je monoacylglycerol
@@ -4448,7 +5770,11 @@ D.	v zásaditom prostredí sa nazýva zmydelňovanie
 A.	palmitan sodný
 B.	octan draselný
 C.	všetky sodné soli karboxylových kyselín
+<<<<<<< HEAD
 D.	CH_3-(CH_2)_1_6-COONa
+=======
+D.	CH3-(CH2)16-COONa
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 914.	Pracie účinky mydla sú založené:
 A.	na prítomnosti polárnej a nepolárnej časti molekuly palmitanu sodného
 B.	na tom, že hydrofóbna časť molekuly mydla sa orientuje do nepolárnej štruktúry nečistoty
@@ -4508,7 +5834,11 @@ D.	okrem glycerolu a mastnej kyseliny môžu obsahovať aj etanolamín, cholín 
 A.	majú aj polárnu časť v molekule
 B.	môžu obsahovať vo svojej molekule etanolamín, cholín a serín
 C.	obsahujú vo svojej molekule treonín
+<<<<<<< HEAD
 D.	môžu obsahovať 3 zvyšky H_3PO_4
+=======
+D.	môžu obsahovať 3 zvyšky H3PO4
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 926.	V nepolárnej časti fosfolipidu sa nachádza:
 A.	uhlíkový reťazec mastnej kyseliny
 B.	cholín
@@ -4577,8 +5907,13 @@ D.	majú aromatický charakter
 939.	O steroloch môžeme povedať:
 A.	fytosterol je živočíšneho pôvodu
 B.	ergosterol sa nachádza v kvasniciach
+<<<<<<< HEAD
 C.	ožiarením ergosterolu UV žiarením vzniká vitamín B_1_2
 D.	ožiarením ergosterolu UV žiarením vzniká ergokalciferol - vitamín D_2
+=======
+C.	ožiarením ergosterolu UV žiarením vzniká vitamín B12
+D.	ožiarením ergosterolu UV žiarením vzniká ergokalciferol - vitamín D2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 940.	Žlčové kyseliny:
 A.	sa tvoria v pečeni z cholesterolu
 B.	vznikajú rozkladom hemoglobínu
@@ -4589,6 +5924,10 @@ A.	pri tvorbe steroidných hormónov
 B.	pri trávení a vstrebávaní lipidov
 C.	na emulgáciu triacylglycerolov
 D.	na hydrolýzu bielkovín nerozpustných vo vode
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 942.	Medzi steroidné hormóny nepatria:
 A.	hormóny kôry nadobličiek
 B.	kortikosteroidy
@@ -4598,15 +5937,26 @@ D.	cholesterol
 A.	len z a-aminokyselín
 B.	len z neutrálnych aminokyselín ako serín, valín alebo glycín
 C.	z neutrálnej zložky sacharidu, zásaditej bázy a kyslej zložky, ktorú predstavujú aminokyseliny
+<<<<<<< HEAD
 D.	z aminokyselín, ktoré majú v molekule vždy jednu –COOH skupinu a jednu skupinu –NH_2
+=======
+D.	z aminokyselín, ktoré majú v molekule vždy jednu –COOH skupinu a jednu skupinu –NH2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 944.	Proteinogénne aminokyseliny:
 A.	sú len L- alebo D-a-aminokyseliny
 B.	niektoré môžu v molekule okrem aminoskupiny obsahovať aj amidovú alebo guanidylovú skupinu
 C.	niektoré môžu obsahovať aj skupinu –SH alebo –OH
+<<<<<<< HEAD
 D.	okrem skupín –NH_2 a –COOH už neobsahujú inú charakteristickú skupinu
 945.	Esenciálne aminokyseliny:
 A.	musíme prijímať v potrave
 B.	majú jednu –NH_2 skupinu naviazanú na β-uhlíku
+=======
+D.	okrem skupín –NH2 a –COOH už neobsahujú inú charakteristickú skupinu
+945.	Esenciálne aminokyseliny:
+A.	musíme prijímať v potrave
+B.	majú jednu –NH2 skupinu naviazanú na β-uhlíku
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	sú napríklad fenylalanín, tryptofán a lyzín
 D.	všetky majú v molekule heterocyklus
 946.	Atóm síry obsahuje molekula:
@@ -4638,7 +5988,11 @@ D.	kyselinu askorbovú
 A.	lyzín, prolín, histidín
 B.	histamín, arginín, asparagín
 C.	lyzín, histidín, arginín
+<<<<<<< HEAD
 D.	ktorá má v molekule viac skupín –NH_2 ako skupín –COOH
+=======
+D.	ktorá má v molekule viac skupín –NH2 ako skupín –COOH
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 953.	Charakteristické reakcie aminokyselín sú:
 A.	dehydratačné
 B.	dekarboxylačné a deaminačné
@@ -4646,14 +6000,22 @@ C.	redoxné
 D.	kondenzačné a transaminačné
 954.	Transaminácia:
 A.	je reakcia prípravy neesenciálnej aminokyseliny
+<<<<<<< HEAD
 B.	prebieha v prítomnosti derivátu vitamínu B_6 ako koenzýmu transaminázy
+=======
+B.	prebieha v prítomnosti derivátu vitamínu B6 ako koenzýmu transaminázy
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	je redukcia aminoskupiny
 D.	je napríklad reakcia vzniku tryptofánu
 955.	Väzba –CO–NH–:
 A.	je koordinačná väzba
 B.	vzniká kondenzáciou dvoch aminokyselín, pričom sa uvoľní molekula vody
 C.	vzniká reakciou medzi skupinami –COOH dvoch aminokyselín
+<<<<<<< HEAD
 D.	vzniká reakciou skupiny –NH_2 jednej aminokyseliny a skupiny –COOH druhej aminokyseliny
+=======
+D.	vzniká reakciou skupiny –NH2 jednej aminokyseliny a skupiny –COOH druhej aminokyseliny
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 956.	O peptidovej väzbe platí:
 A.	je pevná kovalentná väzba
 B.	má rovinnú štruktúru
@@ -4665,6 +6027,7 @@ B.	pre esenciálne kyseliny je rovná 7
 C.	je hodnota pH prostredia, pri ktorej sa aminokyselina nachádza prevažne vo forme amfiónu
 D.	je charakteristická pre každú aminokyselinu
 958.	Valín pri pH = 2 sa nachádza vo forme:
+<<<<<<< HEAD
 A.	(CH_3)_2CHCH(NH_3^+)COOH
 B.	(CH_3)_2CHCH(NH_2)COO^–
 C.	nedisociovanej
@@ -4673,6 +6036,17 @@ D.	(CH_3)_2CHCH(NH_3^+)COO^–
 A.	CH_2(OH_2^+)CH(NH_2)COOH
 B.	CH_2(O^–)CH(NH_2)COOH
 C.	CH_2(OH)CH(NH_2)COO^–
+=======
+A.	(CH3)2CHCH(NH3+)COOH
+B.	(CH3)2CHCH(NH2)COO–
+C.	nedisociovanej
+D.	(CH3)2CHCH(NH3+)COO–
+959.	V zásaditom prostredí sa serín vyskytuje hlavne ako:
+A.	CH2(OH2+)CH(NH2)COOH
+B.	CH2(O–)CH(NH2)COOH
+
+C.	CH2(OH)CH(NH2)COO–
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	amfión
 960.	Pri elektroforéze aminokyselín pri pH = 7 k anóde pôjde najviac:
 A.	fenylalanín
@@ -4712,7 +6086,11 @@ D.	je pevnejšia ako a-helix
 967.	Vyberte nesprávne tvrdenie:
 A.	atómy peptidovej väzby ležia v jednej rovine a nachádzajú sa prevažne v trans- konfigurácii
 B.	pre sekundárnu štruktúru nie je rozhodujúce usporiadanie atómov v okolí peptidovej väzby
+<<<<<<< HEAD
 C.	sekundárna štruktúra môže byť tvorená nielen vodíkovými väzbami ale aj N-glykozidovou väzbou medzi skupinami –NH_2 a –COOH
+=======
+C.	sekundárna štruktúra môže byť tvorená nielen vodíkovými väzbami ale aj N-glykozidovou väzbou medzi skupinami –NH2 a –COOH
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	v prípade prolínu môžu mať atómy peptidovej väzby aj cis- konfiguráciu
 968.	Terciárna štruktúra proteínu:
 A.	nemá už vplyv na biologickú funkciu bielkoviny
@@ -4745,7 +6123,11 @@ B.	môže spôsobiť zánik všetkých štruktúr proteínu okrem primárnej št
 C.	je len nevratná
 D.	je vratná alebo nevratná, podľa toho, či sa po odstránení denaturačného faktora obnoví biologická aktivita proteínu
 974.	Denaturačným faktorom bielkovín nie je:
+<<<<<<< HEAD
 A.	prítomnosť katiónov Mg^2^+, Ca^2^+, Na^+
+=======
+A.	prítomnosť katiónov Mg2+, Ca2+, Na+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	mechanický faktor, napríklad tlak, silné trepanie, rezanie a podobne
 C.	prítomnosť enzýmov
 D.	organická zlúčenina, napríklad močovina, alifatický alkohol
@@ -4761,8 +6143,13 @@ C.	na rozdiel od anorganického katalyzátora je potrebné ho počas reakcie dod
 D.	pôsobí iba aktívnym centrom, nie celým povrchom ako anorganický katalyzátor 977. Pre enzýmy platí:
 A.	každý enzým obsahuje proteínovú zložku – apoenzým
 B.	môže okrem apoenzýmu obsahovať aj neproteínovú organickú časť, ktorá sa nazýva koenzým
+<<<<<<< HEAD
 C.	koenzýmom nemôžu byť vitamíny, NAD^+
 D.	kofaktorom enzýmu býva najčastejšie Cd2^+, Hg^2^+
+=======
+C.	koenzýmom nemôžu byť vitamíny, NAD+
+D.	kofaktorom enzýmu býva najčastejšie Cd2+, Hg2+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 978.	Aktívne centrum enzýmu je:
 A.	časť enzýmu, kde sú vytvorené len vhodné väzbové podmienky na naviazanie substrátu
 B.	miesto enzýmu, kde sú vytvorené vhodné väzbové a priestorové podmienky na naviazanie substrátu
@@ -4797,19 +6184,32 @@ D.	hodnota pI aminokyselín, z ktorých sa skladá apoenzým
 A.	rýchlosť enzýmovej reakcie je priamo úmerná koncentrácii substrátu, kým sa nedosiahne saturačný bod
 B.	pH optimum je hodnota pH, pri ktorej je daná enzýmová reakcia najrýchlejšia
 C.	všetky enzýmové reakcie prebiehajú najrýchlejšie pri pH = 7
+<<<<<<< HEAD
 D.	pri teplote 37^°C je rýchlosť všetkých enzýmových reakcií najvyššia
 985.	O enzýmových reakciách platí:
 A.	väčšina enzýmov je najaktívnejšia pri pH = 9
 B.	extrémne hodnoty pH a teplota nad 60°C spôsobujú denaturáciu enzýmu
+=======
+D.	pri teplote 37°C je rýchlosť všetkých enzýmových reakcií najvyššia
+985.	O enzýmových reakciách platí:
+A.	väčšina enzýmov je najaktívnejšia pri pH = 9
+B.	extrémne hodnoty pH a teplota nad 60 °C spôsobujú denaturáciu enzýmu
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	prebiehajú väčšinou v prostredí s nízkou koncentráciou substrátu ale pri zvýšenom tlaku
 D.	prebiehajú pomalšie ako reakcie katalyzované anorganickým katalyzátorom
 986.	Aktiváciu enzýmu môže vyvolať:
 A.	odštiepenie nízkomolekulovej časti peptidového reťazca
 B.	chemická modifikácia, napríklad fosforylácia
 C.	naviazanie alosterického aktivátora na aktívne centrum enzýmu
+<<<<<<< HEAD
 D.	pôsobenie katiónov niektorých kovov ako napríklad Zn^2^+, Mg^2^+, Cd^2^+
 987.	Aktiváciu enzýmu môže vyvolať:
 A.	prítomnosť katiónov, napríklad Zn^2^+, Mg^2^+
+=======
+D.	pôsobenie katiónov niektorých kovov ako napríklad Zn2+, Mg2+, Cd2+
+987.	Aktiváciu enzýmu môže vyvolať:
+A.	prítomnosť katiónov, napríklad Zn2+, Mg2+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	odštiepenie časti aktívneho centra
 C.	naviazanie alosterického aktivátora
 D.	vytvorenie kovalentných väzieb medzi aktivátorom a substrátom
@@ -4871,7 +6271,11 @@ D.	katalyzuje štiepenie peptidovej väzby
 999.	Oxidoreduktázy:
 A.	katalyzujú len oxidácie substrátu
 B.	katalyzujú všetky redoxné deje
+<<<<<<< HEAD
 C.	majú ako koenzýmy FAD, NAD^+
+=======
+C.	majú ako koenzýmy FAD, NAD+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	umožňujú oxidáciu aldehydu na etanol
 1000. Izomerázy katalyzujú:
 A.	vzájomné premeny izomérov
@@ -4880,10 +6284,17 @@ C.	napríklad premenu ribózy na deoxyribózu
 D.	nielen izomerizačné ale aj polymerizačné reakcie
 1001. O ligázach a lyázach platí:
 A.	ligázy katalyzujú syntézu dvoch substrátov v prítomnosti ATP
+<<<<<<< HEAD
 B.	ligázy katalyzujú syntézu dvoch substrátov v prítomnosti NAD^+
 C.	lyázy nehydrolyticky štiepia väzbu medzi atómami uhlíka
 D.	lyázy a ligázy môžu katalyzovať rovnaké typy reakcií
 1002. V oboch daných koenzýmoch oxidoreduktáz: NAD^+, FAD sa nachádza:
+=======
+B.	ligázy katalyzujú syntézu dvoch substrátov v prítomnosti NAD+
+C.	lyázy nehydrolyticky štiepia väzbu medzi atómami uhlíka
+D.	lyázy a ligázy môžu katalyzovať rovnaké typy reakcií
+1002. V oboch daných koenzýmoch oxidoreduktáz: NAD+, FAD sa nachádza:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	pyridín
 B.	purín
 C.	vitamín PP
@@ -4899,7 +6310,11 @@ B.	výskytom v bunkovom jadre
 C.	obsahom dusíkatých báz
 D.	štruktúrou
 1005. O zložení nukleotidu platí:
+<<<<<<< HEAD
 A.	obsahuje H_3PO_4 naviazanú fosfoesterovou väzbou na purínovú alebo pyrimidínovú bázu
+=======
+A.	obsahuje H3PO4 naviazanú fosfoesterovou väzbou na purínovú alebo pyrimidínovú bázu
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	báza sa viaže N-glykozidovou väzbou na prvý uhlík pentózy
 C.	pentóza sa viaže fosfoesterovou väzbou na kyselinu fosforečnú
 D.	kyslá a zásaditá zložka nukleotidu sa viaže amidovou väzbou
@@ -4918,13 +6333,22 @@ A.	je adenozíntrifosfát a v organizme pri biochemických procesoch prenáša e
 B.	uvoľňuje energiu štiepením N-glykozidovej väzby
 C.	uvoľňuje energiu podľa schémy ATP → ADP → AMP, pričom sa odštiepia dve molekuly H3PO4
 D.	obsahuje tri makroergické väzby
+<<<<<<< HEAD
 1009. Kyselina H3_PO_4:
 A.	je súčasťou molekuly AMP, NAD^+
+=======
+1009. Kyselina H3PO4:
+A.	je súčasťou molekuly AMP, NAD+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	je to trojsýtna stredne silná kyselina; tvorí len 2 typy solí: fosforečnany a hydrogénfosforečnany
 C.	je zložkou membránových lipidov a súčasťou nukleových kyselín
 D.	má význam v metabolizme sacharidov
 1010. Makroergické zlúčeniny:
+<<<<<<< HEAD
 A.	sú napriklad ATP, GTP, NAD^+, FAD
+=======
+A.	sú napriklad ATP, GTP, NAD+, FAD
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	obsahujú v molekule makroergickú väzbu
 C.	uvoľňujú energiu pri hydrolytickom štiepení fosfoesterovej väzby
 D.	sú napríklad ATP, GTP, acetyl-CoA
@@ -4932,8 +6356,12 @@ D.	sú napríklad ATP, GTP, acetyl-CoA
 A.	primárna štruktúra je daná sekvenciou nukleotidov, ktoré sú viazané intramolekulovou 3´, 5´-fosfodiesterovou väzbou
 B.	porucha v poradí nukleotidov spôsobuje genetické mutácie
 C.	obsahuje štyri typy nukleotidov: adenínový, cytozínový, guanínový a uracilový
+<<<<<<< HEAD
 D.	má podobnú primárnu, sekundárnu, terciárnu a kvartérnu štruktúru ako proteíny
 1012. Komplementarita báz:
+=======
+D.	má podobnú primárnu, sekundárnu, terciárnu a kvartérnu štruktúru ako proteíny 1012. Komplementarita báz:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	je daná prítomnosťou charakteristických skupín báz, medzi ktorými sa môžu tvoriť vodíkové väzby
 B.	znamená, že medzi adenínom a cytozínom sa tvoria vždy dve vodíkové väzby
 C.	znamená, že cytozín a guanín sa navzájom spájajú tromi vodíkovými väzbami
@@ -5054,9 +6482,15 @@ B.	prenos voľnej energie zabezpečujú makroergické zlúčeniny, napríklad AT
 C.	amfibolické reakcie nemajú výraznejší energetický prínos pre organizmus
 D.	katabolický rozklad prebieha vždy až po aktivácii substrátu a takto je regulovaná premena substrátu na produkt
 1036. Mechanizmus redoxných dejov je založený na prenose:
+<<<<<<< HEAD
 A.	atómov vodíka na pyridínovom jadre NAD^+
 B.	atómov vodíka na purínovom jadre NAD^+
 C.	atómov vodíka na pyrimidínovom jadre NAD^+
+=======
+A.	atómov vodíka na pyridínovom jadre NAD+
+B.	atómov vodíka na purínovom jadre NAD+
+C.	atómov vodíka na pyrimidínovom jadre NAD+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	atómov vodíka na purínovom jadre NADP
 1037. Endergonické procesy:
 A.	prebiehajú len v anaeróbnych podmienkach
@@ -5080,7 +6514,11 @@ C.	má katabolický efekt, ale napriek tomu patrí medzi amfibolické metabolick
 D.	slúži v organizme ako hlavný zdroj na získavanie energie
 1041. Význam citrátového cyklu pre organizmus je v tom, že:
 A.	medziprodukty cyklu organizmus využíva napríklad na tvorbu neesenciálnych aminokyselín
+<<<<<<< HEAD
 B.	vznikajú redukované koenzýmy NADH a FADH_2
+=======
+B.	vznikajú redukované koenzýmy NADH a FADH2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	je hlavný zdroj energie pre celý organizmus
 D.	je zdroj kyseliny citrónovej
 1042. V citrátovom cykle prebiehajú reakcie:
@@ -5117,9 +6555,15 @@ D.	lokalizovaný v cytoplazme
 A.	postupný prenos elektrónov z atómov vodíka na kyslík cez systém cytochrómov umožňuje bunke uvoľnenú energiu využiť na tvorbu ATP
 B.	ak by došlo k priamemu prenosu elektrónov z vodíka na kyslík, uvoľnila by sa taká veľká energia, že bunka by ju nedokázala uložiť do ATP a celá by sa premenila na teplo
 C.	nie je potrebný postupný prenos elektrónov z vodíka na kyslík, lebo reakcia je amfibolická
+<<<<<<< HEAD
 D.	redukované koenzýmy NAD^+ a FAD sa oxidujú v koncovom oxidačnom reťazci na NADP^+ a FADH_2
 1049. Pri glykolýze dochádza k:
 A.	fosforylácii glukózy v prítomnosti voľnej kyseliny H_3PO_4
+=======
+D.	redukované koenzýmy NAD+ a FAD sa oxidujú v koncovom oxidačnom reťazci na NADP+ a FADH2
+1049. Pri glykolýze dochádza k:
+A.	fosforylácii glukózy v prítomnosti voľnej kyseliny H3PO4
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	aktivácii a fosforylácii glukózy v prítomnosti ATP, aby sa zabránilo jej prechodu cez membránu
 C.	vzniku glukóza-6-fosfátu
 D.	izomerizácii glukózy na galaktózu
@@ -5129,9 +6573,15 @@ B.	je lokalizovaná v cytoplazme
 C.	je lokalizovaná v ribozómoch
 D.	prebieha aj v bunkovom jadre
 1051. Vyberte správne tvrdenie:
+<<<<<<< HEAD
 A.	v glykolýze po dehydrogenácii a fosforylácii glyceraldehyd^-^3-fosfátu na 1,3-bisfosfoglycerát a následnom prenose fosfátu z 1,3-bisfosfoglycerátu na ADP vzniká ATP
 B.	fruktóza-1,6-bisfosfát vzniká izomerizáciou a ďalšou fosforyláciou glukóza-6-fosfátu
 C.	fruktóza-1,6-bisfosfát vzniká pôsobením H_3PO_4 na fruktózu v pentózovom cykle
+=======
+A.	v glykolýze po dehydrogenácii a fosforylácii glyceraldehyd-3-fosfátu na 1,3-bisfosfoglycerát a následnom prenose fosfátu z 1,3-bisfosfoglycerátu na ADP vzniká ATP
+B.	fruktóza-1,6-bisfosfát vzniká izomerizáciou a ďalšou fosforyláciou glukóza-6-fosfátu
+C.	fruktóza-1,6-bisfosfát vzniká pôsobením H3PO4 na fruktózu v pentózovom cykle
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	v prvej fáze glykolýzy sa spotrebujú 2 ATP
 1052. Kyselina pyrohroznová:
 A.	v anaeróbnych podmienkach sa redukuje na kyselinu mliečnu
@@ -5142,7 +6592,11 @@ D.	vzniká redukciou kyseliny mliečnej
 A.	glukózy s ATP, za vzniku glukóza-6-fosfátu
 B.	fruktózy s ATP, za vzniku fruktóza-1,6-bisfosfátu
 C.	oxidácie kyseliny mliečnej na kyselinu pyrohroznovú
+<<<<<<< HEAD
 D.	dihydroxyacetónfosfátu na glyceraldehyd^-^3-fosfát
+=======
+D.	dihydroxyacetónfosfátu na glyceraldehyd-3-fosfát
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 1054. O glykolýze platí:
 A.	kyselina pyrohroznová sa v anaeróbnych podmienkach redukuje na kyselinu mliečnu
 B.	je anabolická metabolická dráha
@@ -5276,11 +6730,19 @@ D.	vitamínu PP je pepsín
 1080. Medzi vitamíny rozpustné v tukoch nepatrí:
 A.	tiamín
 B.	tokoferol
+<<<<<<< HEAD
 C.	vitamín D_2
 D.	kyselina listová
 1081. Vyberte správne pomenovanie vitamínov:
 A.	B_3 – tiamín
 B.	B_2 – riboflavín
+=======
+C.	vitamín D2
+D.	kyselina listová
+1081. Vyberte správne pomenovanie vitamínov:
+A.	B3 – tiamín
+B.	B2 – riboflavín
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 C.	niacín – vitamín E
 D.	retinol – vitamín A
 1082. Vitamín A:
@@ -5338,6 +6800,7 @@ A.	vazopresín
 B.	inzulín
 C.	kalciferol
 D.	tyroxín
+<<<<<<< HEAD
 1093.	Roztok hydrogénuhličitanu vápenatého s c = 0,20 mol/l (Mr = 162) obsahuje:
 A.	0,20 mol CaHCO_3 v 1 litri roztoku
 B.	32,4 g Ca(HCO_3)_2 v 1 litri roztoku
@@ -5363,27 +6826,68 @@ A.	5,56 mol
 B.	5,56 . 10^3 mmol
 C.	0,18 mol
 D.	1,8 . 10^2 mol
+=======
+1093. Roztok hydrogénuhličitanu vápenatého s c = 0,20 mol/l (Mr = 162) obsahuje:
+A.	0,20 mol CaHCO3 v 1 litri roztoku
+B.	32,4 g Ca(HCO3)2 v 1 litri roztoku
+C.	64,8 g Ca(HCO3)2 v 2 litroch rozpúšťadla
+D.	0,20 mol Ca(HCO3)2 v 2 litroch roztoku
+1094. Hmotnosť molekuly vody je:
+A.	29,89 . 10-27 kg
+B.	29,89 . 10-24 g
+C.	29,89 . 10-29 kg
+D.	29,89 . 10-27 g
+1095. Vypočítajte hmotnosť atómu síry v jednotkách hmotnosti:
+A.	5,31 . 10-23 g
+B.	53,12 . 1027 kg
+C.	192,74 . 1023 g
+D.	19,27 . 10-27 kg
+1096. Vypočítajte hmotnosť molekuly NaOH:
+A.	24,09 . 10-23 g
+B.	0,042 . 10-23 g
+C.	6,64 . 10-23 g
+D.	40,00 g
+1097. Vypočítajte aké látkové množstvo predstavuje 100 g vody:
+A.	5,56 mol
+B.	5,56 . 103 mmol
+C.	0,18 mol
+D.	1,8 . 102 mol
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 1098. Vypočítajte aká je hmotnosť 2,5 mol kyseliny sírovej:
 A.	39,2 g
 B.	0,0255 g
 C.	0,245 kg
 D.	245 g
+<<<<<<< HEAD
 Vypočítajte, koľko molekúl kyseliny dusičnej predstavuje 5 mol tejto látky:
 A.	0,8 . 10^2^3 molekúl
 B.	1,2 . 10^-^2^3 molekúl
 C.	30 . 10^-^2^3 molekúl
 D.	30 . 10^2^3 molekúl
 1100. Vypočítajte, koľko kyslíka obsahuje 26,4 mg dusitanu vápenatého (M_r = 132). A_r(O) = 16
+=======
+1099. Vypočítajte, koľko molekúl kyseliny dusičnej predstavuje 5 mol tejto látky:
+A.	0,8 . 1023 molekúl
+B.	1,2 . 10-23 molekúl
+C.	30 . 10-23 molekúl
+D.	30 . 1023 molekúl
+1100. Vypočítajte, koľko kyslíka obsahuje 26,4 mg dusitanu vápenatého (Mr = 132). Ar(O) = 16
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	12,8 mg
 B.	0,064 g
 C.	6,4 mg
 D.	0,032 g
 1101. Vypočítajte, koľko vodíka sa nachádza v 66 mg hydrogénfosforečnanu amónneho
+<<<<<<< HEAD
 (M_r = 132,058). A_r(H) =1
+=======
+(Mr = 132,058). Ar(H) =1
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	5 mg
 B.	4,5 mg
 C.	8 mg
 D.	4 mg
+<<<<<<< HEAD
 1102.	Vypočítajte, koľko molekúl hydroxidu sodného sa nachádza v jeho 25 g.
 A.	6,022 . 10^2^6
 B.	3,76 . 10^2^3
@@ -5395,16 +6899,37 @@ B.	7,44 . 10^-^1^4 g . mol^-^1
 C.	148 . 10^-^1^0 g . mol^-^1
 D.	4,649 . 10^-^1^3 g . mol^-^1
 1104. Arginín má Mr = 174,2; dusík má A_r = 14. Obsah dusíka v 400 mg arginínu je:
+=======
+1102. Vypočítajte, koľko molekúl hydroxidu sodného sa nachádza v jeho 25 g.
+A.	6,022 . 1026
+B.	3,76 . 1023
+C.	1,03 . 10-23
+D.	376 . 1021
+1103. Vypočítajte hmotnosť 5 . 109 atómov železa. Mr(Fe) = 56
+A.	46,49 . 10-14 g
+B.	7,44 . 10-14 g . mol-1
+C.	148 . 10-10 g . mol-1
+D.	4,649 . 10-13 g . mol-1
+1104. Arginín má Mr = 174,2; dusík má Ar =14. Obsah dusíka v 400 mg arginínu je:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	0,129 g
 B.	0,056 g
 C.	1,12 g
 D.	128,6 mg
+<<<<<<< HEAD
 1105. Lyzín má M_r = 146,2. Vypočítajte, koľko dusíka obsahuje 220 mg lyzínu.
+=======
+1105. Lyzín má Mr = 146,2. Vypočítajte, koľko dusíka obsahuje 220 mg lyzínu.
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	14 mg
 B.	42 mg
 C.	0,042 g
 D.	lyzín neobsahuje dusík
+<<<<<<< HEAD
 1106. Purín má M_r = 120. Vypočítajte, koľko dusíka obsahuje 240 µg purínu.
+=======
+1106. Purín má Mr = 120. Vypočítajte, koľko dusíka obsahuje 240 µg purínu.
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	112 mikrogramov
 B.	56 mikrogramov
 C.	28 mikrogramov
@@ -5449,6 +6974,7 @@ A.	9 g
 B.	1,4 g
 C.	7 g
 D.	5 g
+<<<<<<< HEAD
 1115. Vypočítajte, koľko tepla sa spotrebuje pri výrobe 100 kg páleného vápna z uhličitanu vápenatého, ak ΔH = +178 kJ . mol^-^1.
 A.	317,86 kJ . mol^-^1
 B.	17,8 MJ
@@ -5461,6 +6987,20 @@ B.	252,5 kJ
 C.	126,34 MJ
 D.	126,34 kJ . mol^-^1
 1117. Pri horení metánu za normálnych podmienok sa uvoľní 802 kJ . mol^-^1. Koľko metánu sa musí spáliť aby sa uvoľnilo 20 MJ?
+=======
+1115. Vypočítajte, koľko tepla sa spotrebuje pri výrobe 100 kg páleného vápna z uhličitanu vápenatého, ak ΔH = +178 kJ . mol-1.
+A.	317,86 kJ . mol-1
+B.	17,8 MJ
+C.	317,86 MJ
+D.	17,8 kJ . mol-1
+1116. Pri reakcii CO (g) + ½ O2 (g) → CO2 (g) sa uvoľní 283 kJ . mol-1. Vypočítajte, koľko tepla sa
+uvoľní pri reakcii 20 l oxidu uhoľnatého za normálnych podmienok.
+A.	252,68 MJ . mol-1
+B.	252,5 kJ
+C.	126,34 MJ
+D.	126,34 kJ . mol-1
+1117. Pri horení metánu za normálnych podmienok sa uvoľní 802 kJ . mol-1. Koľko metánu sa musí spáliť aby sa uvoľnilo 20 MJ?
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	29,94 mol
 B.	399 kg
 C.	399 g
@@ -5470,12 +7010,20 @@ A.	2862,96 kJ
 B.	1386,55 kJ
 C.	1386,55 kJ . mol-1
 D.	2862,96 kJ . mol-1
+<<<<<<< HEAD
 1119. Rýchlosť chemickej reakcie A + 3 B → C vypočítame zo vzťahu v = k . c_a . c_B^3 . Ako sa zmení rýchlosť reakcie, ak sa koncentrácia látky A zmenší o polovicu a koncentrácia látky B sa zvýši dvojnásobne?
+=======
+1119. Rýchlosť chemickej reakcie A + 3 B → C vypočítame zo vzťahu v = k . ca . cB3 . Ako sa zmení rýchlosť reakcie, ak sa koncentrácia látky A zmenší o polovicu a koncentrácia látky B sa zvýši dvojnásobne?
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	rýchlosť reakcie sa zvýši osemkrát
 B.	rýchlosť reakcie sa zvýši štyrikrát
 C.	rýchlosť reakcie sa zvýši dvakrát
 D.	nedá sa vypočítať, lebo nepoznáme koncentrácie látok
+<<<<<<< HEAD
 1120. Ak pre rýchlosť danej reakcie platí: v = k. c_A^2.c_B^3, potom ak zvýšime koncentráciu látky A dvojnásobne a koncentráciu látky B trojnásobne bude platiť:
+=======
+1120. Ak pre rýchlosť danej reakcie platí: v = k. cA2.cB3, potom ak zvýšime koncentráciu látky A dvojnásobne a koncentráciu látky B trojnásobne bude platiť:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	rýchlosť chemickej reakcie sa nezmení
 B.	rýchlosť chemickej reakcie sa zvýši šesťnásobne
 C.	rýchlosť chemickej reakcie bude päťkrát väčšia
@@ -5489,7 +7037,11 @@ D.	160 g
 A.	3 moly síranu sodného
 B.	6 molov síranu sodného
 C.	10 molov síranu sodného
+<<<<<<< HEAD
 D.	6 molov NaSO_4
+=======
+D.	6 molov NaSO4
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 1123. Ak reaguje 44,8 ml metánu s kyslíkom za normálnych podmienok, množstvo vzniknutého
 oxidu uhličitého je:
 A.	1 mmol
@@ -5503,11 +7055,19 @@ B.	10 mmol
 C.	15 mmol
 D.	30 mmol
 1125. Pri reakcii horčíka s chlórom za vzniku chloridu horečnatého platí, že reaguje:
+<<<<<<< HEAD
 A.	1 mol Mg a 1 mol Cl_2
 B.	1 mol Mg a 2 mol Cl_2
 C.	2 mol Mg a 1 mol Cl_2
 D.	rovnaké látkové množstvá horčíka a chlóru
 1126. Roztok, ktorý obsahuje 0,2 mol NaCl (M_r = 58) v 100 g roztoku, má hmotnostný zlomok a hmotnostné percento:
+=======
+A.	1 mol Mg a 1 mol Cl2
+B.	1 mol Mg a 2 mol Cl2
+C.	2 mol Mg a 1 mol Cl2
+D.	rovnaké látkové množstvá horčíka a chlóru
+1126. Roztok, ktorý obsahuje 0,2 mol NaCl (Mr = 58) v 100 g roztoku, má hmotnostný zlomok a hmotnostné percento:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	2,0 %
 B.	0,116
 C.	5,0 %
@@ -5520,11 +7080,19 @@ D.	40,0 %
 1128. Množstvo vitamínu A, ktoré sa nachádza v 0,1 ml 0,2 % (obj. %) roztoku predstavuje:
 A.	1 ml
 B.	0,2 µl
+<<<<<<< HEAD
 C.	2 . 10^-^7 l
+=======
+C.	2 . 10-7 l
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	2 µl
 1129. Vypočítajte, koľko gramov hydroxidu sodného a koľko gramov vody je potrebné na prípravu
 800 g 12,5 % roztoku.
 A.	64 g NaOH a 560 g vody
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	100 g NaOH a 800 g vody
 C.	100 g NaOH a 700 g vody
 D.	0,1 mg NaOH a 0,7 mg vody
@@ -5533,19 +7101,33 @@ A.	25,00 g
 B.	30,00 g
 C.	40,00 g
 D.	53,33 g
+<<<<<<< HEAD
 1131. Aký objem 80 % (w %) kyseliny sírovej (hustota = 1,70 g . cm^-^3) je potrebný na prípravu
+=======
+1131. Aký objem 80 % (w %) kyseliny sírovej (hustota = 1,70 g . cm-3) je potrebný na prípravu
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 500 g roztoku, ktorého w = 15 % ?
 A.	53,33 ml
 B.	53,33 l
 C.	55,15 ml
+<<<<<<< HEAD
 D.	55,15 . 10^–^3 l
 1132. Vypočítajte, koľko gramov glukózy je potrebné na prípravu 350 ml roztoku s koncentráciou
 0,25 mol . l^-^1. M_r(glukóza) = 180,16
+=======
+D.	55,15 . 10–3 l
+1132. Vypočítajte, koľko gramov glukózy je potrebné na prípravu 350 ml roztoku s koncentráciou
+0,25 mol . l-1. Mr(glukóza) = 180,16
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	15,76 g
 B.	128,70 g
 C.	0,128 g
 D.	157,64 g
+<<<<<<< HEAD
 1133. Koľko gramov alebo mililitrov kyseliny dusičnej, w = 68 %, hustota = 1,4 g . cm^-^3, je potrebné na prípravu 500 ml roztoku, ktorého c = 0,2 mol . l^-^1? Mr(HNO_3) = 63
+=======
+1133. Koľko gramov alebo mililitrov kyseliny dusičnej, w = 68 %, hustota = 1,4 g . cm-3, je potrebné na prípravu 500 ml roztoku, ktorého c = 0,2 mol . l-1? Mr(HNO3) = 63
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	6,30 g
 B.	9,27 g
 C.	6,62 ml
@@ -5556,10 +7138,17 @@ A.	106,25 g
 B.	587,5 g
 C.	287,5 g
 D.	300,0 g
+<<<<<<< HEAD
 1135. Aké množstvo vody treba odpariť z 250 ml roztoku CuSO4, ktorého hustota = 1,09 g . cm^-^3 a w = 15 %, aby vznikol 25 % roztok?
 A.	109 g
 B.	109 mg
 C.	1,09 . 10^2 g
+=======
+1135. Aké množstvo vody treba odpariť z 250 ml roztoku CuSO4, ktorého hustota = 1,09 g . cm-3 a w = 15 %, aby vznikol 25 % roztok?
+A.	109 g
+B.	109 mg
+C.	1,09 . 102 g
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	68,12 g
 1136. Koľko gramov 75 % kyseliny sírovej je potrebných na prípravu 800 g roztoku s w = 15 % ?
 A.	120,0 g
@@ -5577,6 +7166,7 @@ A.	0,15
 B.	0,10
 C.	10 %
 D.	15 %
+<<<<<<< HEAD
 1139. Aká bude koncentrácia látkového množstva 12 % roztoku chloridu vápenatého, ktorého hustota = 1,07 g . cm^-^3 ?
 A.	11,61 mol . dm^-^3
 B.	1,16 mol . dm^-^3
@@ -5598,6 +7188,29 @@ B.	0,09 kg ZnSO_4 . 5 H2O a 0,41 kg vody
 C.	140,2 g pentahydrátu síranu zinočnatého a 359,8 g vody
 D.	57,6 g síranu zinočnatého a 442,4 g vody
 1143. Na prípravu 25 ml 0,001 mol . dm^-^3 roztoku NaOH je potrebné navážiť:
+=======
+1139. Aká bude koncentrácia látkového množstva 12 % roztoku chloridu vápenatého, ktorého hustota = 1,07 g . cm-3 ?
+A.	11,61 mol . dm-3
+B.	1,16 mol . dm-3
+C.	1,16 mmol . cm-3
+D.	11,61 mmol . cm-3
+1140. Vypočítajte, aký objem 64 % kyseliny dusičnej s hustotou 1,75 g . cm-3 je potrebný na prípravu 2 litrov roztoku s koncentráciou 0,2 mol . dm-3.
+A.	25,2 ml
+B.	25,2 dm-3
+C.	0,0225 l
+D.	22,5 ml
+1141. Aká bude koncentrácia 15 % roztoku síranu horečnatého (hustota = 1,05 g . cm-3)?
+A.	1,31 mol . dm-3
+B.	3,52 mol . dm-3
+C.	2,87 mol . dm-3
+D.	2,87 g . cm-3
+1142. Vypočítajte množstvo pentahydrátu síranu zinočnatého a vody potrebné na prípravu 500 g 18 % roztoku.
+A.	90 g pentahydrátu síranu zinočnatého a 410 g vody
+B.	0,09 kg ZnSO4 . 5 H2O a 0,41 kg vody
+C.	140,2 g pentahydrátu síranu zinočnatého a 359,8 g vody
+D.	57,6 g síranu zinočnatého a 442,4 g vody
+1143. Na prípravu 25 ml 0,001 mol . dm-3 roztoku NaOH je potrebné navážiť:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	25 µmol
 B.	1,0 mg
 C.	0,1 g
@@ -5607,6 +7220,7 @@ A.	1,74 g
 B.	0,03 mol
 C.	17,4 mg
 D.	30 mmol
+<<<<<<< HEAD
 1145. K 400 ml roztoku chloridu sodného c = 0,25 mol . dm^-^3 sme pridali 200 ml destilovanej vody.
 Výsledná koncentrácia roztoku bude:
 A.	0,05 mol . dm^-^3
@@ -5624,6 +7238,25 @@ A.	0,5 mol K_2MnO_4 v 1 litri vody
 B.	79 g KMnO_4 v 1 l roztoku
 C.	1 mol KMnO_4 v 2 l roztoku
 D.	1 mmol KMnO_4 v 2 ml roztoku
+=======
+1145. K 400 ml roztoku chloridu sodného c = 0,25 mol . dm-3 sme pridali 200 ml destilovanej vody.
+Výsledná koncentrácia roztoku bude:
+A.	0,05 mol . dm-3
+B.	0,17 mol . dm-3
+C.	0,12 mol . dm-3
+D.	170 mmol . dm-3
+1146. Vypočítajte látkové množstvo a hmotnosť dusičnanu strieborného, ktoré sa nachádza v
+300 ml roztoku s koncentráciou 0,15 mol . dm-3.
+A.	0,045 mol
+B.	7,65 g
+C.	0,5 . 10-3 mol
+D.	0,085 g
+1147. Roztok manganistanu draselného, ktorý má koncentráciu 0,5 mol . dm-3 obsahuje:
+A.	0,5 mol K2MnO4 v 1 litri vody
+B.	79 g KMnO4 v 1 l roztoku
+C.	1 mol KMnO4 v 2 l roztoku
+D.	1 mmol KMnO4 v 2 ml roztoku
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 1148. Vypočítajte, koľko chloridu draselného vznikne reakciou 5 g draslíka a 6 g HCl. Ktorý
 reaktant je v nadbytku a aké množstvo zostalo nezreagované?
 A.	vznikne 9,5 g KCl
@@ -5633,30 +7266,54 @@ D.	v nadbytku je draslík, nezreagovalo 1,31 g
 1149. Na úplnú neutralizáciu 4 mol kyseliny siričitej je potrebné:
 A.	4 mol NaOH
 B.	8 mol NaOH
+<<<<<<< HEAD
 C.	4 mol Ca(OH)_2
 D.	2 mol Ca(OH)_2
 1150. Na úplnú neutralizáciu 0,5 mol kyseliny malónovej je potrebné:
 A.	1 mol Ca(OH)_2
+=======
+C.	4 mol Ca(OH)2
+D.	2 mol Ca(OH)2
+1150. Na úplnú neutralizáciu 0,5 mol kyseliny malónovej je potrebné:
+A.	1 mol Ca(OH)2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 B.	1 mol NaOH
 C.	1 mol CsOH
 D.	2 mol NaOH
 1151. Z 850 g roztoku chloridu vápenatého, w = 20 %, sa odparilo 320 g vody, pritom sa vyzrážalo
+<<<<<<< HEAD
 50 g CaCl_2. Koľko percentný roztok vznikne?
+=======
+50 g CaCl2. Koľko percentný roztok vznikne?
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	30 %
 B.	25 %
 C.	35,40 %
 D.	22,60 %
+<<<<<<< HEAD
 1152. Vypočítajte, koľko chloridu draselného vykryštalizuje ak 750 g roztoku nasýteného pri 75^oC
 ochladíme na 0^oC. Rozpustnosť KCl pri 75^oC je 50 g v 100 g vody a pri 0^oC 26 g KCl v 100 g vody.
+=======
+1152. Vypočítajte, koľko chloridu draselného vykryštalizuje ak 750 g roztoku nasýteného pri 75 oC
+ochladíme na 0oC. Rozpustnosť KCl pri 75oC je 50 g v 100 g vody a pri 0oC 26 g KCl v 100 g vody.
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	120 g KCl
 B.	130 g KCl
 C.	250 g KCl
 D.	200 g KCl
+<<<<<<< HEAD
 1153. Na reakciu 300 ml kyseliny sírovej s c = 0,5 mol . dm^-^3 sa navážilo 16 g NaOH. Aká bude koncentrácia hydroxidu sodného po reakcii, ak objem reakčnej zmesi bol doplnený na 0,5 l ?
 A.	0,6 mol . dm^-^3
 B.	0,5 mol . dm^-^3
 C.	0,4 mol . dm^-^3
 D.	0,2 mol . dm^-^3
+=======
+1153. Na reakciu 300 ml kyseliny sírovej s c = 0,5 mol . dm-3 sa navážilo 16 g NaOH. Aká bude koncentrácia hydroxidu sodného po reakcii, ak objem reakčnej zmesi bol doplnený na 0,5 l ?
+A.	0,6 mol . dm-3
+B.	0,5 mol . dm-3
+C.	0,4 mol . dm-3
+D.	0,2 mol . dm-3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 1154. Vypočítajte, koľko kyslíka sa spotrebuje na úplné spálenie 8 mol pentánu za normálnych
 podmienok.
 A.	64 mol; 2,05 kg
@@ -5664,21 +7321,37 @@ B.	1434,5 l
 C.	32 mol; 1,02 kg
 D.	716,8 l
 1155. Pri neutralizácii kyseliny chlorovodíkovej hydroxidom vápenatým vzniká chlorid vápenatý a
+<<<<<<< HEAD
 voda. Vypočítajte, koľko 75 % HCl potrebujeme na prípravu 250 ml CaCl2, c = 0,3 mol . dm^-^3. M_r(HCl) = 36,5
+=======
+voda. Vypočítajte, koľko 75 % HCl potrebujeme na prípravu 250 ml CaCl2, c = 0,3 mol . dm-3. Mr(HCl) = 36,5
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	5,475 g
 B.	3,65 g
 C.	7,3 g
 D.	2,74 g
+<<<<<<< HEAD
 1156. Koľko hydroxidu draselného treba na neutralizáciu 100 ml 0,1 mol . dm^-^3 kyseliny chloristej?
 A.	100 mmol
 B.	10 mmol
 C.	0,1 mol
 D.	1 . 10^-^3 mol
+=======
+1156. Koľko hydroxidu draselného treba na neutralizáciu 100 ml 0,1 mol . dm-3 kyseliny chloristej?
+A.	100 mmol
+B.	10 mmol
+C.	0,1 mol
+D.	1 . 10-3 mol
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 1157. Na neutralizáciu 0,5 mol kyseliny trichlóroctovej je potrebné:
 A.	0,5 mol KOH
 B.	500 mmol NaOH
 C.	0,05 mol KOH
+<<<<<<< HEAD
 D.	0,5 mol Ca(OH)_2
+=======
+D.	0,5 mol Ca(OH)2
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 1158. Zmiešaním roztoku 0,1 mmol hydroxidu vápenatého s roztokom 0,1 mmol kyseliny chloristej vznikne roztok, v ktorom:
 A.	pOH >7
 B.	pH > 7
@@ -5686,20 +7359,33 @@ C.	metyloranž sa zafarbí na žlto
 D.	fenolftaleín je bezfarebný
 1159. 0,1 mmol KOH úplne zneutralizuje:
 A.	50 µmol HClO
+<<<<<<< HEAD
 B.	100 µmol H_2SO_4
 C.	50 µmol H_2SO_4
 D.	50 µmol HClO_3
 1160. Koľko gramov alebo aké látkové množstvo železa potrebujeme na reakciu s 25 ml HCl, c = 0,5 mol . l^-^1, aby sme pripravili chlorid železitý?
+=======
+B.	100 µmol H2SO4
+C.	50 µmol H2SO4
+D.	50 µmol HClO3
+1160. Koľko gramov alebo aké látkové množstvo železa potrebujeme na reakciu s 25 ml HCl, c = 0,5 mol . l-1, aby sme pripravili chlorid železitý?
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	2,33 g Fe
 B.	7 g Fe
 C.	4,17 mmol Fe
 D.	0,233 g Fe
+<<<<<<< HEAD
 1161. Vypočítajte, aký objem kyseliny sírovej, c = 0,2 mol . l^-^1, potrebujeme na neutralizáciu 30 ml
 hydroxidu draselného, c = 0,15 mol . l^-^1.
+=======
+1161. Vypočítajte, aký objem kyseliny sírovej, c = 0,2 mol . l-1, potrebujeme na neutralizáciu 30 ml
+hydroxidu draselného, c = 0,15 mol . l-1.
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	0,01125 l
 B.	22,5 ml
 C.	11,25 ml
 D.	12,5 ml
+<<<<<<< HEAD
 1162. Pri hasení páleného vápna sa spotrebovalo 25 litrov vody (hustota = 1 g . cm^-^3). Vypočítajte, aké množstvo oxidu vápenatého, w = 80 %, potrebujeme na reakciu a aké množstvo hydroxidu vápenatého vzniklo. M_r(CaO) = 56; Mr(Ca(OH)_2) = 74
 A.	62,22 kg CaO
 B.	102,78 kg Ca(OH)_2
@@ -5711,6 +7397,19 @@ B.	0,029 mol . l^–^1
 C.	0,17 mol . l^–^1
 D.	0,06 mol . l^–^1
 1164. Vypočítajte objem, látkové množstvo a hmotnosť acetylénu, ktorý vznikne reakciou 50 g acetylidu vápenatého s vodou, ak výťažok reakcie je 75 %. M_r(CaC2) = 64,1; M_r(C_2H_2) = 26,04
+=======
+1162. Pri hasení páleného vápna sa spotrebovalo 25 litrov vody (hustota = 1 g . cm-3). Vypočítajte, aké množstvo oxidu vápenatého, w = 80 %, potrebujeme na reakciu a aké množstvo hydroxidu vápenatého vzniklo. Mr(CaO) = 56; Mr(Ca(OH)2) = 74
+A.	62,22 kg CaO
+B.	102,78 kg Ca(OH)2
+C.	80,56 kg Ca(OH)2
+D.	97,22 kg CaO
+1163. Na reakciu 100 ml chloridu sodného, c = 0,5 mol . l-1, s dusičnanom strieborným sme navážili 10,2 g AgNO3. Vypočítajte, aká bude jeho koncentrácia v mol . l-1, ak sme po skončení reakcie doplnili reakčný systém destilovanou vodou do objemu 350 ml. Mr(AgNO3) = 170; Mr(NaCl) = 58
+A.	0,05 mol . l–1
+B.	0,029 mol . l–1
+C.	0,17 mol . l–1
+D.	0,06 mol . l–1
+1164. Vypočítajte objem, látkové množstvo a hmotnosť acetylénu, ktorý vznikne reakciou 50 g acetylidu vápenatého s vodou, ak výťažok reakcie je 75 %. Mr(CaC2) = 64,1; Mr(C2H2) = 26,04
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	0,78 mol; 20,28 g; 17,5 l
 B.	15,23 g; 0,585 mol; 13,1 l
 C.	0,78 mol; 0,585 mol; 13,1 l
@@ -5720,6 +7419,7 @@ A.	25 g; 17,5 l kyslíka
 B.	10 g; 7 l kyslíka
 C.	47,62 g; 33,33 l vzduchu
 D.	83,33 l vzduchu
+<<<<<<< HEAD
 1166. Železo sa vyrába redukciou oxidu železitého uhlíkom. Vypočítajte, koľko oxidu a koľko železnej rudy je potrebné na výrobu 5 t železa, ak obsah Fe_2O_3 v rude je 23 %.
 A.	7,15 t Fe_2O_3
 B.	31,10 t rudy
@@ -5727,11 +7427,24 @@ C.	14,30 t Fe_2O_3
 D.	62,20 t rudy
 1167. Vypočítajte, koľko kyseliny dusičnej je potrebné na výrobu 2 kg nitroglycerínu.
 Mr(nitroglycerín) = 227,09; M_r(HNO3) = 63,01
+=======
+1166. Železo sa vyrába redukciou oxidu železitého uhlíkom. Vypočítajte, koľko oxidu a koľko železnej rudy je potrebné na výrobu 5 t železa, ak obsah Fe2O3 v rude je 23 %.
+A.	7,15 t Fe2O3
+B.	31,10 t rudy
+C.	14,30 t Fe2O3
+D.	62,20 t rudy
+1167. Vypočítajte, koľko kyseliny dusičnej je potrebné na výrobu 2 kg nitroglycerínu.
+Mr(nitroglycerín) = 227,09; Mr(HNO3) = 63,01
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	8,81 mol
 B.	26,4 mol
 C.	1,67 kg
 D.	0,56 kg
+<<<<<<< HEAD
 1168. Aké je pH roztoku kyseliny chlorovodíkovej o koncentrácii 0,1 mmol . dm^-^3?
+=======
+1168. Aké je pH roztoku kyseliny chlorovodíkovej o koncentrácii 0,1 mmol . dm-3?
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	1
 B.	2
 C.	3
@@ -5753,7 +7466,11 @@ B.	pOH = 13
 C.	pOH = 1,3
 D.	pH = 12,7
 1172. Vypočítajte pH roztoku, ktorý vznikne zmiešaním 50 ml roztoku kyseliny sírovej s
+<<<<<<< HEAD
 c = 0,25 mol . l^–^1 a 50 ml roztoku hydroxidu draselného s c = 0,25 mol . l^–^1. (log 0,250 = – 0,602; log 0,125 = – 0,903)
+=======
+c = 0,25 mol . l-1 a 50 ml roztoku hydroxidu draselného s c = 0,25 mol . l-1. (log 0,250 = – 0,602; log 0,125 = – 0,903)
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	dochádza k neutralizácii, preto bude roztok neutrálny
 B.	pH = 11,796
 C.	pH = 0,903
@@ -5768,10 +7485,17 @@ A.	pH = 0,924
 B.	pOH = 13,076
 C.	pOH = 0,924
 D.	pH = 13,076
+<<<<<<< HEAD
 1175. Vypočítajte pH, pOH, [H3O+] a [OH-] nasýteného roztoku hydroxidu vápenatého, ak jeho rozpustnosť pri danej teplote je 1,17 . 10^-^2 mol . dm^-^3. (log 1,17 = 0,068; log 2,34 = 0,369)
 A.	pH = 12,369; pOH = 1,631
 B. [H_3O^+] = 4,27 . 10^-^1^3 mol . dm^-^3; [OH^-] = 2,34 . 10^-^2 mol . dm^-^3
 C. [H_3O^+] = 8,54 . 10^-^1^3 mol . dm^-^3; [OH^-] = 1,17 . 10^-^2 mol . dm^-^3
+=======
+1175. Vypočítajte pH, pOH, [H3O+] a [OH-] nasýteného roztoku hydroxidu vápenatého, ak jeho rozpustnosť pri danej teplote je 1,17 . 10-2 mol . dm-3. (log 1,17 = 0,068; log 2,34 = 0,369)
+A.	pH = 12,369; pOH = 1,631
+B.	[H3O+] = 4,27 . 10-13 mol . dm-3; [OH-] = 2,34 . 10-2 mol . dm-3
+C.	[H3O+] = 8,54 . 10-13 mol . dm-3; [OH-] = 1,17 . 10-2 mol . dm-3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 D.	pH = 12,068; pOH = 1,932
 1176. Ak zriedime roztok silnej kyseliny 10x, jej pH:
 A.	sa nezmení
@@ -5783,6 +7507,7 @@ A.	zníži sa o 1
 B.	zvýši sa o 2
 C.	zníži sa o 2
 D.	nezmení sa
+<<<<<<< HEAD
 1178. Súčin rozpustnosti fluoridu olovnatého pri 18°C je 3,7 . 10^-^8. Aká je koncentrácia jednotlivých iónov v jeho nasýtenom roztoku? Vyjadrite rozpustnosť danej látky v mol na 1 liter roztoku. (³√3,2 = 1,474; ³√9,25 = 2,1; √3,2 = 1,79)
 A.	[Pb^2^+] = 2,1 . 10^-^3 mol . l^-^1
 B.	[F^-] = 4,2 . 10^-^3 mol . l^-^1
@@ -5814,12 +7539,46 @@ A.	1,21 mg
 B.	1,21 g
 C.	12,1 . 10^3 mg
 D.	0,121 . 10^-^2 kg
+=======
+1178. Súčin rozpustnosti fluoridu olovnatého pri 18 °C je 3,7 . 10-8. Aká je koncentrácia jednotlivých iónov v jeho nasýtenom roztoku? Vyjadrite rozpustnosť danej látky v mol na 1 liter roztoku. (³√3,2 = 1,474; ³√9,25 = 2,1; √3,2 = 1,79)
+A.	[Pb2+] = 2,1 . 10-3 mol . l-1
+B.	[F-] = 4,2 . 10-3 mol . l-1
+C.	[PbF2] = 4,2 . 10-3 mol . l-1
+D.	[PbF2] = 2,1 . 10-3 mol . l-1
+1179. V nasýtenom roztoku dusičnanu strieborného je za daných podmienok rozpustených 36 mg AgNO3 v 300 ml roztoku. Vypočítajte súčin rozpustnosti dusičnanu strieborného.
+A.	Ks = 0,5 . 10-6
+B.	Ks = 0,5
+C.	Ks = 2,6 . 10-4
+D.	Ks = 2,6 . 10-6
+1180. Zmiešali sme rovnaké objemy roztoku BaCl2 s koncentráciou 0,05 mol . l-1 a Na2SO4 s koncentráciou tiež 0,05 mol . l-1. Vznikne zrazenina BaSO4? Vypočítajte molovú koncentráciu rozpusteného síranu bárnatého vo vzniknutom roztoku. Súčin rozpustnosti BaSO4 je pri danej teplote 1.10-10.
+A.	áno, vznikne zrazenina
+B.	nie, nevznikne zrazenina
+C.	0,05 mol . l–1
+D.	1 . 10-5 mol . l–1
+1181. Vypočítajte súčin rozpustnosti sulfidu strieborného, ak pri danej teplote je v 1 litri nasýteného roztoku rozpustenej 6,23 . 10-15 g látky.
+A.	6,36 . 10-50
+B.	1,58 . 10-50
+C.	3,52 . 10-49
+D.	8,81 . 10-50
+1182. V 500 ml nasýteného roztoku sa pri danej teplote nachádza 6,58 . 10-5 g bromidu strieborného. Vypočítajte jeho súčin rozpustnosti.
+A.	KS = 4,9 . 10-13
+B.	KS = 4,9 . 10-17
+C.	KS = 7,0 . 10-7
+D.	KS = 7,0 . 10-14
+1183. Vypočítajte koľko síranu bárnatého je rozpusteného v 0,5 l nasýteného roztoku, ak pri danej
+teplote je Ks = 1,08 . 10-10. (√1,08 = 1,039; √108 = 10,39)
+A.	1,21 mg
+B.	1,21 g
+C.	12,1 . 103 mg
+D.	0,121 . 10-2 kg
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 1184. Vypočítajte súčin rozpustnosti hydroxidu strieborného, ak pri danej teplote pH nasýteného
 roztoku je 10,3. (log 3,7 = 0,568; log 1,996 = 0,300)
 A.	3,98 . 10-10
 B.	3,98 . 10-8
 C.	3,96 . 10-10
 D.	39,6 . 10-8
+<<<<<<< HEAD
 1185. V rovnovážnom stave reakcie 2 SO_2 + O_2 ↔ 2 SO_3 je rovnovážna koncentrácia SO_3
 4,5 mol . l^-^1; kyslíka 1,5 mol . l^-^1 a oxidu siričitého 2,5 mol . l^-^1. Vypočítajte rovnovážnu konštantu
 reakcie a počiatočné koncentrácie oxidu siričitého a kyslíka.
@@ -5854,16 +7613,57 @@ A.	glukóza, c = 0,1 mol . dm^-^3
 B.	FeCl_3, c = 0,1 mol . dm^-^3
 C.	Na_2SO_4, c = 0,3 mol . dm^-^3
 D.	ZnI_2, c = 0,2 mol . dm^-^3
+=======
+1185. V rovnovážnom stave reakcie 2 SO2 + O2 ↔ 2 SO3 je rovnovážna koncentrácia SO3
+4,5 mol . l-1; kyslíka 1,5 mol . l-1 a oxidu siričitého 2,5 mol . l-1. Vypočítajte rovnovážnu konštantu
+reakcie a počiatočné koncentrácie oxidu siričitého a kyslíka.
+A.	K = 2,16
+B.	[SO2] = 7 mol . l-1; [O2] = 3,75 mol . l-1
+C.	K = 0,77
+D.	[O2] = 7 mol . l-1; [SO2] = 3,75 mol . l-1
+1186. Pri reakcii vodíka s dusíkom sa zistili pri danej teplote v reakčnej zmesi rovnovážne
+koncentrácie vodíka 5 mol . l-1; dusíka 3,5 mol . l-1a amoniaku 6 mol . l-1. Vypočítajte rovnovážnu
+konštantu tejto reakcie a zistite počiatočné koncentrácie dusíka a vodíka.
+A.	K = 0,082
+B.	K = 10
+C.	[H2] = 8 mol . cm-3; [N2] = 9,5 mol . cm-3
+D.	[H2] = 14 mol . dm-3; [N2] = 6,5 mol . dm-3
+1187. V rovnovážnom stave reakcie 2 N2 + 3 O2 ↔ 2 N2O3 sa zistila koncentrácia dusíka 2,30 mol . l-1; kyslíka 1,05 mol . l-1 a oxidu dusitého 3,42 mol . l-1. Vypočítajte rovnovážnu konštantu reakcie a počiatočné koncentrácie dusíka a kyslíka.
+A.	[N2] = 5,72 mol . dm-3; [O2] = 6,18 mol . dm-3
+B.	[N2] = 4,01 mol . dm-3; [O2] = 2,29 mol . dm-3
+C.	K = 0,524
+D.	K = 1,910
+1188. Pri reakcii 5 mol kyseliny octovej a 5 mol metanolu vzniká octan metylový. Vypočítajte rovnovážne koncentrácie jednotlivých látok v reakčnej zmesi, ak viete, že K = 4.
+A.	[CH3COOCH3] = 1,67 mol . dm-3; [H2O] = 1,67 mol . dm-3
+B.	[CH3COOH] = 1,67 mol . dm-3; [CH3OH] = 1,67 mol . dm-3
+C.	[CH3COOCH3] = 3,33 mol . dm-3; [H2O] = 1,67 mol . dm-3
+D.	[CH3COOCH3] = 3,33 mol . dm-3; [H2O] = 3,33 mol . dm-3
+1189. Rovnovážna konštanta syntézy HI z I2 a H2 má hodnotu K = 9. Vypočítajte rovnovážne koncentrácie jednotlivých látok v reakčnej zmesi, ak východiskové koncentrácie vodíka a jódu boli 2 mol . l-1.
+A.	[H2] = 1,5 mol . dm-3; [I2] = 1,5 mol . dm-3
+B.	[HI] = 2,4 mol . dm-3
+C.	[H2] = 0,8 mol . dm-3; [I2] = 0,8 mol . dm-3
+D.	[HI] = 0,5 mol . dm-3
+1190. Vyberte izotonické roztoky k roztoku NiCl2 s koncentráciou 0,3 mol . dm-3 :
+A.	glukóza, c = 0,1 mol . dm-3
+B.	FeCl3, c = 0,1 mol . dm-3
+C.	Na2SO4, c = 0,3 mol . dm-3
+D.	ZnI2, c = 0,2 mol . dm-3
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 1191. Pri rovnakej koncentrácii látkového množstva má najvyššiu osmotickú účinnosť roztok:
 síranu amónneho
 B.	chloridu draselného
 C.	glukózy
 D.	sacharózy
+<<<<<<< HEAD
 1192. O vodných roztokoch sacharózy, c = 0,2 mol . l^-^1 ; NaCl, c = 0,1 mol . l^-^1 a AlCl_3, c = 0,2 mol . l^-^1 pri rovnakej teplote platí:
+=======
+1192. O vodných roztokoch sacharózy, c = 0,2 mol . l-1 ; NaCl, c = 0,1 mol . l-1 a AlCl3, c = 0,2 mol . l-1 pri rovnakej teplote platí:
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	roztoky sacharózy a chloridu hlinitého sú izotonické
 B.	roztok sacharózy je hypertonický voči roztoku chloridu sodného
 C.	roztok sacharózy je izotonický voči roztoku chloridu sodného
 D.	roztok chloridu hlinitého je hypertonický voči roztoku sacharózy
+<<<<<<< HEAD
 1193. O vodných roztokoch fruktózy, c = 0,3 mol . l^-^1 ; NiCl_2, c = 0,1 mol . l^-^1 a KCl, c = 0,15 mol . l^-^1
 za rovnakých podmienok platí:
 A.	roztok fruktózy je hypertonický voči roztoku chloridu nikelnatého aj voči roztoku chloridu draselného
@@ -5894,18 +7694,58 @@ B.	46 g . mol^-^1
 C.	metanol
 D.	etanol
 1198. Aký bude osmotický tlak roztoku octanu hlinitého pri teplote 25 °C, ak sa v 500 ml roztoku nachádza 5 g tejto látky? (R = 8,32 J . K^-^1 . mol^-^1)
+=======
+1193. O vodných roztokoch fruktózy, c = 0,3 mol . l-1 ; NiCl2, c = 0,1 mol . l-1 a KCl, c = 0,15 mol . l-1
+za rovnakých podmienok platí:
+A.	roztok fruktózy je hypertonický voči roztoku chloridu nikelnatého aj voči roztoku chloridu draselného
+B.	všetky roztoky sú navzájom voči sebe izotonické
+C.	roztok NiCl2 je hypotonický voči roztoku KCl
+D.	roztok NiCl2 je izotonický voči roztoku KCl
+1194. Vyberte hypertonické roztoky k roztoku CuSO4 s koncentráciou 0,2 mol/l:
+A.	NaCl ; c = 0,4 mol/l
+B.	(CH3COO)3Al ; c = 0,2 mol/l
+C.	Cu(NO3)2 ; c = 0,1 mol/l
+D.	KClO3 ; c = 0,4 mol/l
+1195. Vypočítajte osmotický tlak a koncentráciu osmoticky účinných častíc v roztoku chloridu
+hlinitého. Pri teplote 27°C sa v 1 litri roztoku nachádza 3,829 g chloridu hlinitého.
+(R = 8,32 J . K-1 . mol-1)
+A.	0,1149 mol . dm-3
+B.	286,8 kPa
+C.	0,029 mol . dm-3
+D.	71,63 kPa
+1196. Roztok má pri 25oC osmotický tlak 280,34 kPa a v 500 ml obsahuje 8,476 g neelektrolytu. Vypočítajte jeho molovú hmotnosť a určte o akú látku ide. (R = 8,32 J . K-1. mol-1)
+A.	150 g . mol-1
+B.	150 mol . dm-3
+C.	ribóza
+D.	deoxyribóza
+1197. Roztok má pri 37oC osmotický tlak 709,6 kPa a v 200 ml obsahuje 2,53 g neelektrolytu.
+Vypočítajte jeho molovú hmotnosť a určte o akú látku ide. (R = 8,32 J . K-1. mol-1)
+A.	18,40 g . mol-1
+B.	46 g . mol-1
+C.	metanol
+D.	etanol
+1198. Aký bude osmotický tlak roztoku octanu hlinitého pri teplote 25 °C, ak sa v 500 ml roztoku nachádza 5 g tejto látky? (R = 8,32 J . K-1 . mol-1)
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	0,48 kPa
 B.	486,4 kPa
 C.	239,5 kPa
 D.	40,16 kPa
 1199. Vypočítajte hmotnosť fruktózy, ktorá sa nachádza v 750 ml roztoku, ak pri 25°C je
+<<<<<<< HEAD
 osmotický tlak roztoku 275,4 kPa. (R = 8,32 J . K^-^1. mol^-^1)
+=======
+osmotický tlak roztoku 275,4 kPa. (R = 8,32 J . K-1. mol-1)
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	15 g
 B.	15 mg
 C.	1,5 kg
 D.	178,9 g
 1200. Roztok neznámeho sacharidu o objeme 0,5 litra obsahuje 25 g sacharidu a pri teplote 30 oC má osmotický tlak 700 kPa. Rozhodnite, aký sacharid je rozpustený v roztoku.
+<<<<<<< HEAD
 (R = 8,32 J . K^-^1. mol^-^1)
+=======
+(R = 8,32 J . K-1. mol-1)
+>>>>>>> 1e9a51d68ca4efbdf7c52e737be794287f16cc72
 A.	sacharóza
 B.	glukóza
 C.	ribóza
